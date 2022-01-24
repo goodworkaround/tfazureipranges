@@ -183,6 +183,9 @@ $README | Set-Content README.md
 
 $diff = git diff-index HEAD
 if(![String]::IsNullOrEmpty($diff)) {
+    Write-Host "::group::DIFF"
+    $diff | Write-Host 
+    Write-Host "::endgroup::"
     git config --local user.email "noreply@goodworkaround.com"
     git config --local user.name "github-actions[bot]"
     git commit -m "Add changes" -a
