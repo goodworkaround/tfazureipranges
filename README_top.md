@@ -2,10 +2,26 @@
 
 This module provides automatically up to date outputs for all IP ranges found in the [Azure IP Ranges json document](https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519).
 
-# Example 1
+# Example 1 - Getting NorwayEast and WestEurope IPs for AzureBackup
 
 ```HCL
+module "azurebackup" {
+    source = "github.com/goodworkaround/tfazureipranges/Generated/AzureBackup"
+}
 
+output "norwayeast" {
+    value = module.azurebackup.region63 # NorwayEast
+}
+
+output "westeurope" {
+    value = module.azurebackup.region18 # WestEurope
+}
 ```
+
+# Example 2 - Getting several NorthEurope services
+
+# Example 3 - Getting all IPv4 IPs used by Azure Monitor globally
+
+
 
 # Region ID to region name
