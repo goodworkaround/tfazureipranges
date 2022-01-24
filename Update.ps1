@@ -113,9 +113,10 @@ $json.values |
 
             
             $tfnameregion = "{0}" -f $service
-            if("$($_.properties.regionId)" -eq "0") {
-                $tfnameregion = "{0}_region{1}" -f $service, $_.properties.regionId
-            } elseif([String]::IsNullOrEmpty($service)) {
+            #if("$($_.properties.regionId)" -eq "0") {
+            #    $tfnameregion = "{0}_region{1}" -f $service, $_.properties.regionId
+            #} else
+            if([String]::IsNullOrEmpty($service)) {
                 $tfnameregion = "region{1}" -f $service, $_.properties.regionId
             }
             $tfnameservice = "region{0}" -f $_.properties.regionId
