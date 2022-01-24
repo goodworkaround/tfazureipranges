@@ -1,4 +1,4 @@
-output "region_ipv4" {
+output "region0_ipv4" {
   value = [
     "13.66.140.0/26",
     "13.66.225.188/32",
@@ -258,7 +258,7 @@ output "region_ipv4" {
     "191.239.104.48/32",
   ]
 }
-output "region_ipv6" {
+output "region0_ipv6" {
   value = [
     "2603:1000:4:1::480/123",
     "2603:1000:4:402::100/122",
@@ -426,7 +426,7 @@ output "region_ipv6" {
     "2603:1050:403:400::100/122",
   ]
 }
-output "region" {
+output "region0" {
   value = [
     "13.66.140.0/26",
     "13.66.225.188/32",
@@ -850,20 +850,20 @@ output "region" {
     "2603:1050:403:400::100/122",
   ]
 }
-output "region_ipv4" {
+output "region58_ipv4" {
   value = [
     "20.36.42.12/32",
     "20.36.106.128/26",
     "20.53.53.208/28",
   ]
 }
-output "region_ipv6" {
+output "region58_ipv6" {
   value = [
     "2603:1010:304:1::480/123",
     "2603:1010:304:402::100/122",
   ]
 }
-output "region" {
+output "region58" {
   value = [
     "20.36.42.12/32",
     "20.36.106.128/26",
@@ -872,20 +872,20 @@ output "region" {
     "2603:1010:304:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region59_ipv4" {
   value = [
     "20.36.78.208/32",
     "20.36.114.64/26",
     "20.53.60.208/28",
   ]
 }
-output "region_ipv6" {
+output "region59_ipv6" {
   value = [
     "2603:1010:404:1::480/123",
     "2603:1010:404:402::100/122",
   ]
 }
-output "region" {
+output "region59" {
   value = [
     "20.36.78.208/32",
     "20.36.114.64/26",
@@ -894,7 +894,7 @@ output "region" {
     "2603:1010:404:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region3_ipv4" {
   value = [
     "13.70.72.64/26",
     "13.70.73.128/26",
@@ -904,7 +904,7 @@ output "region_ipv4" {
     "104.210.90.65/32",
   ]
 }
-output "region_ipv6" {
+output "region3_ipv6" {
   value = [
     "2603:1010:6:2::700/123",
     "2603:1010:6:402::100/122",
@@ -912,7 +912,7 @@ output "region_ipv6" {
     "2603:1010:6:c02::100/122",
   ]
 }
-output "region" {
+output "region3" {
   value = [
     "13.70.72.64/26",
     "13.70.73.128/26",
@@ -926,20 +926,20 @@ output "region" {
     "2603:1010:6:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region4_ipv4" {
   value = [
     "13.77.50.128/26",
     "20.92.4.160/28",
     "23.101.234.41/32",
   ]
 }
-output "region_ipv6" {
+output "region4_ipv6" {
   value = [
     "2603:1010:101:1::4a0/123",
     "2603:1010:101:402::100/122",
   ]
 }
-output "region" {
+output "region4" {
   value = [
     "13.77.50.128/26",
     "20.92.4.160/28",
@@ -948,7 +948,7 @@ output "region" {
     "2603:1010:101:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region9_ipv4" {
   value = [
     "104.41.46.178/32",
     "191.233.203.64/26",
@@ -957,7 +957,7 @@ output "region_ipv4" {
     "191.238.77.240/28",
   ]
 }
-output "region_ipv6" {
+output "region9_ipv6" {
   value = [
     "2603:1050:6:2::500/123",
     "2603:1050:6:402::100/122",
@@ -965,7 +965,7 @@ output "region_ipv6" {
     "2603:1050:6:c02::100/122",
   ]
 }
-output "region" {
+output "region9" {
   value = [
     "104.41.46.178/32",
     "191.233.203.64/26",
@@ -978,20 +978,20 @@ output "region" {
     "2603:1050:6:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region77_ipv4" {
   value = [
     "20.206.0.112/28",
     "23.97.120.79/32",
     "191.233.50.128/26",
   ]
 }
-output "region_ipv6" {
+output "region77_ipv6" {
   value = [
     "2603:1050:403:1::4c0/123",
     "2603:1050:403:400::100/122",
   ]
 }
-output "region" {
+output "region77" {
   value = [
     "20.206.0.112/28",
     "23.97.120.79/32",
@@ -1000,7 +1000,7 @@ output "region" {
     "2603:1050:403:400::100/122",
   ]
 }
-output "region_ipv4" {
+output "region11_ipv4" {
   value = [
     "13.71.170.64/26",
     "13.71.173.0/26",
@@ -1010,7 +1010,7 @@ output "region_ipv4" {
     "52.246.157.64/26",
   ]
 }
-output "region_ipv6" {
+output "region11_ipv6" {
   value = [
     "2603:1030:f05:2::700/123",
     "2603:1030:f05:402::100/122",
@@ -1018,7 +1018,7 @@ output "region_ipv6" {
     "2603:1030:f05:c02::100/122",
   ]
 }
-output "region" {
+output "region11" {
   value = [
     "13.71.170.64/26",
     "13.71.173.0/26",
@@ -1032,20 +1032,20 @@ output "region" {
     "2603:1030:f05:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region12_ipv4" {
   value = [
     "40.69.106.128/26",
     "40.86.229.100/32",
     "52.242.40.112/28",
   ]
 }
-output "region_ipv6" {
+output "region12_ipv6" {
   value = [
     "2603:1030:1005:1::4a0/123",
     "2603:1030:1005:402::100/122",
   ]
 }
-output "region" {
+output "region12" {
   value = [
     "40.69.106.128/26",
     "40.86.229.100/32",
@@ -1054,7 +1054,7 @@ output "region" {
     "2603:1030:1005:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region21_ipv4" {
   value = [
     "20.43.120.128/26",
     "20.192.99.0/26",
@@ -1064,7 +1064,7 @@ output "region_ipv4" {
     "104.211.98.24/32",
   ]
 }
-output "region_ipv6" {
+output "region21_ipv6" {
   value = [
     "2603:1040:a06:3::220/123",
     "2603:1040:a06:402::100/122",
@@ -1072,7 +1072,7 @@ output "region_ipv6" {
     "2603:1040:a06:c02::100/122",
   ]
 }
-output "region" {
+output "region21" {
   value = [
     "20.43.120.128/26",
     "20.192.99.0/26",
@@ -1086,7 +1086,7 @@ output "region" {
     "2603:1040:a06:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region31_ipv4" {
   value = [
     "13.86.120.89/32",
     "13.89.171.0/26",
@@ -1101,7 +1101,7 @@ output "region_ipv4" {
     "104.43.165.73/32",
   ]
 }
-output "region_ipv6" {
+output "region31_ipv6" {
   value = [
     "2603:1030:10::7a0/123",
     "2603:1030:10:402::100/122",
@@ -1109,7 +1109,7 @@ output "region_ipv6" {
     "2603:1030:10:c02::100/122",
   ]
 }
-output "region" {
+output "region31" {
   value = [
     "13.86.120.89/32",
     "13.89.171.0/26",
@@ -1128,7 +1128,7 @@ output "region" {
     "2603:1030:10:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region48_ipv4" {
   value = [
     "20.45.242.144/28",
     "52.180.179.14/32",
@@ -1136,13 +1136,13 @@ output "region_ipv4" {
     "168.61.143.0/26",
   ]
 }
-output "region_ipv6" {
+output "region48_ipv6" {
   value = [
     "2603:1030:f:3::700/123",
     "2603:1030:f:400::900/122",
   ]
 }
-output "region" {
+output "region48" {
   value = [
     "20.45.242.144/28",
     "52.180.179.14/32",
@@ -1152,7 +1152,7 @@ output "region" {
     "2603:1030:f:400::900/122",
   ]
 }
-output "region_ipv4" {
+output "region1_ipv4" {
   value = [
     "13.75.34.192/26",
     "13.75.127.117/32",
@@ -1167,14 +1167,14 @@ output "region_ipv4" {
     "168.63.132.240/32",
   ]
 }
-output "region_ipv6" {
+output "region1_ipv6" {
   value = [
     "2603:1040:207:402::100/122",
     "2603:1040:207:800::80/122",
     "2603:1040:207:c00::80/122",
   ]
 }
-output "region" {
+output "region1" {
   value = [
     "13.75.34.192/26",
     "13.75.127.117/32",
@@ -1192,7 +1192,7 @@ output "region" {
     "2603:1040:207:c00::80/122",
   ]
 }
-output "region_ipv4" {
+output "region32_ipv4" {
   value = [
     "20.42.68.128/26",
     "20.42.74.128/26",
@@ -1203,7 +1203,7 @@ output "region_ipv4" {
     "191.236.60.72/32",
   ]
 }
-output "region_ipv6" {
+output "region32_ipv6" {
   value = [
     "2603:1030:210::7a0/123",
     "2603:1030:210:402::100/122",
@@ -1211,7 +1211,7 @@ output "region_ipv6" {
     "2603:1030:210:c02::100/122",
   ]
 }
-output "region" {
+output "region32" {
   value = [
     "20.42.68.128/26",
     "20.42.74.128/26",
@@ -1226,7 +1226,7 @@ output "region" {
     "2603:1030:210:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region33_ipv4" {
   value = [
     "20.36.144.192/26",
     "20.98.193.224/28",
@@ -1235,7 +1235,7 @@ output "region_ipv4" {
     "104.46.108.135/32",
   ]
 }
-output "region_ipv6" {
+output "region33_ipv6" {
   value = [
     "2603:1030:40c::7c0/123",
     "2603:1030:40c:402::100/122",
@@ -1243,7 +1243,7 @@ output "region_ipv6" {
     "2603:1030:40c:c02::100/122",
   ]
 }
-output "region" {
+output "region33" {
   value = [
     "20.36.144.192/26",
     "20.98.193.224/28",
@@ -1256,7 +1256,7 @@ output "region" {
     "2603:1030:40c:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region49_ipv4" {
   value = [
     "20.47.216.128/26",
     "20.47.233.128/28",
@@ -1267,7 +1267,7 @@ output "region_ipv4" {
     "52.225.177.238/32",
   ]
 }
-output "region_ipv6" {
+output "region49_ipv6" {
   value = [
     "2603:1030:40b:3::360/123",
     "2603:1030:40b:400::900/122",
@@ -1275,7 +1275,7 @@ output "region_ipv6" {
     "2603:1030:40b:c00::100/122",
   ]
 }
-output "region" {
+output "region49" {
   value = [
     "20.47.216.128/26",
     "20.47.233.128/28",
@@ -1290,30 +1290,30 @@ output "region" {
     "2603:1030:40b:c00::100/122",
   ]
 }
-output "region_ipv4" {
+output "region94_ipv4" {
   value = [
     "20.72.26.192/26",
   ]
 }
-output "region_ipv6" {
+output "region94_ipv6" {
   value = [
     "2603:1030:107:400::80/122",
   ]
 }
-output "region" {
+output "region94" {
   value = [
     "20.72.26.192/26",
     "2603:1030:107:400::80/122",
   ]
 }
-output "region_ipv4" {
+output "region68_ipv4" {
   value = [
     "20.49.82.128/26",
     "20.99.24.16/28",
     "40.67.59.0/26",
   ]
 }
-output "region_ipv6" {
+output "region68_ipv6" {
   value = [
     "2603:1030:104:2::c0/123",
     "2603:1030:104:402::100/122",
@@ -1321,7 +1321,7 @@ output "region_ipv6" {
     "2603:1030:104:802::c0/122",
   ]
 }
-output "region" {
+output "region68" {
   value = [
     "20.49.82.128/26",
     "20.99.24.16/28",
@@ -1332,7 +1332,7 @@ output "region" {
     "2603:1030:104:802::c0/122",
   ]
 }
-output "region_ipv4" {
+output "region19_ipv4" {
   value = [
     "20.111.0.208/28",
     "40.79.130.64/26",
@@ -1341,7 +1341,7 @@ output "region_ipv4" {
     "52.143.136.64/32",
   ]
 }
-output "region_ipv6" {
+output "region19_ipv6" {
   value = [
     "2603:1020:805:2::500/123",
     "2603:1020:805:402::100/122",
@@ -1349,7 +1349,7 @@ output "region_ipv6" {
     "2603:1020:805:c02::100/122",
   ]
 }
-output "region" {
+output "region19" {
   value = [
     "20.111.0.208/28",
     "40.79.130.64/26",
@@ -1362,20 +1362,20 @@ output "region" {
     "2603:1020:805:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region20_ipv4" {
   value = [
     "40.79.178.128/26",
     "52.136.136.72/32",
     "52.136.191.16/28",
   ]
 }
-output "region_ipv6" {
+output "region20_ipv6" {
   value = [
     "2603:1020:905:1::480/123",
     "2603:1020:905:402::100/122",
   ]
 }
-output "region" {
+output "region20" {
   value = [
     "40.79.178.128/26",
     "52.136.136.72/32",
@@ -1384,20 +1384,20 @@ output "region" {
     "2603:1020:905:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region72_ipv4" {
   value = [
     "51.116.58.192/26",
     "51.116.75.96/28",
     "51.116.208.94/32",
   ]
 }
-output "region_ipv6" {
+output "region72_ipv6" {
   value = [
     "2603:1020:d04:1::480/123",
     "2603:1020:d04:402::100/122",
   ]
 }
-output "region" {
+output "region72" {
   value = [
     "51.116.58.192/26",
     "51.116.75.96/28",
@@ -1406,7 +1406,7 @@ output "region" {
     "2603:1020:d04:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region71_ipv4" {
   value = [
     "20.52.95.16/28",
     "51.116.155.0/26",
@@ -1416,7 +1416,7 @@ output "region_ipv4" {
     "51.116.251.192/26",
   ]
 }
-output "region_ipv6" {
+output "region71_ipv6" {
   value = [
     "2603:1020:c04:2::500/123",
     "2603:1020:c04:402::100/122",
@@ -1424,7 +1424,7 @@ output "region_ipv6" {
     "2603:1020:c04:c02::100/122",
   ]
 }
-output "region" {
+output "region71" {
   value = [
     "20.52.95.16/28",
     "51.116.155.0/26",
@@ -1438,23 +1438,23 @@ output "region" {
     "2603:1020:c04:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region85_ipv4" {
   value = [
     "20.217.58.192/26",
   ]
 }
-output "region_ipv6" {
+output "region85_ipv6" {
   value = [
     "2603:1040:1402:400::80/122",
   ]
 }
-output "region" {
+output "region85" {
   value = [
     "20.217.58.192/26",
     "2603:1040:1402:400::80/122",
   ]
 }
-output "region_ipv4" {
+output "region24_ipv4" {
   value = [
     "13.78.106.128/26",
     "13.78.109.0/26",
@@ -1464,7 +1464,7 @@ output "region_ipv4" {
     "104.41.185.116/32",
   ]
 }
-output "region_ipv6" {
+output "region24_ipv6" {
   value = [
     "2603:1040:407:2::500/123",
     "2603:1040:407:402::100/122",
@@ -1472,7 +1472,7 @@ output "region_ipv6" {
     "2603:1040:407:c02::100/122",
   ]
 }
-output "region" {
+output "region24" {
   value = [
     "13.78.106.128/26",
     "13.78.109.0/26",
@@ -1486,20 +1486,20 @@ output "region" {
     "2603:1040:407:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region25_ipv4" {
   value = [
     "20.189.194.64/28",
     "40.74.100.64/26",
     "191.239.104.48/32",
   ]
 }
-output "region_ipv6" {
+output "region25_ipv6" {
   value = [
     "2603:1040:606:1::4a0/123",
     "2603:1040:606:402::100/122",
   ]
 }
-output "region" {
+output "region25" {
   value = [
     "20.189.194.64/28",
     "40.74.100.64/26",
@@ -1508,19 +1508,19 @@ output "region" {
     "2603:1040:606:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region64_ipv4" {
   value = [
     "20.192.234.192/26",
     "20.207.1.32/28",
   ]
 }
-output "region_ipv6" {
+output "region64_ipv6" {
   value = [
     "2603:1040:1104:2::260/123",
     "2603:1040:1104:400::100/122",
   ]
 }
-output "region" {
+output "region64" {
   value = [
     "20.192.234.192/26",
     "20.207.1.32/28",
@@ -1528,13 +1528,13 @@ output "region" {
     "2603:1040:1104:400::100/122",
   ]
 }
-output "region_ipv4" {
+output "region65_ipv4" {
   value = [
     "20.193.202.192/26",
     "40.64.9.160/28",
   ]
 }
-output "region_ipv6" {
+output "region65_ipv6" {
   value = [
     "2603:1040:d04:3::40/123",
     "2603:1040:d04:400::440/122",
@@ -1543,7 +1543,7 @@ output "region_ipv6" {
     "2603:1040:d04:800::380/122",
   ]
 }
-output "region" {
+output "region65" {
   value = [
     "20.193.202.192/26",
     "40.64.9.160/28",
@@ -1554,7 +1554,7 @@ output "region" {
     "2603:1040:d04:800::380/122",
   ]
 }
-output "region_ipv4" {
+output "region26_ipv4" {
   value = [
     "20.44.27.0/26",
     "20.194.66.128/26",
@@ -1563,7 +1563,7 @@ output "region_ipv4" {
     "52.231.32.117/32",
   ]
 }
-output "region_ipv6" {
+output "region26_ipv6" {
   value = [
     "2603:1040:f05:3::100/123",
     "2603:1040:f05:402::100/122",
@@ -1571,7 +1571,7 @@ output "region_ipv6" {
     "2603:1040:f05:c02::100/122",
   ]
 }
-output "region" {
+output "region26" {
   value = [
     "20.44.27.0/26",
     "20.194.66.128/26",
@@ -1584,19 +1584,19 @@ output "region" {
     "2603:1040:f05:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region50_ipv4" {
   value = [
     "52.147.119.32/28",
     "52.231.146.128/26",
     "52.231.200.177/32",
   ]
 }
-output "region_ipv6" {
+output "region50_ipv6" {
   value = [
     "2603:1040:e05:1::e0/123",
   ]
 }
-output "region" {
+output "region50" {
   value = [
     "52.147.119.32/28",
     "52.231.146.128/26",
@@ -1604,7 +1604,7 @@ output "region" {
     "2603:1040:e05:1::e0/123",
   ]
 }
-output "region_ipv4" {
+output "region34_ipv4" {
   value = [
     "20.51.5.48/28",
     "23.96.195.3/32",
@@ -1613,13 +1613,13 @@ output "region_ipv4" {
     "191.236.154.88/32",
   ]
 }
-output "region_ipv6" {
+output "region34_ipv6" {
   value = [
     "2603:1030:608:1::4a0/123",
     "2603:1030:608:402::100/122",
   ]
 }
-output "region" {
+output "region34" {
   value = [
     "20.51.5.48/28",
     "23.96.195.3/32",
@@ -1630,7 +1630,7 @@ output "region" {
     "2603:1030:608:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region17_ipv4" {
   value = [
     "13.69.227.128/26",
     "20.50.72.192/26",
@@ -1643,7 +1643,7 @@ output "region_ipv4" {
     "191.237.222.191/32",
   ]
 }
-output "region_ipv6" {
+output "region17_ipv6" {
   value = [
     "2603:1020:5:4::220/123",
     "2603:1020:5:402::100/122",
@@ -1651,7 +1651,7 @@ output "region_ipv6" {
     "2603:1020:5:c02::100/122",
   ]
 }
-output "region" {
+output "region17" {
   value = [
     "13.69.227.128/26",
     "20.50.72.192/26",
@@ -1668,7 +1668,7 @@ output "region" {
     "2603:1020:5:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region63_ipv4" {
   value = [
     "20.100.2.0/28",
     "51.120.79.170/32",
@@ -1677,7 +1677,7 @@ output "region_ipv4" {
     "51.120.211.0/26",
   ]
 }
-output "region_ipv6" {
+output "region63_ipv6" {
   value = [
     "2603:1020:e04:3::4c0/123",
     "2603:1020:e04:402::100/122",
@@ -1685,7 +1685,7 @@ output "region_ipv6" {
     "2603:1020:e04:c02::100/122",
   ]
 }
-output "region" {
+output "region63" {
   value = [
     "20.100.2.0/28",
     "51.120.79.170/32",
@@ -1698,20 +1698,20 @@ output "region" {
     "2603:1020:e04:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region74_ipv4" {
   value = [
     "51.13.143.16/28",
     "51.120.164.77/32",
     "51.120.219.0/26",
   ]
 }
-output "region_ipv6" {
+output "region74_ipv6" {
   value = [
     "2603:1020:f04:1::480/123",
     "2603:1020:f04:402::100/122",
   ]
 }
-output "region" {
+output "region74" {
   value = [
     "51.13.143.16/28",
     "51.120.164.77/32",
@@ -1720,23 +1720,23 @@ output "region" {
     "2603:1020:f04:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region52_ipv4" {
   value = [
     "20.215.154.192/26",
   ]
 }
-output "region_ipv6" {
+output "region52_ipv6" {
   value = [
     "2603:1020:1302:400::80/122",
   ]
 }
-output "region" {
+output "region52" {
   value = [
     "20.215.154.192/26",
     "2603:1020:1302:400::80/122",
   ]
 }
-output "region_ipv4" {
+output "region84_ipv4" {
   value = [
     "20.21.42.192/26",
     "20.21.53.160/28",
@@ -1744,7 +1744,7 @@ output "region_ipv4" {
     "20.21.74.192/26",
   ]
 }
-output "region_ipv6" {
+output "region84_ipv6" {
   value = [
     "2603:1040:1002:2::340/123",
     "2603:1040:1002:400::80/122",
@@ -1752,7 +1752,7 @@ output "region_ipv6" {
     "2603:1040:1002:c00::80/122",
   ]
 }
-output "region" {
+output "region84" {
   value = [
     "20.21.42.192/26",
     "20.21.53.160/28",
@@ -1764,7 +1764,7 @@ output "region" {
     "2603:1040:1002:c00::80/122",
   ]
 }
-output "region_ipv4" {
+output "region82_ipv4" {
   value = [
     "20.87.80.32/28",
     "40.127.3.19/32",
@@ -1774,7 +1774,7 @@ output "region_ipv4" {
     "102.133.254.64/26",
   ]
 }
-output "region_ipv6" {
+output "region82_ipv6" {
   value = [
     "2603:1000:104:3::20/123",
     "2603:1000:104:402::100/122",
@@ -1782,7 +1782,7 @@ output "region_ipv6" {
     "2603:1000:104:c02::100/122",
   ]
 }
-output "region" {
+output "region82" {
   value = [
     "20.87.80.32/28",
     "40.127.3.19/32",
@@ -1796,20 +1796,20 @@ output "region" {
     "2603:1000:104:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region83_ipv4" {
   value = [
     "102.37.85.224/28",
     "102.133.26.192/26",
     "102.133.64.41/32",
   ]
 }
-output "region_ipv6" {
+output "region83_ipv6" {
   value = [
     "2603:1000:4:1::480/123",
     "2603:1000:4:402::100/122",
   ]
 }
-output "region" {
+output "region83" {
   value = [
     "102.37.85.224/28",
     "102.133.26.192/26",
@@ -1818,7 +1818,7 @@ output "region" {
     "2603:1000:4:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region35_ipv4" {
   value = [
     "13.73.240.128/26",
     "13.73.242.64/26",
@@ -1835,7 +1835,7 @@ output "region_ipv4" {
     "104.214.18.192/26",
   ]
 }
-output "region_ipv6" {
+output "region35_ipv6" {
   value = [
     "2603:1030:807:3::220/123",
     "2603:1030:807:402::100/122",
@@ -1843,7 +1843,7 @@ output "region_ipv6" {
     "2603:1030:807:c02::100/122",
   ]
 }
-output "region" {
+output "region35" {
   value = [
     "13.73.240.128/26",
     "13.73.242.64/26",
@@ -1864,25 +1864,25 @@ output "region" {
     "2603:1030:807:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region69_ipv4" {
   value = [
     "20.44.2.192/26",
     "23.100.216.80/28",
   ]
 }
-output "region_ipv6" {
+output "region69_ipv6" {
   value = [
     "2603:1030:302::a0/123",
   ]
 }
-output "region" {
+output "region69" {
   value = [
     "20.44.2.192/26",
     "23.100.216.80/28",
     "2603:1030:302::a0/123",
   ]
 }
-output "region_ipv4" {
+output "region2_ipv4" {
   value = [
     "13.67.8.128/26",
     "20.195.85.128/28",
@@ -1896,7 +1896,7 @@ output "region_ipv4" {
     "168.63.241.160/32",
   ]
 }
-output "region_ipv6" {
+output "region2_ipv6" {
   value = [
     "2603:1040:5:3::220/123",
     "2603:1040:5:402::100/122",
@@ -1904,7 +1904,7 @@ output "region_ipv6" {
     "2603:1040:5:c02::100/122",
   ]
 }
-output "region" {
+output "region2" {
   value = [
     "13.67.8.128/26",
     "20.195.85.128/28",
@@ -1922,20 +1922,20 @@ output "region" {
     "2603:1040:5:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region22_ipv4" {
   value = [
     "20.192.153.112/28",
     "40.78.194.128/26",
     "104.211.225.66/32",
   ]
 }
-output "region_ipv6" {
+output "region22_ipv6" {
   value = [
     "2603:1040:c06:1::4a0/123",
     "2603:1040:c06:402::100/122",
   ]
 }
-output "region" {
+output "region22" {
   value = [
     "20.192.153.112/28",
     "40.78.194.128/26",
@@ -1944,7 +1944,7 @@ output "region" {
     "2603:1040:c06:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region76_ipv4" {
   value = [
     "51.12.29.32/27",
     "51.12.73.192/28",
@@ -1953,7 +1953,7 @@ output "region_ipv4" {
     "51.12.235.0/26",
   ]
 }
-output "region_ipv6" {
+output "region76_ipv6" {
   value = [
     "2603:1020:1004:3::60/123",
     "2603:1020:1004:400::440/122",
@@ -1963,7 +1963,7 @@ output "region_ipv6" {
     "2603:1020:1004:c02::3c0/122",
   ]
 }
-output "region" {
+output "region76" {
   value = [
     "51.12.29.32/27",
     "51.12.73.192/28",
@@ -1978,20 +1978,20 @@ output "region" {
     "2603:1020:1004:c02::3c0/122",
   ]
 }
-output "region_ipv4" {
+output "region75_ipv4" {
   value = [
     "51.12.20.192/27",
     "51.12.22.224/28",
     "51.12.203.0/26",
   ]
 }
-output "region_ipv6" {
+output "region75_ipv6" {
   value = [
     "2603:1020:1104:2::200/123",
     "2603:1020:1104:400::100/122",
   ]
 }
-output "region" {
+output "region75" {
   value = [
     "51.12.20.192/27",
     "51.12.22.224/28",
@@ -2000,7 +2000,7 @@ output "region" {
     "2603:1020:1104:400::100/122",
   ]
 }
-output "region_ipv4" {
+output "region66_ipv4" {
   value = [
     "20.208.5.0/28",
     "20.208.18.192/26",
@@ -2009,7 +2009,7 @@ output "region_ipv4" {
     "51.107.68.94/32",
   ]
 }
-output "region_ipv6" {
+output "region66_ipv6" {
   value = [
     "2603:1020:a04:3::200/123",
     "2603:1020:a04:402::100/122",
@@ -2017,7 +2017,7 @@ output "region_ipv6" {
     "2603:1020:a04:c02::100/122",
   ]
 }
-output "region" {
+output "region66" {
   value = [
     "20.208.5.0/28",
     "20.208.18.192/26",
@@ -2030,20 +2030,20 @@ output "region" {
     "2603:1020:a04:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region67_ipv4" {
   value = [
     "51.107.154.192/26",
     "51.107.232.208/32",
     "51.107.255.144/28",
   ]
 }
-output "region_ipv6" {
+output "region67_ipv6" {
   value = [
     "2603:1020:b04:1::4a0/123",
     "2603:1020:b04:402::100/122",
   ]
 }
-output "region" {
+output "region67" {
   value = [
     "51.107.154.192/26",
     "51.107.232.208/32",
@@ -2052,20 +2052,20 @@ output "region" {
     "2603:1020:b04:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region61_ipv4" {
   value = [
     "20.37.74.128/26",
     "20.45.75.173/32",
     "20.45.94.96/28",
   ]
 }
-output "region_ipv6" {
+output "region61_ipv6" {
   value = [
     "2603:1040:b04:1::480/123",
     "2603:1040:b04:402::100/122",
   ]
 }
-output "region" {
+output "region61" {
   value = [
     "20.37.74.128/26",
     "20.45.75.173/32",
@@ -2074,7 +2074,7 @@ output "region" {
     "2603:1040:b04:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region60_ipv4" {
   value = [
     "20.38.155.0/26",
     "40.120.74.128/26",
@@ -2083,7 +2083,7 @@ output "region_ipv4" {
     "65.52.250.128/26",
   ]
 }
-output "region_ipv6" {
+output "region60_ipv6" {
   value = [
     "2603:1040:904:2::500/123",
     "2603:1040:904:402::100/122",
@@ -2091,7 +2091,7 @@ output "region_ipv6" {
     "2603:1040:904:c02::100/122",
   ]
 }
-output "region" {
+output "region60" {
   value = [
     "20.38.155.0/26",
     "40.120.74.128/26",
@@ -2104,23 +2104,23 @@ output "region" {
     "2603:1040:904:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region29_ipv4" {
   value = [
     "13.87.122.128/26",
   ]
 }
-output "region_ipv6" {
+output "region29_ipv6" {
   value = [
     "2603:1020:305:402::100/122",
   ]
 }
-output "region" {
+output "region29" {
   value = [
     "13.87.122.128/26",
     "2603:1020:305:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region27_ipv4" {
   value = [
     "20.90.132.96/28",
     "51.104.8.0/26",
@@ -2131,7 +2131,7 @@ output "region_ipv4" {
     "51.140.185.75/32",
   ]
 }
-output "region_ipv6" {
+output "region27_ipv6" {
   value = [
     "2603:1020:705:2::720/123",
     "2603:1020:705:402::100/122",
@@ -2139,7 +2139,7 @@ output "region_ipv6" {
     "2603:1020:705:c02::100/122",
   ]
 }
-output "region" {
+output "region27" {
   value = [
     "20.90.132.96/28",
     "51.104.8.0/26",
@@ -2154,36 +2154,36 @@ output "region" {
     "2603:1020:705:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region30_ipv4" {
   value = [
     "13.87.56.128/26",
   ]
 }
-output "region_ipv6" {
+output "region30_ipv6" {
   value = [
     "2603:1020:405:402::100/122",
   ]
 }
-output "region" {
+output "region30" {
   value = [
     "13.87.56.128/26",
     "2603:1020:405:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region28_ipv4" {
   value = [
     "20.90.32.160/28",
     "51.140.210.128/26",
     "51.141.8.34/32",
   ]
 }
-output "region_ipv6" {
+output "region28_ipv6" {
   value = [
     "2603:1020:605:1::4a0/123",
     "2603:1020:605:402::100/122",
   ]
 }
-output "region" {
+output "region28" {
   value = [
     "20.90.32.160/28",
     "51.140.210.128/26",
@@ -2192,20 +2192,20 @@ output "region" {
     "2603:1020:605:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region36_ipv4" {
   value = [
     "13.71.194.128/26",
     "13.78.148.75/32",
     "20.69.5.128/28",
   ]
 }
-output "region_ipv6" {
+output "region36_ipv6" {
   value = [
     "2603:1030:b04:1::4a0/123",
     "2603:1030:b04:402::100/122",
   ]
 }
-output "region" {
+output "region36" {
   value = [
     "13.71.194.128/26",
     "13.78.148.75/32",
@@ -2214,7 +2214,7 @@ output "region" {
     "2603:1030:b04:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region18_ipv4" {
   value = [
     "13.69.64.128/26",
     "13.69.116.0/26",
@@ -2227,7 +2227,7 @@ output "region_ipv4" {
     "191.233.94.45/32",
   ]
 }
-output "region_ipv6" {
+output "region18_ipv6" {
   value = [
     "2603:1020:206::7a0/123",
     "2603:1020:206:402::100/122",
@@ -2235,7 +2235,7 @@ output "region_ipv6" {
     "2603:1020:206:c02::100/122",
   ]
 }
-output "region" {
+output "region18" {
   value = [
     "13.69.64.128/26",
     "13.69.116.0/26",
@@ -2252,20 +2252,20 @@ output "region" {
     "2603:1020:206:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region23_ipv4" {
   value = [
     "20.192.84.144/28",
     "104.211.146.128/26",
     "104.211.160.229/32",
   ]
 }
-output "region_ipv6" {
+output "region23_ipv6" {
   value = [
     "2603:1040:806:1::2a0/123",
     "2603:1040:806:402::100/122",
   ]
 }
-output "region" {
+output "region23" {
   value = [
     "20.192.84.144/28",
     "104.211.146.128/26",
@@ -2274,20 +2274,20 @@ output "region" {
     "2603:1040:806:402::100/122",
   ]
 }
-output "region_ipv4" {
+output "region37_ipv4" {
   value = [
     "20.59.79.208/28",
     "40.112.242.192/26",
     "104.45.227.37/32",
   ]
 }
-output "region_ipv6" {
+output "region37_ipv6" {
   value = [
     "2603:1030:a07:4::140/123",
     "2603:1030:a07:402::880/122",
   ]
 }
-output "region" {
+output "region37" {
   value = [
     "20.59.79.208/28",
     "40.112.242.192/26",
@@ -2296,7 +2296,7 @@ output "region" {
     "2603:1030:a07:402::880/122",
   ]
 }
-output "region_ipv4" {
+output "region38_ipv4" {
   value = [
     "13.66.140.0/26",
     "13.66.225.188/32",
@@ -2306,7 +2306,7 @@ output "region_ipv4" {
     "52.151.25.45/32",
   ]
 }
-output "region_ipv6" {
+output "region38_ipv6" {
   value = [
     "2603:1030:c06:5::180/123",
     "2603:1030:c06:400::900/122",
@@ -2314,7 +2314,7 @@ output "region_ipv6" {
     "2603:1030:c06:c02::100/122",
   ]
 }
-output "region" {
+output "region38" {
   value = [
     "13.66.140.0/26",
     "13.66.225.188/32",
@@ -2328,7 +2328,7 @@ output "region" {
     "2603:1030:c06:c02::100/122",
   ]
 }
-output "region_ipv4" {
+output "region79_ipv4" {
   value = [
     "20.150.130.208/28",
     "20.150.171.0/26",
@@ -2338,7 +2338,7 @@ output "region_ipv4" {
     "20.150.251.21/32",
   ]
 }
-output "region_ipv6" {
+output "region79_ipv6" {
   value = [
     "2603:1030:504:2::740/123",
     "2603:1030:504:402::400/122",
@@ -2347,7 +2347,7 @@ output "region_ipv6" {
     "2603:1030:504:c02::440/122",
   ]
 }
-output "region" {
+output "region79" {
   value = [
     "20.150.130.208/28",
     "20.150.171.0/26",

@@ -1,4 +1,4 @@
-output "region_ipv4" {
+output "region0_ipv4" {
   value = [
     "13.64.151.161/32",
     "13.66.141.64/27",
@@ -112,7 +112,7 @@ output "region_ipv4" {
     "191.233.204.160/27",
   ]
 }
-output "region_ipv6" {
+output "region0_ipv6" {
   value = [
     "2603:1006:2000::/48",
     "2603:1007:200::/48",
@@ -130,7 +130,7 @@ output "region_ipv6" {
     "2603:1057:2::/48",
   ]
 }
-output "region" {
+output "region0" {
   value = [
     "13.64.151.161/32",
     "13.66.141.64/27",

@@ -1,4 +1,4 @@
-output "region_ipv4" {
+output "region0_ipv4" {
   value = [
     "13.86.97.224/27",
     "13.86.98.0/27",
@@ -55,11 +55,11 @@ output "region_ipv4" {
     "191.235.224.80/29",
   ]
 }
-output "region_ipv6" {
+output "region0_ipv6" {
   value = [
   ]
 }
-output "region" {
+output "region0" {
   value = [
     "13.86.97.224/27",
     "13.86.98.0/27",

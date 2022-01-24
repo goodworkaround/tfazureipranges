@@ -97,7 +97,7 @@ $json.values |
             if([String]::IsNullOrEmpty($_.properties.systemService)) {
                 $tfnameregion = "region{1}" -f $_.properties.systemService, $_.properties.regionId
             }
-            $tfnameservice = "region" # "region{0}" -f $_.properties.regionId
+            $tfnameservice = "region{0}" -f $_.properties.regionId
 
             $ipv4 = $_.properties.addressPrefixes | Where-Object {$_ -like "*.*.*.*"}
             $ipv6 = $_.properties.addressPrefixes | Where-Object {$_ -like "*:*:*"}
@@ -135,11 +135,11 @@ $regionids.Keys |
     ForEach-Object `
     -Begin {
         $README = Get-Content README_top.md
-        $README += "Region ID | Name"
-        $README += "- | -"
+        $README += "| Region ID | Name |"
+        $README += "| - | - |"
     } `
     -Process {
-        $README += "{0} | {1}" -f $_, $regionids["$($_)"]
+        $README += "| {0} | {1} |" -f $_, $regionids["$($_)"]
         
         $README | Set-Content README.md
     }
