@@ -178,4 +178,5 @@ $regionids.Keys |
         $README = $README -creplace "REGIONIDTABLE", $REGIONIDTABLE
     }
 
+$README -creplace "LASTUPDATE", (Get-Date).ToString("yyyy-MM-dd HH:mm")
 $README | Set-Content README.md
