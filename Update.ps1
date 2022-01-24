@@ -64,6 +64,7 @@ Function New-TerraformStringOutput {
 
 # Clean up Generated folder
 if($PSScriptRoot) {Set-Location $PSScriptRoot}
+$originalhash = (Get-ChildItem -Recurse Generated -File | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
 Remove-Item -Path Generated -Force -Confirm:$false -Recurse
 mkdir Generated | Out-Null
 
@@ -181,12 +182,12 @@ $regionids.Keys |
 #$README -creplace "LASTUPDATE", (Get-Date).ToString("yyyy-MM-dd HH:mm")
 $README | Set-Content README.md
 
-$diff = git diff-index HEAD
-if(![String]::IsNullOrEmpty($diff)) {
-    Write-Host "::group::DIFF"
-    $diff | Write-Host 
-    Write-Host "::endgroup::"
+$hash = (Get-ChildItem -Recurse Generated -File | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
+if($hash -ne $originalhash) {
+    Write-Host "Found diff - commiting"
     git config --local user.email "noreply@goodworkaround.com"
     git config --local user.name "github-actions[bot]"
     git commit -m "Add changes" -a
+} else {
+    Write-Host "No updates required :)"
 }
