@@ -1,7 +1,5 @@
 # Terraform Azure IP Ranges module
 
-Last update: LASTUPDATE
-
 This module provides automatically up to date outputs for all IP ranges found in the [Azure IP Ranges json document](https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519).
 
 All regions are identified using IDs from the table further down on this page.
