@@ -110,10 +110,15 @@ $json.values |
             New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
             New-TerraformStringArrayOutput -identifier "$($tfnameregion)" -values $ip | Add-Content "$regionfolder/outputs.tf"
             
+            
             if(![String]::IsNullOrWhiteSpace($_.properties.systemService)) {
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv4" -values $ipv4 | Add-Content "$servicefolder/outputs.tf"
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv6" -values $ipv6 | Add-Content "$servicefolder/outputs.tf"
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)" -values $ip | Add-Content "$servicefolder/outputs.tf"
+            } elseif($_.name -like "AzureCloud.*") {
+                New-TerraformStringArrayOutput -identifier "all_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
+                New-TerraformStringArrayOutput -identifier "all_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
+                New-TerraformStringArrayOutput -identifier "all" -values $ip | Add-Content "$regionfolder/outputs.tf"
             }
         }
 
@@ -137,11 +142,11 @@ $regionids.Keys |
     ForEach-Object `
     -Begin {
         $README = Get-Content README.template
-        $REGIONIDTABLE = "| Region ID | Name |"
-        $REGIONIDTABLE += "| - | - |"
+        $REGIONIDTABLE = "| Region ID | Name |`n"
+        $REGIONIDTABLE += "| - | - |`n"
     } `
     -Process {
-        $REGIONIDTABLE += "| {0} | {1} |" -f $_, $regionids["$($_)"]
+        $REGIONIDTABLE += "| {0} | {1} |`n" -f $_, $regionids["$($_)"]
     } `
     -End {
         $README -creplace "REGIONIDTABLE", $REGIONIDTABLE | Set-Content README.md
