@@ -1,4 +1,4 @@
-output "ActionGroup_region21_ipv4" {
+output "ActionGroup_ipv4" {
   value = [
     "13.71.1.53/32",
     "13.71.36.155/32",
@@ -38,12 +38,12 @@ output "ActionGroup_region21_ipv4" {
     "104.211.118.93/32",
   ]
 }
-output "ActionGroup_region21_ipv6" {
+output "ActionGroup_ipv6" {
   value = [
     "2603:1040:a06:402::178/125",
   ]
 }
-output "ActionGroup_region21" {
+output "ActionGroup" {
   value = [
     "13.71.1.53/32",
     "13.71.36.155/32",
@@ -84,7 +84,7 @@ output "ActionGroup_region21" {
     "2603:1040:a06:402::178/125",
   ]
 }
-output "AzureApiManagement_region21_ipv4" {
+output "AzureApiManagement_ipv4" {
   value = [
     "13.71.49.1/32",
     "20.192.45.112/28",
@@ -92,13 +92,13 @@ output "AzureApiManagement_region21_ipv4" {
     "104.211.81.240/28",
   ]
 }
-output "AzureApiManagement_region21_ipv6" {
+output "AzureApiManagement_ipv6" {
   value = [
     "2603:1040:a06:2::280/124",
     "2603:1040:a06:402::140/124",
   ]
 }
-output "AzureApiManagement_region21" {
+output "AzureApiManagement" {
   value = [
     "13.71.49.1/32",
     "20.192.45.112/28",
@@ -108,7 +108,7 @@ output "AzureApiManagement_region21" {
     "2603:1040:a06:402::140/124",
   ]
 }
-output "AzureAppService_region21_ipv4" {
+output "AzureAppService_ipv4" {
   value = [
     "20.192.98.160/27",
     "20.192.170.8/29",
@@ -123,7 +123,7 @@ output "AzureAppService_region21_ipv4" {
     "104.211.97.138/32",
   ]
 }
-output "AzureAppService_region21_ipv6" {
+output "AzureAppService_ipv6" {
   value = [
     "2603:1040:a06:3::400/119",
     "2603:1040:a06:402::a0/123",
@@ -131,7 +131,7 @@ output "AzureAppService_region21_ipv6" {
     "2603:1040:a06:c02::a0/123",
   ]
 }
-output "AzureAppService_region21" {
+output "AzureAppService" {
   value = [
     "20.192.98.160/27",
     "20.192.170.8/29",
@@ -150,7 +150,7 @@ output "AzureAppService_region21" {
     "2603:1040:a06:c02::a0/123",
   ]
 }
-output "AzureAppServiceManagement_region21_ipv4" {
+output "AzureAppServiceManagement_ipv4" {
   value = [
     "20.43.120.128/26",
     "20.192.99.0/26",
@@ -160,7 +160,7 @@ output "AzureAppServiceManagement_region21_ipv4" {
     "104.211.98.24/32",
   ]
 }
-output "AzureAppServiceManagement_region21_ipv6" {
+output "AzureAppServiceManagement_ipv6" {
   value = [
     "2603:1040:a06:3::220/123",
     "2603:1040:a06:402::100/122",
@@ -168,7 +168,7 @@ output "AzureAppServiceManagement_region21_ipv6" {
     "2603:1040:a06:c02::100/122",
   ]
 }
-output "AzureAppServiceManagement_region21" {
+output "AzureAppServiceManagement" {
   value = [
     "20.43.120.128/26",
     "20.192.99.0/26",
@@ -182,7 +182,7 @@ output "AzureAppServiceManagement_region21" {
     "2603:1040:a06:c02::100/122",
   ]
 }
-output "AzureArcInfrastructure_region21_ipv4" {
+output "AzureArcInfrastructure_ipv4" {
   value = [
     "20.43.121.252/32",
     "20.43.123.220/30",
@@ -190,11 +190,11 @@ output "AzureArcInfrastructure_region21_ipv4" {
     "52.140.110.108/30",
   ]
 }
-output "AzureArcInfrastructure_region21_ipv6" {
+output "AzureArcInfrastructure_ipv6" {
   value = [
   ]
 }
-output "AzureArcInfrastructure_region21" {
+output "AzureArcInfrastructure" {
   value = [
     "20.43.121.252/32",
     "20.43.123.220/30",
@@ -202,25 +202,25 @@ output "AzureArcInfrastructure_region21" {
     "52.140.110.108/30",
   ]
 }
-output "AzureAttestation_region21_ipv4" {
+output "AzureAttestation_ipv4" {
   value = [
     "20.43.123.196/30",
     "20.192.43.76/30",
   ]
 }
-output "AzureAttestation_region21_ipv6" {
+output "AzureAttestation_ipv6" {
   value = [
     "2603:1040:a06:2::2a0/123",
   ]
 }
-output "AzureAttestation_region21" {
+output "AzureAttestation" {
   value = [
     "20.43.123.196/30",
     "20.192.43.76/30",
     "2603:1040:a06:2::2a0/123",
   ]
 }
-output "AzureBackup_region21_ipv4" {
+output "AzureBackup_ipv4" {
   value = [
     "20.192.44.128/26",
     "20.192.99.80/28",
@@ -231,7 +231,7 @@ output "AzureBackup_region21_ipv4" {
     "104.211.82.64/27",
   ]
 }
-output "AzureBackup_region21_ipv6" {
+output "AzureBackup_ipv6" {
   value = [
     "2603:1040:a06:2::300/121",
     "2603:1040:a06:402::200/121",
@@ -239,7 +239,7 @@ output "AzureBackup_region21_ipv6" {
     "2603:1040:a06:c02::180/121",
   ]
 }
-output "AzureBackup_region21" {
+output "AzureBackup" {
   value = [
     "20.192.44.128/26",
     "20.192.99.80/28",
@@ -254,18 +254,18 @@ output "AzureBackup_region21" {
     "2603:1040:a06:c02::180/121",
   ]
 }
-output "AzureBotService_region21_ipv4" {
+output "AzureBotService_ipv4" {
   value = [
     "20.43.121.8/30",
     "52.140.104.64/30",
   ]
 }
-output "AzureBotService_region21_ipv6" {
+output "AzureBotService_ipv6" {
   value = [
     "2603:1040:a06:1::20/123",
   ]
 }
-output "AzureBotService_region21" {
+output "AzureBotService" {
   value = [
     "20.43.121.8/30",
     "52.140.104.64/30",
@@ -434,25 +434,25 @@ output "region21" {
     "2603:1047:1:80::/59",
   ]
 }
-output "AzureCognitiveSearch_region21_ipv4" {
+output "AzureCognitiveSearch_ipv4" {
   value = [
     "40.81.253.154/32",
     "52.140.105.64/26",
   ]
 }
-output "AzureCognitiveSearch_region21_ipv6" {
+output "AzureCognitiveSearch_ipv6" {
   value = [
     "2603:1040:a06:1::180/121",
   ]
 }
-output "AzureCognitiveSearch_region21" {
+output "AzureCognitiveSearch" {
   value = [
     "40.81.253.154/32",
     "52.140.105.64/26",
     "2603:1040:a06:1::180/121",
   ]
 }
-output "AzureConnectors_region21_ipv4" {
+output "AzureConnectors_ipv4" {
   value = [
     "20.43.123.0/27",
     "20.192.168.64/27",
@@ -462,12 +462,12 @@ output "AzureConnectors_region21_ipv4" {
     "104.211.81.192/28",
   ]
 }
-output "AzureConnectors_region21_ipv6" {
+output "AzureConnectors_ipv6" {
   value = [
     "2603:1040:a06:402::180/122",
   ]
 }
-output "AzureConnectors_region21" {
+output "AzureConnectors" {
   value = [
     "20.43.123.0/27",
     "20.192.168.64/27",
@@ -478,7 +478,7 @@ output "AzureConnectors_region21" {
     "2603:1040:a06:402::180/122",
   ]
 }
-output "AzureContainerRegistry_region21_ipv4" {
+output "AzureContainerRegistry_ipv4" {
   value = [
     "20.43.121.128/26",
     "20.43.123.64/26",
@@ -494,7 +494,7 @@ output "AzureContainerRegistry_region21_ipv4" {
     "104.211.81.136/29",
   ]
 }
-output "AzureContainerRegistry_region21_ipv6" {
+output "AzureContainerRegistry_ipv6" {
   value = [
     "2603:1040:a06::448/125",
     "2603:1040:a06:402::90/125",
@@ -507,7 +507,7 @@ output "AzureContainerRegistry_region21_ipv6" {
     "2603:1040:a06:c02::400/121",
   ]
 }
-output "AzureContainerRegistry_region21" {
+output "AzureContainerRegistry" {
   value = [
     "20.43.121.128/26",
     "20.43.123.64/26",
@@ -532,7 +532,7 @@ output "AzureContainerRegistry_region21" {
     "2603:1040:a06:c02::400/121",
   ]
 }
-output "AzureCosmosDB_region21_ipv4" {
+output "AzureCosmosDB_ipv4" {
   value = [
     "20.43.126.128/26",
     "20.192.98.0/26",
@@ -543,7 +543,7 @@ output "AzureCosmosDB_region21_ipv4" {
     "104.211.102.50/32",
   ]
 }
-output "AzureCosmosDB_region21_ipv6" {
+output "AzureCosmosDB_ipv6" {
   value = [
     "2603:1040:a06::780/123",
     "2603:1040:a06:402::c0/122",
@@ -551,7 +551,7 @@ output "AzureCosmosDB_region21_ipv6" {
     "2603:1040:a06:c02::c0/122",
   ]
 }
-output "AzureCosmosDB_region21" {
+output "AzureCosmosDB" {
   value = [
     "20.43.126.128/26",
     "20.192.98.0/26",
@@ -566,7 +566,7 @@ output "AzureCosmosDB_region21" {
     "2603:1040:a06:c02::c0/122",
   ]
 }
-output "AzureDataExplorerManagement_region21_ipv4" {
+output "AzureDataExplorerManagement_ipv4" {
   value = [
     "20.43.120.96/28",
     "20.192.47.96/28",
@@ -574,13 +574,13 @@ output "AzureDataExplorerManagement_region21_ipv4" {
     "40.81.249.251/32",
   ]
 }
-output "AzureDataExplorerManagement_region21_ipv6" {
+output "AzureDataExplorerManagement_ipv6" {
   value = [
     "2603:1040:a06::700/121",
     "2603:1040:a06:402::150/124",
   ]
 }
-output "AzureDataExplorerManagement_region21" {
+output "AzureDataExplorerManagement" {
   value = [
     "20.43.120.96/28",
     "20.192.47.96/28",
@@ -590,37 +590,37 @@ output "AzureDataExplorerManagement_region21" {
     "2603:1040:a06:402::150/124",
   ]
 }
-output "AzureDigitalTwins_region21_ipv4" {
+output "AzureDigitalTwins_ipv4" {
   value = [
     "52.140.111.112/29",
     "52.140.111.192/27",
   ]
 }
-output "AzureDigitalTwins_region21_ipv6" {
+output "AzureDigitalTwins_ipv6" {
   value = [
     "2603:1040:a06:2::200/121",
   ]
 }
-output "AzureDigitalTwins_region21" {
+output "AzureDigitalTwins" {
   value = [
     "52.140.111.112/29",
     "52.140.111.192/27",
     "2603:1040:a06:2::200/121",
   ]
 }
-output "AzureEventGrid_region21_ipv4" {
+output "AzureEventGrid_ipv4" {
   value = [
     "13.71.56.240/28",
     "13.71.57.0/28",
     "52.140.106.0/25",
   ]
 }
-output "AzureEventGrid_region21_ipv6" {
+output "AzureEventGrid_ipv6" {
   value = [
     "2603:1040:a06:1::380/121",
   ]
 }
-output "AzureEventGrid_region21" {
+output "AzureEventGrid" {
   value = [
     "13.71.56.240/28",
     "13.71.57.0/28",
@@ -628,7 +628,7 @@ output "AzureEventGrid_region21" {
     "2603:1040:a06:1::380/121",
   ]
 }
-output "AzureIoTHub_region21_ipv4" {
+output "AzureIoTHub_ipv4" {
   value = [
     "20.43.121.64/27",
     "20.192.99.224/27",
@@ -638,14 +638,14 @@ output "AzureIoTHub_region21_ipv4" {
     "52.172.203.144/32",
   ]
 }
-output "AzureIoTHub_region21_ipv6" {
+output "AzureIoTHub_ipv6" {
   value = [
     "2603:1040:a06:402::300/123",
     "2603:1040:a06:802::240/123",
     "2603:1040:a06:c02::240/123",
   ]
 }
-output "AzureIoTHub_region21" {
+output "AzureIoTHub" {
   value = [
     "20.43.121.64/27",
     "20.192.99.224/27",
@@ -658,7 +658,7 @@ output "AzureIoTHub_region21" {
     "2603:1040:a06:c02::240/123",
   ]
 }
-output "AzureKeyVault_region21_ipv4" {
+output "AzureKeyVault_ipv4" {
   value = [
     "20.192.44.112/29",
     "20.192.44.120/30",
@@ -669,7 +669,7 @@ output "AzureKeyVault_region21_ipv4" {
     "104.211.99.174/32",
   ]
 }
-output "AzureKeyVault_region21_ipv6" {
+output "AzureKeyVault_ipv6" {
   value = [
     "2603:1040:a06::440/125",
     "2603:1040:a06:402::80/125",
@@ -677,7 +677,7 @@ output "AzureKeyVault_region21_ipv6" {
     "2603:1040:a06:c02::80/125",
   ]
 }
-output "AzureKeyVault_region21" {
+output "AzureKeyVault" {
   value = [
     "20.192.44.112/29",
     "20.192.44.120/30",
@@ -692,7 +692,7 @@ output "AzureKeyVault_region21" {
     "2603:1040:a06:c02::80/125",
   ]
 }
-output "AzureMachineLearning_region21_ipv4" {
+output "AzureMachineLearning_ipv4" {
   value = [
     "20.43.120.112/28",
     "20.192.47.112/28",
@@ -702,12 +702,12 @@ output "AzureMachineLearning_region21_ipv4" {
     "104.211.81.144/28",
   ]
 }
-output "AzureMachineLearning_region21_ipv6" {
+output "AzureMachineLearning_ipv6" {
   value = [
     "2603:1040:a06:1::2c0/122",
   ]
 }
-output "AzureMachineLearning_region21" {
+output "AzureMachineLearning" {
   value = [
     "20.43.120.112/28",
     "20.192.47.112/28",
@@ -718,7 +718,7 @@ output "AzureMachineLearning_region21" {
     "2603:1040:a06:1::2c0/122",
   ]
 }
-output "AzureMonitor_region21_ipv4" {
+output "AzureMonitor_ipv4" {
   value = [
     "20.43.120.0/29",
     "20.43.120.240/29",
@@ -747,7 +747,7 @@ output "AzureMonitor_region21_ipv4" {
     "104.211.103.96/32",
   ]
 }
-output "AzureMonitor_region21_ipv6" {
+output "AzureMonitor_ipv6" {
   value = [
     "2603:1040:a06::160/123",
     "2603:1040:a06::2c0/122",
@@ -758,7 +758,7 @@ output "AzureMonitor_region21_ipv6" {
     "2603:1040:a06:402::500/121",
   ]
 }
-output "AzureMonitor_region21" {
+output "AzureMonitor" {
   value = [
     "20.43.120.0/29",
     "20.43.120.240/29",
@@ -794,21 +794,21 @@ output "AzureMonitor_region21" {
     "2603:1040:a06:402::500/121",
   ]
 }
-output "AzureOpenDatasets_region21_ipv4" {
+output "AzureOpenDatasets_ipv4" {
   value = [
     "52.140.105.128/28",
   ]
 }
-output "AzureOpenDatasets_region21_ipv6" {
+output "AzureOpenDatasets_ipv6" {
   value = [
   ]
 }
-output "AzureOpenDatasets_region21" {
+output "AzureOpenDatasets" {
   value = [
     "52.140.105.128/28",
   ]
 }
-output "AzurePortal_region21_ipv4" {
+output "AzurePortal_ipv4" {
   value = [
     "20.43.123.160/28",
     "52.140.105.224/27",
@@ -823,13 +823,13 @@ output "AzurePortal_region21_ipv4" {
     "104.211.101.116/32",
   ]
 }
-output "AzurePortal_region21_ipv6" {
+output "AzurePortal_ipv6" {
   value = [
     "2603:1040:a06::200/121",
     "2603:1040:a06:1::680/121",
   ]
 }
-output "AzurePortal_region21" {
+output "AzurePortal" {
   value = [
     "20.43.123.160/28",
     "52.140.105.224/27",
@@ -846,21 +846,21 @@ output "AzurePortal_region21" {
     "2603:1040:a06:1::680/121",
   ]
 }
-output "AzureResourceManager_region21_ipv4" {
+output "AzureResourceManager_ipv4" {
   value = [
     "20.43.120.224/28",
     "20.43.124.0/23",
     "20.192.40.0/23",
   ]
 }
-output "AzureResourceManager_region21_ipv6" {
+output "AzureResourceManager_ipv6" {
   value = [
     "2603:1040:a06::280/122",
     "2603:1040:a06:2::400/120",
     "2603:1040:a06:402::280/122",
   ]
 }
-output "AzureResourceManager_region21" {
+output "AzureResourceManager" {
   value = [
     "20.43.120.224/28",
     "20.43.124.0/23",
@@ -870,39 +870,39 @@ output "AzureResourceManager_region21" {
     "2603:1040:a06:402::280/122",
   ]
 }
-output "AzureSecurityCenter_region21_ipv4" {
+output "AzureSecurityCenter_ipv4" {
   value = [
     "20.43.123.128/27",
   ]
 }
-output "AzureSecurityCenter_region21_ipv6" {
+output "AzureSecurityCenter_ipv6" {
   value = [
   ]
 }
-output "AzureSecurityCenter_region21" {
+output "AzureSecurityCenter" {
   value = [
     "20.43.123.128/27",
   ]
 }
-output "AzureSignalR_region21_ipv4" {
+output "AzureSignalR_ipv4" {
   value = [
     "20.192.44.64/27",
     "40.80.53.32/27",
   ]
 }
-output "AzureSignalR_region21_ipv6" {
+output "AzureSignalR_ipv6" {
   value = [
     "2603:1040:a06:3::/120",
   ]
 }
-output "AzureSignalR_region21" {
+output "AzureSignalR" {
   value = [
     "20.192.44.64/27",
     "40.80.53.32/27",
     "2603:1040:a06:3::/120",
   ]
 }
-output "BatchNodeManagement_region21_ipv4" {
+output "BatchNodeManagement_ipv4" {
   value = [
     "20.192.99.96/27",
     "40.80.50.224/27",
@@ -912,12 +912,12 @@ output "BatchNodeManagement_region21_ipv4" {
     "104.211.96.144/31",
   ]
 }
-output "BatchNodeManagement_region21_ipv6" {
+output "BatchNodeManagement_ipv6" {
   value = [
     "2603:1040:a06:1::340/122",
   ]
 }
-output "BatchNodeManagement_region21" {
+output "BatchNodeManagement" {
   value = [
     "20.192.99.96/27",
     "40.80.50.224/27",
@@ -928,7 +928,7 @@ output "BatchNodeManagement_region21" {
     "2603:1040:a06:1::340/122",
   ]
 }
-output "DataFactory_region21_ipv4" {
+output "DataFactory_ipv4" {
   value = [
     "20.43.121.48/28",
     "20.192.42.0/24",
@@ -940,7 +940,7 @@ output "DataFactory_region21_ipv4" {
     "52.140.108.208/29",
   ]
 }
-output "DataFactory_region21_ipv6" {
+output "DataFactory_ipv6" {
   value = [
     "2603:1040:a06::/121",
     "2603:1040:a06::80/122",
@@ -953,7 +953,7 @@ output "DataFactory_region21_ipv6" {
     "2603:1040:a06:c02::210/124",
   ]
 }
-output "DataFactory_region21" {
+output "DataFactory" {
   value = [
     "20.43.121.48/28",
     "20.192.42.0/24",
@@ -974,21 +974,21 @@ output "DataFactory_region21" {
     "2603:1040:a06:c02::210/124",
   ]
 }
-output "Dynamics365ForMarketingEmail_region21_ipv4" {
+output "Dynamics365ForMarketingEmail_ipv4" {
   value = [
     "104.211.80.0/24",
   ]
 }
-output "Dynamics365ForMarketingEmail_region21_ipv6" {
+output "Dynamics365ForMarketingEmail_ipv6" {
   value = [
   ]
 }
-output "Dynamics365ForMarketingEmail_region21" {
+output "Dynamics365ForMarketingEmail" {
   value = [
     "104.211.80.0/24",
   ]
 }
-output "AzureEventHub_region21_ipv4" {
+output "AzureEventHub_ipv4" {
   value = [
     "13.71.30.214/32",
     "20.43.126.64/26",
@@ -1003,7 +1003,7 @@ output "AzureEventHub_region21_ipv4" {
     "104.211.102.58/32",
   ]
 }
-output "AzureEventHub_region21_ipv6" {
+output "AzureEventHub_ipv6" {
   value = [
     "2603:1040:a06:1::240/122",
     "2603:1040:a06:2::700/120",
@@ -1012,7 +1012,7 @@ output "AzureEventHub_region21_ipv6" {
     "2603:1040:a06:c02::160/123",
   ]
 }
-output "AzureEventHub_region21" {
+output "AzureEventHub" {
   value = [
     "13.71.30.214/32",
     "20.43.126.64/26",
@@ -1032,7 +1032,7 @@ output "AzureEventHub_region21" {
     "2603:1040:a06:c02::160/123",
   ]
 }
-output "GatewayManager_region21_ipv4" {
+output "GatewayManager_ipv4" {
   value = [
     "20.192.47.0/26",
     "20.193.142.141/32",
@@ -1043,12 +1043,12 @@ output "GatewayManager_region21_ipv4" {
     "104.211.81.208/29",
   ]
 }
-output "GatewayManager_region21_ipv6" {
+output "GatewayManager_ipv6" {
   value = [
     "2603:1040:a06:1::40/122",
   ]
 }
-output "GatewayManager_region21" {
+output "GatewayManager" {
   value = [
     "20.192.47.0/26",
     "20.193.142.141/32",
@@ -1060,7 +1060,7 @@ output "GatewayManager_region21" {
     "2603:1040:a06:1::40/122",
   ]
 }
-output "HDInsight_region21_ipv4" {
+output "HDInsight_ipv4" {
   value = [
     "20.43.120.8/29",
     "52.140.108.248/29",
@@ -1068,13 +1068,13 @@ output "HDInsight_region21_ipv4" {
     "52.172.153.209/32",
   ]
 }
-output "HDInsight_region21_ipv6" {
+output "HDInsight_ipv6" {
   value = [
     "2603:1040:a06:2::540/124",
     "2603:1040:a06:402::320/124",
   ]
 }
-output "HDInsight_region21" {
+output "HDInsight" {
   value = [
     "20.43.120.8/29",
     "52.140.108.248/29",
@@ -1084,7 +1084,7 @@ output "HDInsight_region21" {
     "2603:1040:a06:402::320/124",
   ]
 }
-output "LogicApps_region21_ipv4" {
+output "LogicApps_ipv4" {
   value = [
     "20.43.121.192/27",
     "20.43.121.224/28",
@@ -1102,13 +1102,13 @@ output "LogicApps_region21_ipv4" {
     "104.211.102.62/32",
   ]
 }
-output "LogicApps_region21_ipv6" {
+output "LogicApps_ipv6" {
   value = [
     "2603:1040:a06:402::3c0/124",
     "2603:1040:a06:402::3e0/123",
   ]
 }
-output "LogicApps_region21" {
+output "LogicApps" {
   value = [
     "20.43.121.192/27",
     "20.43.121.224/28",
@@ -1128,21 +1128,21 @@ output "LogicApps_region21" {
     "2603:1040:a06:402::3e0/123",
   ]
 }
-output "MicrosoftContainerRegistry_region21_ipv4" {
+output "MicrosoftContainerRegistry_ipv4" {
   value = [
     "20.192.98.136/29",
     "40.80.50.136/29",
     "104.211.81.128/29",
   ]
 }
-output "MicrosoftContainerRegistry_region21_ipv6" {
+output "MicrosoftContainerRegistry_ipv6" {
   value = [
     "2603:1040:a06:402::88/125",
     "2603:1040:a06:802::88/125",
     "2603:1040:a06:c02::88/125",
   ]
 }
-output "MicrosoftContainerRegistry_region21" {
+output "MicrosoftContainerRegistry" {
   value = [
     "20.192.98.136/29",
     "40.80.50.136/29",
@@ -1152,37 +1152,37 @@ output "MicrosoftContainerRegistry_region21" {
     "2603:1040:a06:c02::88/125",
   ]
 }
-output "PowerQueryOnline_region21_ipv4" {
+output "PowerQueryOnline_ipv4" {
   value = [
     "52.140.104.70/31",
   ]
 }
-output "PowerQueryOnline_region21_ipv6" {
+output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1040:a06:1::200/123",
   ]
 }
-output "PowerQueryOnline_region21" {
+output "PowerQueryOnline" {
   value = [
     "52.140.104.70/31",
     "2603:1040:a06:1::200/123",
   ]
 }
-output "SCCservice_region21_ipv4" {
+output "SCCservice_ipv4" {
   value = [
     "20.43.123.176/29",
   ]
 }
-output "SCCservice_region21_ipv6" {
+output "SCCservice_ipv6" {
   value = [
   ]
 }
-output "SCCservice_region21" {
+output "SCCservice" {
   value = [
     "20.43.123.176/29",
   ]
 }
-output "AzureServiceBus_region21_ipv4" {
+output "AzureServiceBus_ipv4" {
   value = [
     "20.43.126.0/26",
     "20.192.47.192/26",
@@ -1194,7 +1194,7 @@ output "AzureServiceBus_region21_ipv4" {
     "104.211.81.16/29",
   ]
 }
-output "AzureServiceBus_region21_ipv6" {
+output "AzureServiceBus_ipv6" {
   value = [
     "2603:1040:a06:1::220/123",
     "2603:1040:a06:2::600/120",
@@ -1203,7 +1203,7 @@ output "AzureServiceBus_region21_ipv6" {
     "2603:1040:a06:c02::150/125",
   ]
 }
-output "AzureServiceBus_region21" {
+output "AzureServiceBus" {
   value = [
     "20.43.126.0/26",
     "20.192.47.192/26",
@@ -1220,7 +1220,7 @@ output "AzureServiceBus_region21" {
     "2603:1040:a06:c02::150/125",
   ]
 }
-output "ServiceFabric_region21_ipv4" {
+output "ServiceFabric_ipv4" {
   value = [
     "20.192.101.28/30",
     "40.80.53.4/30",
@@ -1228,14 +1228,14 @@ output "ServiceFabric_region21_ipv4" {
     "104.211.103.201/32",
   ]
 }
-output "ServiceFabric_region21_ipv6" {
+output "ServiceFabric_ipv6" {
   value = [
     "2603:1040:a06:402::98/125",
     "2603:1040:a06:802::98/125",
     "2603:1040:a06:c02::98/125",
   ]
 }
-output "ServiceFabric_region21" {
+output "ServiceFabric" {
   value = [
     "20.192.101.28/30",
     "40.80.53.4/30",
@@ -1246,7 +1246,7 @@ output "ServiceFabric_region21" {
     "2603:1040:a06:c02::98/125",
   ]
 }
-output "AzureSQL_region21_ipv4" {
+output "AzureSQL_ipv4" {
   value = [
     "20.192.43.160/27",
     "20.192.43.192/27",
@@ -1264,7 +1264,7 @@ output "AzureSQL_region21_ipv4" {
     "104.211.96.159/32",
   ]
 }
-output "AzureSQL_region21_ipv6" {
+output "AzureSQL_ipv6" {
   value = [
     "2603:1040:a06::420/123",
     "2603:1040:a06::480/121",
@@ -1276,7 +1276,7 @@ output "AzureSQL_region21_ipv6" {
     "2603:1040:a06:c01::/123",
   ]
 }
-output "AzureSQL_region21" {
+output "AzureSQL" {
   value = [
     "20.192.43.160/27",
     "20.192.43.192/27",
@@ -1302,7 +1302,7 @@ output "AzureSQL_region21" {
     "2603:1040:a06:c01::/123",
   ]
 }
-output "AzureStorage_region21_ipv4" {
+output "AzureStorage_ipv4" {
   value = [
     "20.38.126.0/23",
     "20.47.42.0/24",
@@ -1320,11 +1320,11 @@ output "AzureStorage_region21_ipv4" {
     "104.211.109.96/28",
   ]
 }
-output "AzureStorage_region21_ipv6" {
+output "AzureStorage_ipv6" {
   value = [
   ]
 }
-output "AzureStorage_region21" {
+output "AzureStorage" {
   value = [
     "20.38.126.0/23",
     "20.47.42.0/24",
@@ -1342,19 +1342,19 @@ output "AzureStorage_region21" {
     "104.211.109.96/28",
   ]
 }
-output "StorageSyncService_region21_ipv4" {
+output "StorageSyncService_ipv4" {
   value = [
     "52.140.105.184/29",
     "104.211.73.56/32",
   ]
 }
-output "StorageSyncService_region21_ipv6" {
+output "StorageSyncService_ipv6" {
   value = [
     "2603:1040:a06:1::300/123",
     "2603:1040:a06:802::2a0/123",
   ]
 }
-output "StorageSyncService_region21" {
+output "StorageSyncService" {
   value = [
     "52.140.105.184/29",
     "104.211.73.56/32",
@@ -1362,7 +1362,7 @@ output "StorageSyncService_region21" {
     "2603:1040:a06:802::2a0/123",
   ]
 }
-output "WindowsVirtualDesktop_region21_ipv4" {
+output "WindowsVirtualDesktop_ipv4" {
   value = [
     "13.71.5.20/32",
     "20.198.67.137/32",
@@ -1379,11 +1379,11 @@ output "WindowsVirtualDesktop_region21_ipv4" {
     "104.211.114.61/32",
   ]
 }
-output "WindowsVirtualDesktop_region21_ipv6" {
+output "WindowsVirtualDesktop_ipv6" {
   value = [
   ]
 }
-output "WindowsVirtualDesktop_region21" {
+output "WindowsVirtualDesktop" {
   value = [
     "13.71.5.20/32",
     "20.198.67.137/32",

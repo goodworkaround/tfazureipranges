@@ -9880,7 +9880,7 @@ output "AzureBotService_region0" {
     "2603:1050:403::20/123",
   ]
 }
-output "region0_ipv4" {
+output "_region0_ipv4" {
   value = [
     "13.64.0.0/16",
     "13.65.0.0/16",
@@ -14729,7 +14729,7 @@ output "region0_ipv4" {
     "213.199.183.0/24",
   ]
 }
-output "region0_ipv6" {
+output "_region0_ipv6" {
   value = [
     "2602:fd5e:1::/63",
     "2602:fd5e:1:2::/64",
@@ -15620,7 +15620,7 @@ output "region0_ipv6" {
     "2a01:111:f403:f910::/62",
   ]
 }
-output "region0" {
+output "_region0" {
   value = [
     "13.64.0.0/16",
     "13.65.0.0/16",
@@ -26740,7 +26740,7 @@ output "AzureEventGrid_region0" {
     "2603:1050:403::380/121",
   ]
 }
-output "region0_ipv4" {
+output "_region0_ipv4" {
   value = [
     "13.73.248.16/29",
     "20.21.37.40/29",
@@ -26806,7 +26806,7 @@ output "region0_ipv4" {
     "191.235.225.128/29",
   ]
 }
-output "region0_ipv6" {
+output "_region0_ipv6" {
   value = [
     "2603:1000:4::600/123",
     "2603:1000:104::e0/123",
@@ -26894,7 +26894,7 @@ output "region0_ipv6" {
     "2a01:111:2050::/44",
   ]
 }
-output "region0" {
+output "_region0" {
   value = [
     "13.73.248.16/29",
     "20.21.37.40/29",
@@ -27156,7 +27156,7 @@ output "AzureFrontDoor_region0" {
     "2a01:111:202c::/46",
   ]
 }
-output "region0_ipv4" {
+output "_region0_ipv4" {
   value = [
     "13.73.248.8/29",
     "13.107.208.0/24",
@@ -27227,7 +27227,7 @@ output "region0_ipv4" {
     "191.235.224.88/29",
   ]
 }
-output "region0_ipv6" {
+output "_region0_ipv6" {
   value = [
     "2603:1000:4::5e0/123",
     "2603:1000:104::c0/123",
@@ -27319,7 +27319,7 @@ output "region0_ipv6" {
     "2620:1ec:bdf::/48",
   ]
 }
-output "region0" {
+output "_region0" {
   value = [
     "13.73.248.8/29",
     "13.107.208.0/24",

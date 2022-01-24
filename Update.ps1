@@ -93,8 +93,10 @@ $json.values |
                 $regionids["$($_.properties.regionId)"] = $_.name -split "\." | Select-Object -Last 1
             }
 
-            $tfnameregion = "{0}_region{1}" -f $_.properties.systemService, $_.properties.regionId
-            if([String]::IsNullOrEmpty($_.properties.systemService)) {
+            $tfnameregion = "{0}" -f $_.properties.systemService
+            if("$($_.properties.regionId)" -eq "0") {
+                $tfnameregion = "{0}_region{1}" -f $_.properties.systemService, $_.properties.regionId
+            } elseif([String]::IsNullOrEmpty($_.properties.systemService)) {
                 $tfnameregion = "region{1}" -f $_.properties.systemService, $_.properties.regionId
             }
             $tfnameservice = "region{0}" -f $_.properties.regionId
@@ -134,12 +136,13 @@ $regionids.Keys |
     Sort-Object | 
     ForEach-Object `
     -Begin {
-        $README = Get-Content README_top.md
-        $README += "| Region ID | Name |"
-        $README += "| - | - |"
+        $README = Get-Content README.template
+        $REGIONIDTABLE = "| Region ID | Name |"
+        $REGIONIDTABLE += "| - | - |"
     } `
     -Process {
-        $README += "| {0} | {1} |" -f $_, $regionids["$($_)"]
-        
-        $README | Set-Content README.md
+        $REGIONIDTABLE += "| {0} | {1} |" -f $_, $regionids["$($_)"]
+    } `
+    -End {
+        $README -creplace "REGIONIDTABLE", $REGIONIDTABLE | Set-Content README.md
     }

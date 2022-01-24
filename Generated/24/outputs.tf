@@ -1,4 +1,4 @@
-output "ActionGroup_region24_ipv4" {
+output "ActionGroup_ipv4" {
   value = [
     "13.73.18.38/32",
     "13.73.24.128/32",
@@ -20,12 +20,12 @@ output "ActionGroup_region24_ipv4" {
     "138.91.4.43/32",
   ]
 }
-output "ActionGroup_region24_ipv6" {
+output "ActionGroup_ipv6" {
   value = [
     "2603:1040:407:402::178/125",
   ]
 }
-output "ActionGroup_region24" {
+output "ActionGroup" {
   value = [
     "13.73.18.38/32",
     "13.73.24.128/32",
@@ -48,7 +48,7 @@ output "ActionGroup_region24" {
     "2603:1040:407:402::178/125",
   ]
 }
-output "AzureApiManagement_region24_ipv4" {
+output "AzureApiManagement_ipv4" {
   value = [
     "13.78.106.92/31",
     "13.78.108.176/28",
@@ -56,12 +56,12 @@ output "AzureApiManagement_region24_ipv4" {
     "52.140.238.179/32",
   ]
 }
-output "AzureApiManagement_region24_ipv6" {
+output "AzureApiManagement_ipv6" {
   value = [
     "2603:1040:407:402::140/124",
   ]
 }
-output "AzureApiManagement_region24" {
+output "AzureApiManagement" {
   value = [
     "13.78.106.92/31",
     "13.78.108.176/28",
@@ -70,7 +70,7 @@ output "AzureApiManagement_region24" {
     "2603:1040:407:402::140/124",
   ]
 }
-output "AzureAppService_region24_ipv4" {
+output "AzureAppService_ipv4" {
   value = [
     "13.71.149.151/32",
     "13.73.1.134/32",
@@ -93,7 +93,7 @@ output "AzureAppService_region24_ipv4" {
     "138.91.0.30/32",
   ]
 }
-output "AzureAppService_region24_ipv6" {
+output "AzureAppService_ipv6" {
   value = [
     "2603:1040:407:3::/117",
     "2603:1040:407:402::a0/123",
@@ -101,7 +101,7 @@ output "AzureAppService_region24_ipv6" {
     "2603:1040:407:c02::a0/123",
   ]
 }
-output "AzureAppService_region24" {
+output "AzureAppService" {
   value = [
     "13.71.149.151/32",
     "13.73.1.134/32",
@@ -128,7 +128,7 @@ output "AzureAppService_region24" {
     "2603:1040:407:c02::a0/123",
   ]
 }
-output "AzureAppServiceManagement_region24_ipv4" {
+output "AzureAppServiceManagement_ipv4" {
   value = [
     "13.78.106.128/26",
     "13.78.109.0/26",
@@ -138,7 +138,7 @@ output "AzureAppServiceManagement_region24_ipv4" {
     "104.41.185.116/32",
   ]
 }
-output "AzureAppServiceManagement_region24_ipv6" {
+output "AzureAppServiceManagement_ipv6" {
   value = [
     "2603:1040:407:2::500/123",
     "2603:1040:407:402::100/122",
@@ -146,7 +146,7 @@ output "AzureAppServiceManagement_region24_ipv6" {
     "2603:1040:407:c02::100/122",
   ]
 }
-output "AzureAppServiceManagement_region24" {
+output "AzureAppServiceManagement" {
   value = [
     "13.78.106.128/26",
     "13.78.109.0/26",
@@ -160,7 +160,7 @@ output "AzureAppServiceManagement_region24" {
     "2603:1040:407:c02::100/122",
   ]
 }
-output "AzureArcInfrastructure_region24_ipv4" {
+output "AzureArcInfrastructure_ipv4" {
   value = [
     "13.78.111.193/32",
     "20.43.67.88/30",
@@ -168,11 +168,11 @@ output "AzureArcInfrastructure_region24_ipv4" {
     "40.115.144.0/30",
   ]
 }
-output "AzureArcInfrastructure_region24_ipv6" {
+output "AzureArcInfrastructure_ipv6" {
   value = [
   ]
 }
-output "AzureArcInfrastructure_region24" {
+output "AzureArcInfrastructure" {
   value = [
     "13.78.111.193/32",
     "20.43.67.88/30",
@@ -180,23 +180,23 @@ output "AzureArcInfrastructure_region24" {
     "40.115.144.0/30",
   ]
 }
-output "AzureAttestation_region24_ipv4" {
+output "AzureAttestation_ipv4" {
   value = [
     "20.191.161.220/30",
     "40.79.189.116/30",
   ]
 }
-output "AzureAttestation_region24_ipv6" {
+output "AzureAttestation_ipv6" {
   value = [
   ]
 }
-output "AzureAttestation_region24" {
+output "AzureAttestation" {
   value = [
     "20.191.161.220/30",
     "40.79.189.116/30",
   ]
 }
-output "AzureBackup_region24_ipv4" {
+output "AzureBackup_ipv4" {
   value = [
     "13.78.108.32/27",
     "13.78.108.64/26",
@@ -207,14 +207,14 @@ output "AzureBackup_region24_ipv4" {
     "40.79.195.64/26",
   ]
 }
-output "AzureBackup_region24_ipv6" {
+output "AzureBackup_ipv6" {
   value = [
     "2603:1040:407:402::200/121",
     "2603:1040:407:802::180/121",
     "2603:1040:407:c02::180/121",
   ]
 }
-output "AzureBackup_region24" {
+output "AzureBackup" {
   value = [
     "13.78.108.32/27",
     "13.78.108.64/26",
@@ -228,18 +228,18 @@ output "AzureBackup_region24" {
     "2603:1040:407:c02::180/121",
   ]
 }
-output "AzureBotService_region24_ipv4" {
+output "AzureBotService_ipv4" {
   value = [
     "13.78.108.172/30",
     "20.43.64.64/30",
   ]
 }
-output "AzureBotService_region24_ipv6" {
+output "AzureBotService_ipv6" {
   value = [
     "2603:1040:407:1::20/123",
   ]
 }
-output "AzureBotService_region24" {
+output "AzureBotService" {
   value = [
     "13.78.108.172/30",
     "20.43.64.64/30",
@@ -480,25 +480,25 @@ output "region24" {
     "2603:1047:1:140::/59",
   ]
 }
-output "AzureCognitiveSearch_region24_ipv4" {
+output "AzureCognitiveSearch_ipv4" {
   value = [
     "20.43.65.64/26",
     "52.140.233.105/32",
   ]
 }
-output "AzureCognitiveSearch_region24_ipv6" {
+output "AzureCognitiveSearch_ipv6" {
   value = [
     "2603:1040:407:1::180/121",
   ]
 }
-output "AzureCognitiveSearch_region24" {
+output "AzureCognitiveSearch" {
   value = [
     "20.43.65.64/26",
     "52.140.233.105/32",
     "2603:1040:407:1::180/121",
   ]
 }
-output "AzureConnectors_region24_ipv4" {
+output "AzureConnectors_ipv4" {
   value = [
     "13.71.153.19/32",
     "13.73.21.230/32",
@@ -508,12 +508,12 @@ output "AzureConnectors_region24_ipv4" {
     "40.79.189.64/27",
   ]
 }
-output "AzureConnectors_region24_ipv6" {
+output "AzureConnectors_ipv6" {
   value = [
     "2603:1040:407:402::180/122",
   ]
 }
-output "AzureConnectors_region24" {
+output "AzureConnectors" {
   value = [
     "13.71.153.19/32",
     "13.73.21.230/32",
@@ -524,7 +524,7 @@ output "AzureConnectors_region24" {
     "2603:1040:407:402::180/122",
   ]
 }
-output "AzureContainerRegistry_region24_ipv4" {
+output "AzureContainerRegistry_ipv4" {
   value = [
     "13.78.106.200/29",
     "13.78.111.0/25",
@@ -538,7 +538,7 @@ output "AzureContainerRegistry_region24_ipv4" {
     "40.79.197.128/25",
   ]
 }
-output "AzureContainerRegistry_region24_ipv6" {
+output "AzureContainerRegistry_ipv6" {
   value = [
     "2603:1040:407:402::90/125",
     "2603:1040:407:402::340/122",
@@ -550,7 +550,7 @@ output "AzureContainerRegistry_region24_ipv6" {
     "2603:1040:407:c02::400/121",
   ]
 }
-output "AzureContainerRegistry_region24" {
+output "AzureContainerRegistry" {
   value = [
     "13.78.106.200/29",
     "13.78.111.0/25",
@@ -572,7 +572,7 @@ output "AzureContainerRegistry_region24" {
     "2603:1040:407:c02::400/121",
   ]
 }
-output "AzureCosmosDB_region24_ipv4" {
+output "AzureCosmosDB_ipv4" {
   value = [
     "13.78.51.35/32",
     "13.78.106.0/26",
@@ -585,14 +585,14 @@ output "AzureCosmosDB_region24_ipv4" {
     "104.41.177.93/32",
   ]
 }
-output "AzureCosmosDB_region24_ipv6" {
+output "AzureCosmosDB_ipv6" {
   value = [
     "2603:1040:407:402::c0/122",
     "2603:1040:407:802::c0/122",
     "2603:1040:407:c02::c0/122",
   ]
 }
-output "AzureCosmosDB_region24" {
+output "AzureCosmosDB" {
   value = [
     "13.78.51.35/32",
     "13.78.106.0/26",
@@ -608,20 +608,20 @@ output "AzureCosmosDB_region24" {
     "2603:1040:407:c02::c0/122",
   ]
 }
-output "AzureDataExplorerManagement_region24_ipv4" {
+output "AzureDataExplorerManagement_ipv4" {
   value = [
     "20.43.89.90/32",
     "40.79.187.16/28",
     "40.81.220.38/32",
   ]
 }
-output "AzureDataExplorerManagement_region24_ipv6" {
+output "AzureDataExplorerManagement_ipv6" {
   value = [
     "2603:1040:407::600/121",
     "2603:1040:407:402::150/124",
   ]
 }
-output "AzureDataExplorerManagement_region24" {
+output "AzureDataExplorerManagement" {
   value = [
     "20.43.89.90/32",
     "40.79.187.16/28",
@@ -630,51 +630,51 @@ output "AzureDataExplorerManagement_region24" {
     "2603:1040:407:402::150/124",
   ]
 }
-output "AzureDevSpaces_region24_ipv4" {
+output "AzureDevSpaces_ipv4" {
   value = [
     "13.78.111.144/28",
     "20.43.65.208/28",
   ]
 }
-output "AzureDevSpaces_region24_ipv6" {
+output "AzureDevSpaces_ipv6" {
   value = [
   ]
 }
-output "AzureDevSpaces_region24" {
+output "AzureDevSpaces" {
   value = [
     "13.78.111.144/28",
     "20.43.65.208/28",
   ]
 }
-output "AzureDigitalTwins_region24_ipv4" {
+output "AzureDigitalTwins_ipv4" {
   value = [
     "20.191.161.96/27",
     "20.191.161.192/29",
   ]
 }
-output "AzureDigitalTwins_region24_ipv6" {
+output "AzureDigitalTwins_ipv6" {
   value = [
   ]
 }
-output "AzureDigitalTwins_region24" {
+output "AzureDigitalTwins" {
   value = [
     "20.191.161.96/27",
     "20.191.161.192/29",
   ]
 }
-output "AzureEventGrid_region24_ipv4" {
+output "AzureEventGrid_ipv4" {
   value = [
     "20.43.66.128/25",
     "20.44.168.64/28",
     "52.185.176.112/28",
   ]
 }
-output "AzureEventGrid_region24_ipv6" {
+output "AzureEventGrid_ipv6" {
   value = [
     "2603:1040:407:1::380/121",
   ]
 }
-output "AzureEventGrid_region24" {
+output "AzureEventGrid" {
   value = [
     "20.43.66.128/25",
     "20.44.168.64/28",
@@ -682,7 +682,7 @@ output "AzureEventGrid_region24" {
     "2603:1040:407:1::380/121",
   ]
 }
-output "AzureIoTHub_region24_ipv4" {
+output "AzureIoTHub_ipv4" {
   value = [
     "13.71.150.19/32",
     "13.78.109.160/27",
@@ -694,14 +694,14 @@ output "AzureIoTHub_region24_ipv4" {
     "40.79.195.192/27",
   ]
 }
-output "AzureIoTHub_region24_ipv6" {
+output "AzureIoTHub_ipv6" {
   value = [
     "2603:1040:407:402::300/123",
     "2603:1040:407:802::240/123",
     "2603:1040:407:c02::240/123",
   ]
 }
-output "AzureIoTHub_region24" {
+output "AzureIoTHub" {
   value = [
     "13.71.150.19/32",
     "13.78.109.160/27",
@@ -716,7 +716,7 @@ output "AzureIoTHub_region24" {
     "2603:1040:407:c02::240/123",
   ]
 }
-output "AzureKeyVault_region24_ipv4" {
+output "AzureKeyVault_ipv4" {
   value = [
     "13.78.106.88/30",
     "20.188.2.148/32",
@@ -733,7 +733,7 @@ output "AzureKeyVault_region24_ipv4" {
     "104.46.219.184/32",
   ]
 }
-output "AzureKeyVault_region24_ipv6" {
+output "AzureKeyVault_ipv6" {
   value = [
     "2603:1040:407::340/125",
     "2603:1040:407:402::80/125",
@@ -741,7 +741,7 @@ output "AzureKeyVault_region24_ipv6" {
     "2603:1040:407:c02::80/125",
   ]
 }
-output "AzureKeyVault_region24" {
+output "AzureKeyVault" {
   value = [
     "13.78.106.88/30",
     "20.188.2.148/32",
@@ -762,7 +762,7 @@ output "AzureKeyVault_region24" {
     "2603:1040:407:c02::80/125",
   ]
 }
-output "AzureMachineLearning_region24_ipv4" {
+output "AzureMachineLearning_ipv4" {
   value = [
     "13.78.106.208/28",
     "20.43.64.96/28",
@@ -773,12 +773,12 @@ output "AzureMachineLearning_region24_ipv4" {
     "52.155.115.7/32",
   ]
 }
-output "AzureMachineLearning_region24_ipv6" {
+output "AzureMachineLearning_ipv6" {
   value = [
     "2603:1040:407:1::2c0/122",
   ]
 }
-output "AzureMachineLearning_region24" {
+output "AzureMachineLearning" {
   value = [
     "13.78.106.208/28",
     "20.43.64.96/28",
@@ -790,7 +790,7 @@ output "AzureMachineLearning_region24" {
     "2603:1040:407:1::2c0/122",
   ]
 }
-output "AzureMonitor_region24_ipv4" {
+output "AzureMonitor_ipv4" {
   value = [
     "13.73.26.213/32",
     "13.78.10.58/32",
@@ -823,7 +823,7 @@ output "AzureMonitor_region24_ipv4" {
     "138.91.9.98/32",
   ]
 }
-output "AzureMonitor_region24_ipv6" {
+output "AzureMonitor_ipv6" {
   value = [
     "2603:1040:407::60/123",
     "2603:1040:407::1c0/122",
@@ -834,7 +834,7 @@ output "AzureMonitor_region24_ipv6" {
     "2603:1040:407:402::500/121",
   ]
 }
-output "AzureMonitor_region24" {
+output "AzureMonitor" {
   value = [
     "13.73.26.213/32",
     "13.78.10.58/32",
@@ -874,21 +874,21 @@ output "AzureMonitor_region24" {
     "2603:1040:407:402::500/121",
   ]
 }
-output "AzureOpenDatasets_region24_ipv4" {
+output "AzureOpenDatasets_ipv4" {
   value = [
     "20.43.65.160/28",
   ]
 }
-output "AzureOpenDatasets_region24_ipv6" {
+output "AzureOpenDatasets_ipv6" {
   value = [
   ]
 }
-output "AzureOpenDatasets_region24" {
+output "AzureOpenDatasets" {
   value = [
     "20.43.65.160/28",
   ]
 }
-output "AzurePortal_region24_ipv4" {
+output "AzurePortal_ipv4" {
   value = [
     "13.78.49.187/32",
     "20.43.66.64/27",
@@ -900,13 +900,13 @@ output "AzurePortal_region24_ipv4" {
     "40.79.189.96/28",
   ]
 }
-output "AzurePortal_region24_ipv6" {
+output "AzurePortal_ipv6" {
   value = [
     "2603:1040:407::100/121",
     "2603:1040:407:1::680/121",
   ]
 }
-output "AzurePortal_region24" {
+output "AzurePortal" {
   value = [
     "13.78.49.187/32",
     "20.43.66.64/27",
@@ -920,20 +920,20 @@ output "AzurePortal_region24" {
     "2603:1040:407:1::680/121",
   ]
 }
-output "AzureResourceManager_region24_ipv4" {
+output "AzureResourceManager_ipv4" {
   value = [
     "13.78.109.96/28",
     "20.191.162.0/23",
     "40.79.198.0/23",
   ]
 }
-output "AzureResourceManager_region24_ipv6" {
+output "AzureResourceManager_ipv6" {
   value = [
     "2603:1040:407::180/122",
     "2603:1040:407:402::280/122",
   ]
 }
-output "AzureResourceManager_region24" {
+output "AzureResourceManager" {
   value = [
     "13.78.109.96/28",
     "20.191.162.0/23",
@@ -942,21 +942,21 @@ output "AzureResourceManager_region24" {
     "2603:1040:407:402::280/122",
   ]
 }
-output "AzureSecurityCenter_region24_ipv4" {
+output "AzureSecurityCenter_ipv4" {
   value = [
     "40.79.190.128/27",
   ]
 }
-output "AzureSecurityCenter_region24_ipv6" {
+output "AzureSecurityCenter_ipv6" {
   value = [
   ]
 }
-output "AzureSecurityCenter_region24" {
+output "AzureSecurityCenter" {
   value = [
     "40.79.190.128/27",
   ]
 }
-output "AzureSignalR_region24_ipv4" {
+output "AzureSignalR_ipv4" {
   value = [
     "13.78.109.224/27",
     "20.191.166.64/27",
@@ -964,12 +964,12 @@ output "AzureSignalR_region24_ipv4" {
     "40.79.197.0/27",
   ]
 }
-output "AzureSignalR_region24_ipv6" {
+output "AzureSignalR_ipv6" {
   value = [
     "2603:1040:407:2::300/120",
   ]
 }
-output "AzureSignalR_region24" {
+output "AzureSignalR" {
   value = [
     "13.78.109.224/27",
     "20.191.166.64/27",
@@ -978,7 +978,7 @@ output "AzureSignalR_region24" {
     "2603:1040:407:2::300/120",
   ]
 }
-output "BatchNodeManagement_region24_ipv4" {
+output "BatchNodeManagement_ipv4" {
   value = [
     "13.71.144.135/32",
     "13.78.108.128/27",
@@ -990,12 +990,12 @@ output "BatchNodeManagement_region24_ipv4" {
     "138.91.1.114/32",
   ]
 }
-output "BatchNodeManagement_region24_ipv6" {
+output "BatchNodeManagement_ipv6" {
   value = [
     "2603:1040:407:1::340/122",
   ]
 }
-output "BatchNodeManagement_region24" {
+output "BatchNodeManagement" {
   value = [
     "13.71.144.135/32",
     "13.78.108.128/27",
@@ -1008,7 +1008,7 @@ output "BatchNodeManagement_region24" {
     "2603:1040:407:1::340/122",
   ]
 }
-output "DataFactory_region24_ipv4" {
+output "DataFactory_ipv4" {
   value = [
     "13.78.109.192/28",
     "20.43.64.128/25",
@@ -1020,7 +1020,7 @@ output "DataFactory_region24_ipv4" {
     "40.79.195.224/28",
   ]
 }
-output "DataFactory_region24_ipv6" {
+output "DataFactory_ipv6" {
   value = [
     "2603:1040:407:1::480/121",
     "2603:1040:407:1::500/122",
@@ -1031,7 +1031,7 @@ output "DataFactory_region24_ipv6" {
     "2603:1040:407:c02::210/124",
   ]
 }
-output "DataFactory_region24" {
+output "DataFactory" {
   value = [
     "13.78.109.192/28",
     "20.43.64.128/25",
@@ -1050,21 +1050,21 @@ output "DataFactory_region24" {
     "2603:1040:407:c02::210/124",
   ]
 }
-output "Dynamics365ForMarketingEmail_region24_ipv4" {
+output "Dynamics365ForMarketingEmail_ipv4" {
   value = [
     "13.78.107.0/24",
   ]
 }
-output "Dynamics365ForMarketingEmail_region24_ipv6" {
+output "Dynamics365ForMarketingEmail_ipv6" {
   value = [
   ]
 }
-output "Dynamics365ForMarketingEmail_region24" {
+output "Dynamics365ForMarketingEmail" {
   value = [
     "13.78.107.0/24",
   ]
 }
-output "AzureEventHub_region24_ipv4" {
+output "AzureEventHub_ipv4" {
   value = [
     "13.71.154.11/32",
     "13.78.106.64/28",
@@ -1079,7 +1079,7 @@ output "AzureEventHub_region24_ipv4" {
     "138.91.1.105/32",
   ]
 }
-output "AzureEventHub_region24_ipv6" {
+output "AzureEventHub_ipv6" {
   value = [
     "2603:1040:407:1::240/122",
     "2603:1040:407:2::200/120",
@@ -1088,7 +1088,7 @@ output "AzureEventHub_region24_ipv6" {
     "2603:1040:407:c02::160/123",
   ]
 }
-output "AzureEventHub_region24" {
+output "AzureEventHub" {
   value = [
     "13.71.154.11/32",
     "13.78.106.64/28",
@@ -1108,7 +1108,7 @@ output "AzureEventHub_region24" {
     "2603:1040:407:c02::160/123",
   ]
 }
-output "GatewayManager_region24_ipv4" {
+output "GatewayManager_ipv4" {
   value = [
     "13.78.108.16/29",
     "20.43.64.72/29",
@@ -1117,12 +1117,12 @@ output "GatewayManager_region24_ipv4" {
     "40.115.254.17/32",
   ]
 }
-output "GatewayManager_region24_ipv6" {
+output "GatewayManager_ipv6" {
   value = [
     "2603:1040:407:1::40/122",
   ]
 }
-output "GatewayManager_region24" {
+output "GatewayManager" {
   value = [
     "13.78.108.16/29",
     "20.43.64.72/29",
@@ -1132,7 +1132,7 @@ output "GatewayManager_region24" {
     "2603:1040:407:1::40/122",
   ]
 }
-output "HDInsight_region24_ipv4" {
+output "HDInsight_ipv4" {
   value = [
     "13.78.89.60/32",
     "13.78.125.90/32",
@@ -1140,12 +1140,12 @@ output "HDInsight_region24_ipv4" {
     "40.79.187.0/29",
   ]
 }
-output "HDInsight_region24_ipv6" {
+output "HDInsight_ipv6" {
   value = [
     "2603:1040:407:402::320/124",
   ]
 }
-output "HDInsight_region24" {
+output "HDInsight" {
   value = [
     "13.78.89.60/32",
     "13.78.125.90/32",
@@ -1154,7 +1154,7 @@ output "HDInsight_region24" {
     "2603:1040:407:402::320/124",
   ]
 }
-output "LogicApps_region24_ipv4" {
+output "LogicApps_ipv4" {
   value = [
     "13.71.146.140/32",
     "13.71.158.3/32",
@@ -1180,13 +1180,13 @@ output "LogicApps_region24_ipv4" {
     "104.41.182.232/32",
   ]
 }
-output "LogicApps_region24_ipv6" {
+output "LogicApps_ipv6" {
   value = [
     "2603:1040:407:402::3c0/124",
     "2603:1040:407:402::3e0/123",
   ]
 }
-output "LogicApps_region24" {
+output "LogicApps" {
   value = [
     "13.71.146.140/32",
     "13.71.158.3/32",
@@ -1214,21 +1214,21 @@ output "LogicApps_region24" {
     "2603:1040:407:402::3e0/123",
   ]
 }
-output "MicrosoftContainerRegistry_region24_ipv4" {
+output "MicrosoftContainerRegistry_ipv4" {
   value = [
     "13.78.106.192/29",
     "40.79.186.0/29",
     "40.79.194.88/29",
   ]
 }
-output "MicrosoftContainerRegistry_region24_ipv6" {
+output "MicrosoftContainerRegistry_ipv6" {
   value = [
     "2603:1040:407:402::88/125",
     "2603:1040:407:802::88/125",
     "2603:1040:407:c02::88/125",
   ]
 }
-output "MicrosoftContainerRegistry_region24" {
+output "MicrosoftContainerRegistry" {
   value = [
     "13.78.106.192/29",
     "40.79.186.0/29",
@@ -1238,37 +1238,37 @@ output "MicrosoftContainerRegistry_region24" {
     "2603:1040:407:c02::88/125",
   ]
 }
-output "PowerQueryOnline_region24_ipv4" {
+output "PowerQueryOnline_ipv4" {
   value = [
     "20.43.64.70/31",
   ]
 }
-output "PowerQueryOnline_region24_ipv6" {
+output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1040:407:1::200/123",
   ]
 }
-output "PowerQueryOnline_region24" {
+output "PowerQueryOnline" {
   value = [
     "20.43.64.70/31",
     "2603:1040:407:1::200/123",
   ]
 }
-output "SCCservice_region24_ipv4" {
+output "SCCservice_ipv4" {
   value = [
     "13.78.111.200/29",
   ]
 }
-output "SCCservice_region24_ipv6" {
+output "SCCservice_ipv6" {
   value = [
   ]
 }
-output "SCCservice_region24" {
+output "SCCservice" {
   value = [
     "13.78.111.200/29",
   ]
 }
-output "AzureServiceBus_region24_ipv4" {
+output "AzureServiceBus_ipv4" {
   value = [
     "13.78.94.187/32",
     "13.78.106.80/29",
@@ -1279,7 +1279,7 @@ output "AzureServiceBus_region24_ipv4" {
     "40.79.194.80/29",
   ]
 }
-output "AzureServiceBus_region24_ipv6" {
+output "AzureServiceBus_ipv6" {
   value = [
     "2603:1040:407::700/120",
     "2603:1040:407:1::220/123",
@@ -1288,7 +1288,7 @@ output "AzureServiceBus_region24_ipv6" {
     "2603:1040:407:c02::150/125",
   ]
 }
-output "AzureServiceBus_region24" {
+output "AzureServiceBus" {
   value = [
     "13.78.94.187/32",
     "13.78.106.80/29",
@@ -1304,7 +1304,7 @@ output "AzureServiceBus_region24" {
     "2603:1040:407:c02::150/125",
   ]
 }
-output "ServiceFabric_region24_ipv4" {
+output "ServiceFabric_ipv4" {
   value = [
     "13.78.108.24/29",
     "40.79.189.60/30",
@@ -1312,14 +1312,14 @@ output "ServiceFabric_region24_ipv4" {
     "104.41.187.29/32",
   ]
 }
-output "ServiceFabric_region24_ipv6" {
+output "ServiceFabric_ipv6" {
   value = [
     "2603:1040:407:402::98/125",
     "2603:1040:407:802::98/125",
     "2603:1040:407:c02::98/125",
   ]
 }
-output "ServiceFabric_region24" {
+output "ServiceFabric" {
   value = [
     "13.78.108.24/29",
     "40.79.189.60/30",
@@ -1330,7 +1330,7 @@ output "ServiceFabric_region24" {
     "2603:1040:407:c02::98/125",
   ]
 }
-output "AzureSQL_region24_ipv4" {
+output "AzureSQL_ipv4" {
   value = [
     "13.78.61.196/32",
     "13.78.104.0/27",
@@ -1351,7 +1351,7 @@ output "AzureSQL_region24_ipv4" {
     "191.237.240.43/32",
   ]
 }
-output "AzureSQL_region24_ipv6" {
+output "AzureSQL_ipv6" {
   value = [
     "2603:1040:407::320/123",
     "2603:1040:407::380/121",
@@ -1363,7 +1363,7 @@ output "AzureSQL_region24_ipv6" {
     "2603:1040:407:c01::/123",
   ]
 }
-output "AzureSQL_region24" {
+output "AzureSQL" {
   value = [
     "13.78.61.196/32",
     "13.78.104.0/27",
@@ -1392,7 +1392,7 @@ output "AzureSQL_region24" {
     "2603:1040:407:c01::/123",
   ]
 }
-output "AzureStorage_region24_ipv4" {
+output "AzureStorage_ipv4" {
   value = [
     "13.73.8.16/28",
     "13.73.8.32/28",
@@ -1418,11 +1418,11 @@ output "AzureStorage_region24_ipv4" {
     "52.239.144.0/23",
   ]
 }
-output "AzureStorage_region24_ipv6" {
+output "AzureStorage_ipv6" {
   value = [
   ]
 }
-output "AzureStorage_region24" {
+output "AzureStorage" {
   value = [
     "13.73.8.16/28",
     "13.73.8.32/28",
@@ -1448,25 +1448,25 @@ output "AzureStorage_region24" {
     "52.239.144.0/23",
   ]
 }
-output "StorageSyncService_region24_ipv4" {
+output "StorageSyncService_ipv4" {
   value = [
     "20.43.66.0/29",
     "104.41.161.113/32",
   ]
 }
-output "StorageSyncService_region24_ipv6" {
+output "StorageSyncService_ipv6" {
   value = [
     "2603:1040:407:1::300/123",
   ]
 }
-output "StorageSyncService_region24" {
+output "StorageSyncService" {
   value = [
     "20.43.66.0/29",
     "104.41.161.113/32",
     "2603:1040:407:1::300/123",
   ]
 }
-output "WindowsVirtualDesktop_region24_ipv4" {
+output "WindowsVirtualDesktop_ipv4" {
   value = [
     "20.188.3.1/32",
     "23.100.98.36/32",
@@ -1478,11 +1478,11 @@ output "WindowsVirtualDesktop_region24_ipv4" {
     "104.41.166.159/32",
   ]
 }
-output "WindowsVirtualDesktop_region24_ipv6" {
+output "WindowsVirtualDesktop_ipv6" {
   value = [
   ]
 }
-output "WindowsVirtualDesktop_region24" {
+output "WindowsVirtualDesktop" {
   value = [
     "20.188.3.1/32",
     "23.100.98.36/32",

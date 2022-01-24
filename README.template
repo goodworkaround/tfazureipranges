@@ -23,5 +23,6 @@ output "westeurope" {
 # Example 3 - Getting all IPv4 IPs used by Azure Monitor globally
 
 
-
 # Region ID to region name
+
+REGIONIDTABLE
