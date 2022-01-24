@@ -1,4 +1,4 @@
-output "region53_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "52.108.126.0/24",
     "52.109.82.0/23",
@@ -7,20 +7,11 @@ output "region53_ipv4" {
     "52.253.208.0/23",
   ]
 }
-output "region53_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
   ]
 }
-output "region53" {
-  value = [
-    "52.108.126.0/24",
-    "52.109.82.0/23",
-    "52.111.195.0/24",
-    "52.253.207.0/24",
-    "52.253.208.0/23",
-  ]
-}
-output "all_ipv4" {
+output "AzureCloud" {
   value = [
     "52.108.126.0/24",
     "52.109.82.0/23",
@@ -29,11 +20,20 @@ output "all_ipv4" {
     "52.253.208.0/23",
   ]
 }
-output "all_ipv6" {
+output "All_ipv4" {
+  value = [
+    "52.108.126.0/24",
+    "52.109.82.0/23",
+    "52.111.195.0/24",
+    "52.253.207.0/24",
+    "52.253.208.0/23",
+  ]
+}
+output "All_ipv6" {
   value = [
   ]
 }
-output "all" {
+output "All" {
   value = [
     "52.108.126.0/24",
     "52.109.82.0/23",

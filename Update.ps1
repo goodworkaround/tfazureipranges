@@ -9,6 +9,7 @@ $ProgressPreference = "SilentlyContinue"
 $r = Invoke-WebRequest $url -UseBasicParsing -Verbose:$false
 $url = [Regex]::Matches($r.Content,'"https://download.microsoft.com/(.)+json"')[-1].Value
 
+# Locate url
 if($url) {
     $url = $url.Trim('"')
     Write-Verbose "Downloading JSON from $url"
@@ -17,6 +18,7 @@ if($url) {
     throw "Unable to determine url of JSON with IP addresses"
 }
 
+# Function to return a HCL string array output
 Function New-TerraformStringArrayOutput {
     [CmdletBinding()]
 
@@ -45,6 +47,7 @@ Function New-TerraformStringArrayOutput {
     }
 }
 
+# Function to return a HCL string output
 Function New-TerraformStringOutput {
     [CmdletBinding()]
 
@@ -59,27 +62,41 @@ Function New-TerraformStringOutput {
     }
 }
 
+# Clean up Generated folder
 if($PSScriptRoot) {Set-Location $PSScriptRoot}
 Remove-Item -Path Generated -Force -Confirm:$false -Recurse
 mkdir Generated | Out-Null
 
+# Map to store all region ids
 $regionids = @{
     "0" = "Global"
 }
 
+# Loop through all entries in the json in an ordered manner (to make sure files are always the same)
 $json.values | 
+    Where-Object id -notlike "*.*Stage" |
     Sort-Object -Property id |
     ForEach-Object `
         -Begin {
+            # Progress tracking
             $inc = 1
             $total = $json.values | Measure-Object | Select-Object -ExpandProperty Count
         } `
         -Process {
+            # Progress tracking
             Write-Verbose "Processing entry $inc / $total - $($_.id)"
             $inc += 1
 
+            $service = $_.properties.systemService
+            if($_.id -like "*.*" -and $($_.properties.regionId) -ne "0") {
+                $service = $_.id -split "\." | Select-Object -First 1
+            } elseif($_.id -ne "AzureCloud") {
+                $service = $_.id -replace "\.","_"
+            }
+
+            # Create folders for services and regions
             $regionfolder = "Generated/$($_.properties.regionId)"
-            $servicefolder = "Generated/$($_.properties.systemService)"
+            $servicefolder = "Generated/$($service)"
             
             if(!(Test-Path $regionfolder)) {
                 mkdir $regionfolder | Out-Null
@@ -89,39 +106,44 @@ $json.values |
                 mkdir $servicefolder | Out-Null
             }
 
+            # Add the regionid to the regionid map
             if(!$regionids.ContainsKey("$($_.properties.regionId)")) {
                 $regionids["$($_.properties.regionId)"] = $_.name -split "\." | Select-Object -Last 1
             }
 
-            $tfnameregion = "{0}" -f $_.properties.systemService
+            
+            $tfnameregion = "{0}" -f $service
             if("$($_.properties.regionId)" -eq "0") {
-                $tfnameregion = "{0}_region{1}" -f $_.properties.systemService, $_.properties.regionId
-            } elseif([String]::IsNullOrEmpty($_.properties.systemService)) {
-                $tfnameregion = "region{1}" -f $_.properties.systemService, $_.properties.regionId
+                $tfnameregion = "{0}_region{1}" -f $service, $_.properties.regionId
+            } elseif([String]::IsNullOrEmpty($service)) {
+                $tfnameregion = "region{1}" -f $service, $_.properties.regionId
             }
             $tfnameservice = "region{0}" -f $_.properties.regionId
 
+            # Extract IP addresses split by ipv4 and ipv6
             $ipv4 = $_.properties.addressPrefixes | Where-Object {$_ -like "*.*.*.*"}
             $ipv6 = $_.properties.addressPrefixes | Where-Object {$_ -like "*:*:*"}
             $ip = $_.properties.addressPrefixes | Where-Object {$_ -like "*.*.*.*" -or $_ -like "*:*:*"}
 
-            
+            # Add to the region, as everything will point to one. 0 is global.
             New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
             New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
             New-TerraformStringArrayOutput -identifier "$($tfnameregion)" -values $ip | Add-Content "$regionfolder/outputs.tf"
             
-            
+            # If systemService is set, add entry to the service folder
             if(![String]::IsNullOrWhiteSpace($_.properties.systemService)) {
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv4" -values $ipv4 | Add-Content "$servicefolder/outputs.tf"
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv6" -values $ipv6 | Add-Content "$servicefolder/outputs.tf"
                 New-TerraformStringArrayOutput -identifier "$($tfnameservice)" -values $ip | Add-Content "$servicefolder/outputs.tf"
+            # Otherwise, if the name if AzureCloud (Global), add "All" to the region output
             } elseif($_.name -like "AzureCloud.*") {
-                New-TerraformStringArrayOutput -identifier "all_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "all_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "all" -values $ip | Add-Content "$regionfolder/outputs.tf"
+                New-TerraformStringArrayOutput -identifier "All_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
+                New-TerraformStringArrayOutput -identifier "All_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
+                New-TerraformStringArrayOutput -identifier "All" -values $ip | Add-Content "$regionfolder/outputs.tf"
             }
         }
 
+# Generate metadata.tf files
 Get-ChildItem Generated | ForEach-Object `
     -Begin {
         $tfoutputs = @(
@@ -136,12 +158,15 @@ Get-ChildItem Generated | ForEach-Object `
         Set-Content -path "$($_.FullName)/metadata.tf" -Verbose -Value $tfoutputs
     }
 
+# Generate README.md
+$README = Get-Content README.template
+
+# Add region id table
 $regionids.Keys | 
     ForEach-Object{[int] $_} | 
     Sort-Object | 
     ForEach-Object `
     -Begin {
-        $README = Get-Content README.template
         $REGIONIDTABLE = "| Region ID | Name |`n"
         $REGIONIDTABLE += "| - | - |`n"
     } `
@@ -149,5 +174,7 @@ $regionids.Keys |
         $REGIONIDTABLE += "| {0} | {1} |`n" -f $_, $regionids["$($_)"]
     } `
     -End {
-        $README -creplace "REGIONIDTABLE", $REGIONIDTABLE | Set-Content README.md
+        $README = $README -creplace "REGIONIDTABLE", $REGIONIDTABLE
     }
+
+$README | Set-Content README.md

@@ -1,33 +1,33 @@
-output "region92_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "20.201.140.0/23",
     "20.201.142.0/24",
     "52.108.125.0/24",
   ]
 }
-output "region92_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
   ]
 }
-output "region92" {
-  value = [
-    "20.201.140.0/23",
-    "20.201.142.0/24",
-    "52.108.125.0/24",
-  ]
-}
-output "all_ipv4" {
+output "AzureCloud" {
   value = [
     "20.201.140.0/23",
     "20.201.142.0/24",
     "52.108.125.0/24",
   ]
 }
-output "all_ipv6" {
+output "All_ipv4" {
+  value = [
+    "20.201.140.0/23",
+    "20.201.142.0/24",
+    "52.108.125.0/24",
+  ]
+}
+output "All_ipv6" {
   value = [
   ]
 }
-output "all" {
+output "All" {
   value = [
     "20.201.140.0/23",
     "20.201.142.0/24",

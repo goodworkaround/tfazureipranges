@@ -1,27 +1,27 @@
-output "region15_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "70.37.12.0/32",
   ]
 }
-output "region15_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
   ]
 }
-output "region15" {
-  value = [
-    "70.37.12.0/32",
-  ]
-}
-output "all_ipv4" {
+output "AzureCloud" {
   value = [
     "70.37.12.0/32",
   ]
 }
-output "all_ipv6" {
+output "All_ipv4" {
+  value = [
+    "70.37.12.0/32",
+  ]
+}
+output "All_ipv6" {
   value = [
   ]
 }
-output "all" {
+output "All" {
   value = [
     "70.37.12.0/32",
   ]

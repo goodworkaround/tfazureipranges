@@ -20,6 +20,20 @@ output "westeurope" {
 
 # Example 2 - Getting several NorthEurope services
 
+```HCL
+module "northeurope" {
+    source = "github.com/goodworkaround/tfazureipranges/Generated/17"
+}
+
+output "AzureAppServiceManagement" {
+    value = module.northeurope.AzureAppServiceManagement
+}
+
+output "All" {
+    value = module.northeurope.All
+}
+```
+
 # Example 3 - Getting all IPv4 IPs used by Azure Monitor globally
 
 

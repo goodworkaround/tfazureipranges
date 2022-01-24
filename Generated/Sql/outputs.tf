@@ -2918,20 +2918,6 @@ output "region49" {
     "2603:1030:40b:c03::/122",
   ]
 }
-output "region33_ipv4" {
-  value = [
-    "137.116.31.224/27",
-  ]
-}
-output "region33_ipv6" {
-  value = [
-  ]
-}
-output "region33" {
-  value = [
-    "137.116.31.224/27",
-  ]
-}
 output "region94_ipv4" {
   value = [
     "20.72.21.224/27",
@@ -3490,20 +3476,6 @@ output "region34" {
     "2603:1030:608::280/123",
     "2603:1030:608:1::200/121",
     "2603:1030:608:400::/123",
-  ]
-}
-output "region34_ipv4" {
-  value = [
-    "168.62.115.112/28",
-  ]
-}
-output "region34_ipv6" {
-  value = [
-  ]
-}
-output "region34" {
-  value = [
-    "168.62.115.112/28",
   ]
 }
 output "region17_ipv4" {

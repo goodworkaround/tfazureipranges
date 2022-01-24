@@ -12,7 +12,7 @@ output "ActionGroup" {
     "2603:1040:f05:402::178/125",
   ]
 }
-output "AzureApiManagement_ipv4" {
+output "ApiManagement_ipv4" {
   value = [
     "20.194.74.240/28",
     "40.82.157.167/32",
@@ -20,13 +20,13 @@ output "AzureApiManagement_ipv4" {
     "52.231.19.192/28",
   ]
 }
-output "AzureApiManagement_ipv6" {
+output "ApiManagement_ipv6" {
   value = [
     "2603:1040:f05::6f0/124",
     "2603:1040:f05:402::140/124",
   ]
 }
-output "AzureApiManagement" {
+output "ApiManagement" {
   value = [
     "20.194.74.240/28",
     "40.82.157.167/32",
@@ -36,7 +36,7 @@ output "AzureApiManagement" {
     "2603:1040:f05:402::140/124",
   ]
 }
-output "AzureAppService_ipv4" {
+output "AppService_ipv4" {
   value = [
     "20.41.66.224/27",
     "20.44.26.160/27",
@@ -50,7 +50,7 @@ output "AzureAppService_ipv4" {
     "52.231.77.58/32",
   ]
 }
-output "AzureAppService_ipv6" {
+output "AppService_ipv6" {
   value = [
     "2603:1040:f05:3::200/119",
     "2603:1040:f05:402::a0/123",
@@ -58,7 +58,7 @@ output "AzureAppService_ipv6" {
     "2603:1040:f05:c02::a0/123",
   ]
 }
-output "AzureAppService" {
+output "AppService" {
   value = [
     "20.41.66.224/27",
     "20.44.26.160/27",
@@ -76,7 +76,7 @@ output "AzureAppService" {
     "2603:1040:f05:c02::a0/123",
   ]
 }
-output "AzureAppServiceManagement_ipv4" {
+output "AppServiceManagement_ipv4" {
   value = [
     "20.44.27.0/26",
     "20.194.66.128/26",
@@ -85,7 +85,7 @@ output "AzureAppServiceManagement_ipv4" {
     "52.231.32.117/32",
   ]
 }
-output "AzureAppServiceManagement_ipv6" {
+output "AppServiceManagement_ipv6" {
   value = [
     "2603:1040:f05:3::100/123",
     "2603:1040:f05:402::100/122",
@@ -93,7 +93,7 @@ output "AzureAppServiceManagement_ipv6" {
     "2603:1040:f05:c02::100/122",
   ]
 }
-output "AzureAppServiceManagement" {
+output "AppServiceManagement" {
   value = [
     "20.44.27.0/26",
     "20.194.66.128/26",
@@ -198,7 +198,7 @@ output "AzureBotService" {
     "2603:1040:f05:1::20/123",
   ]
 }
-output "region26_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "13.104.129.192/26",
     "13.104.223.128/26",
@@ -262,7 +262,7 @@ output "region26_ipv4" {
     "104.44.90.160/27",
   ]
 }
-output "region26_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
     "2603:1040:f00::/47",
     "2603:1040:f02::/48",
@@ -275,7 +275,7 @@ output "region26_ipv6" {
     "2603:1047:1:160::/59",
   ]
 }
-output "region26" {
+output "AzureCloud" {
   value = [
     "13.104.129.192/26",
     "13.104.223.128/26",
@@ -348,7 +348,7 @@ output "region26" {
     "2603:1047:1:160::/59",
   ]
 }
-output "all_ipv4" {
+output "All_ipv4" {
   value = [
     "13.104.129.192/26",
     "13.104.223.128/26",
@@ -412,7 +412,7 @@ output "all_ipv4" {
     "104.44.90.160/27",
   ]
 }
-output "all_ipv6" {
+output "All_ipv6" {
   value = [
     "2603:1040:f00::/47",
     "2603:1040:f02::/48",
@@ -425,7 +425,7 @@ output "all_ipv6" {
     "2603:1047:1:160::/59",
   ]
 }
-output "all" {
+output "All" {
   value = [
     "13.104.129.192/26",
     "13.104.223.128/26",
@@ -1026,7 +1026,7 @@ output "DataFactory" {
     "2603:1040:f05:c02::210/124",
   ]
 }
-output "AzureEventHub_ipv4" {
+output "EventHub_ipv4" {
   value = [
     "20.44.26.64/26",
     "20.44.31.128/26",
@@ -1039,7 +1039,7 @@ output "AzureEventHub_ipv4" {
     "52.231.32.94/32",
   ]
 }
-output "AzureEventHub_ipv6" {
+output "EventHub_ipv6" {
   value = [
     "2603:1040:f05:1::240/122",
     "2603:1040:f05:2::600/120",
@@ -1048,7 +1048,7 @@ output "AzureEventHub_ipv6" {
     "2603:1040:f05:c02::160/123",
   ]
 }
-output "AzureEventHub" {
+output "EventHub" {
   value = [
     "20.44.26.64/26",
     "20.44.31.128/26",
@@ -1190,7 +1190,7 @@ output "SCCservice" {
     "52.231.23.96/29",
   ]
 }
-output "AzureServiceBus_ipv4" {
+output "ServiceBus_ipv4" {
   value = [
     "20.44.26.128/29",
     "20.44.31.64/26",
@@ -1201,7 +1201,7 @@ output "AzureServiceBus_ipv4" {
     "52.231.23.128/26",
   ]
 }
-output "AzureServiceBus_ipv6" {
+output "ServiceBus_ipv6" {
   value = [
     "2603:1040:f05:1::220/123",
     "2603:1040:f05:2::300/120",
@@ -1210,7 +1210,7 @@ output "AzureServiceBus_ipv6" {
     "2603:1040:f05:c02::150/125",
   ]
 }
-output "AzureServiceBus" {
+output "ServiceBus" {
   value = [
     "20.44.26.128/29",
     "20.44.31.64/26",
@@ -1252,7 +1252,7 @@ output "ServiceFabric" {
     "2603:1040:f05:c02::98/125",
   ]
 }
-output "AzureSQL_ipv4" {
+output "Sql_ipv4" {
   value = [
     "20.44.24.0/27",
     "20.44.24.32/29",
@@ -1269,7 +1269,7 @@ output "AzureSQL_ipv4" {
     "52.231.32.42/32",
   ]
 }
-output "AzureSQL_ipv6" {
+output "Sql_ipv6" {
   value = [
     "2603:1040:f05::320/123",
     "2603:1040:f05::380/121",
@@ -1281,7 +1281,7 @@ output "AzureSQL_ipv6" {
     "2603:1040:f05:c01::/123",
   ]
 }
-output "AzureSQL" {
+output "Sql" {
   value = [
     "20.44.24.0/27",
     "20.44.24.32/29",
@@ -1306,7 +1306,7 @@ output "AzureSQL" {
     "2603:1040:f05:c01::/123",
   ]
 }
-output "AzureStorage_ipv4" {
+output "Storage_ipv4" {
   value = [
     "20.47.46.0/24",
     "20.60.16.0/24",
@@ -1322,11 +1322,11 @@ output "AzureStorage_ipv4" {
     "52.239.190.128/26",
   ]
 }
-output "AzureStorage_ipv6" {
+output "Storage_ipv6" {
   value = [
   ]
 }
-output "AzureStorage" {
+output "Storage" {
   value = [
     "20.47.46.0/24",
     "20.60.16.0/24",

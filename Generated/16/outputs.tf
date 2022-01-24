@@ -1,11 +1,11 @@
-output "region16_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "40.78.212.0/24",
     "40.80.4.0/22",
     "52.108.128.0/24",
   ]
 }
-output "region16_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
     "2603:1020:500::/47",
     "2603:1020:503::/48",
@@ -15,7 +15,7 @@ output "region16_ipv6" {
     "2603:1027:1:160::/59",
   ]
 }
-output "region16" {
+output "AzureCloud" {
   value = [
     "40.78.212.0/24",
     "40.80.4.0/22",
@@ -28,14 +28,14 @@ output "region16" {
     "2603:1027:1:160::/59",
   ]
 }
-output "all_ipv4" {
+output "All_ipv4" {
   value = [
     "40.78.212.0/24",
     "40.80.4.0/22",
     "52.108.128.0/24",
   ]
 }
-output "all_ipv6" {
+output "All_ipv6" {
   value = [
     "2603:1020:500::/47",
     "2603:1020:503::/48",
@@ -45,7 +45,7 @@ output "all_ipv6" {
     "2603:1027:1:160::/59",
   ]
 }
-output "all" {
+output "All" {
   value = [
     "40.78.212.0/24",
     "40.80.4.0/22",

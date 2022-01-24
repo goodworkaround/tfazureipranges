@@ -1,10 +1,10 @@
-output "region10_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "20.201.132.0/23",
     "20.201.134.0/24",
   ]
 }
-output "region10_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
     "2603:1050:211::/48",
     "2603:1050:214::/48",
@@ -13,7 +13,7 @@ output "region10_ipv6" {
     "2603:1056:1500:c::/64",
   ]
 }
-output "region10" {
+output "AzureCloud" {
   value = [
     "20.201.132.0/23",
     "20.201.134.0/24",
@@ -24,13 +24,13 @@ output "region10" {
     "2603:1056:1500:c::/64",
   ]
 }
-output "all_ipv4" {
+output "All_ipv4" {
   value = [
     "20.201.132.0/23",
     "20.201.134.0/24",
   ]
 }
-output "all_ipv6" {
+output "All_ipv6" {
   value = [
     "2603:1050:211::/48",
     "2603:1050:214::/48",
@@ -39,7 +39,7 @@ output "all_ipv6" {
     "2603:1056:1500:c::/64",
   ]
 }
-output "all" {
+output "All" {
   value = [
     "20.201.132.0/23",
     "20.201.134.0/24",

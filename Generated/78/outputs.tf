@@ -1,33 +1,33 @@
-output "region78_ipv4" {
+output "AzureCloud_ipv4" {
   value = [
     "23.97.112.224/27",
   ]
 }
-output "region78_ipv6" {
+output "AzureCloud_ipv6" {
   value = [
     "2603:1050:100::/40",
     "2603:1056:1402::/48",
   ]
 }
-output "region78" {
+output "AzureCloud" {
   value = [
     "23.97.112.224/27",
     "2603:1050:100::/40",
     "2603:1056:1402::/48",
   ]
 }
-output "all_ipv4" {
+output "All_ipv4" {
   value = [
     "23.97.112.224/27",
   ]
 }
-output "all_ipv6" {
+output "All_ipv6" {
   value = [
     "2603:1050:100::/40",
     "2603:1056:1402::/48",
   ]
 }
-output "all" {
+output "All" {
   value = [
     "23.97.112.224/27",
     "2603:1050:100::/40",
