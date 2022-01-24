@@ -180,3 +180,10 @@ $regionids.Keys |
 
 #$README -creplace "LASTUPDATE", (Get-Date).ToString("yyyy-MM-dd HH:mm")
 $README | Set-Content README.md
+
+$diff = git diff-index HEAD
+if(![String]::IsNullOrEmpty($diff)) {
+    git config --local user.email "noreply@goodworkaround.com"
+    git config --local user.name "github-actions[bot]"
+    git commit -m "Add changes" -a
+}
