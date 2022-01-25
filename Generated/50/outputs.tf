@@ -762,6 +762,7 @@ output "HDInsight" {
 }
 output "LogicApps_ipv4" {
   value = [
+    "20.200.160.160/27",
     "52.147.97.16/28",
     "52.147.97.32/27",
   ]
@@ -772,6 +773,7 @@ output "LogicApps_ipv6" {
 }
 output "LogicApps" {
   value = [
+    "20.200.160.160/27",
     "52.147.97.16/28",
     "52.147.97.32/27",
   ]

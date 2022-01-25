@@ -4807,6 +4807,9 @@ Available outputs:
 - AzureCosmosDB_ipv4
 - AzureCosmosDB_ipv6
 - AzureCosmosDB
+- AzureDataExplorerManagement_ipv4
+- AzureDataExplorerManagement_ipv6
+- AzureDataExplorerManagement
 - AzureDigitalTwins_ipv4
 - AzureDigitalTwins_ipv6
 - AzureDigitalTwins
@@ -7719,6 +7722,9 @@ Available outputs:
 - AzureCosmosDB_ipv4
 - AzureCosmosDB_ipv6
 - AzureCosmosDB
+- AzureDataExplorerManagement_ipv4
+- AzureDataExplorerManagement_ipv6
+- AzureDataExplorerManagement
 - AzureDigitalTwins_ipv4
 - AzureDigitalTwins_ipv6
 - AzureDigitalTwins
@@ -10480,6 +10486,9 @@ Available outputs:
 - region71_ipv4
 - region71_ipv6
 - region71
+- region85_ipv4
+- region85_ipv6
+- region85
 - region24_ipv4
 - region24_ipv6
 - region24
@@ -10510,6 +10519,9 @@ Available outputs:
 - region74_ipv4
 - region74_ipv6
 - region74
+- region52_ipv4
+- region52_ipv6
+- region52
 - region84_ipv4
 - region84_ipv6
 - region84
