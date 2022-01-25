@@ -15,7 +15,7 @@ module "modulename" {
     source = "github.com/goodworkaround/tfazureipranges/Generated/<modulefolder>"
 }
 
-# You can now use this: module.modulename.available_output
+# You can now use this: module.modulename.<available_output>
 ```
 
 # Example 1 - Getting NorwayEast and WestEurope IPs for AzureBackup
