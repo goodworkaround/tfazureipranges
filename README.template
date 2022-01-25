@@ -8,7 +8,7 @@ All regions are identified using IDs from the table further down on this page.
 
 # Usage
 
-The folders under the Generated folder, all represent either regions (The numeric ones) or services, such as AzureDevOps or LogicApps. Region folder 0 is "Global" services.
+The folders under the Generated folder, all represent either regions (The numeric ones) or services, such as AzureDevOps or LogicApps. Region folder 0 is "Global" services. The reason it is split into folders is performance; a combined module with all outputs takes 1 minute or so to load, on every plan and apply.
 
 ```HCL
 module "modulename" {
