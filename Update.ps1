@@ -179,6 +179,39 @@ $regionids.Keys |
         $README = $README -creplace "REGIONIDTABLE", $REGIONIDTABLE
     }
 
+
+$OUTPUTSECTIONS = Get-ChildItem Generated | 
+    Where-Object {Test-path (Join-Path $_.FullName "outputs.tf")} |
+    ForEach-Object {
+        if($regionids.ContainsKey($_.BaseName)) {
+            $regionname = $regionids[$_.BaseName]
+            "## Region $regionname"
+
+        } else {
+            "## $($_.BaseName)"
+        }
+
+        ""
+        "``````HCL"
+        'module "modulename" {'
+        '  source = "github.com/goodworkaround/tfazureipranges/Generated/{0}"' -f $_.BaseName
+        '}'
+        "``````"
+        ""
+        "Available outputs:"
+        ""
+
+        Get-Content (Join-Path $_.FullName "outputs.tf") | 
+            Where-Object {$_ -like "output*"} |
+            ForEach-Object {$_ -split '"' | Select-Object -Index 1} |
+            ForEach-Object {
+                "- $($_)"
+            }
+        ""
+    }
+
+$README = $README -creplace "OUTPUTSECTIONS", ($OUTPUTSECTIONS -join "`n")
+
 #$README -creplace "LASTUPDATE", (Get-Date).ToString("yyyy-MM-dd HH:mm")
 $README | Set-Content README.md
 

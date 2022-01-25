@@ -6,6 +6,18 @@ This module provides automatically up to date outputs for all IP ranges found in
 
 All regions are identified using IDs from the table further down on this page.
 
+# Usage
+
+The folders under the Generated folder, all represent either regions (The numeric ones) or services, such as AzureDevOps or LogicApps. Region folder 0 is "Global" services.
+
+```HCL
+module "modulename" {
+    source = "github.com/goodworkaround/tfazureipranges/Generated/<modulefolder>"
+}
+
+# You can now use this: module.modulename.available_output
+```
+
 # Example 1 - Getting NorwayEast and WestEurope IPs for AzureBackup
 
 ```HCL
@@ -53,3 +65,7 @@ output "AzureMonitor" {
 # Region ID to region name
 
 REGIONIDTABLE
+
+# List of available outputs, per module
+
+OUTPUTSECTIONS
