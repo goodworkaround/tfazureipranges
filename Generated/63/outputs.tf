@@ -994,6 +994,30 @@ output "MicrosoftContainerRegistry" {
     "2603:1020:e04:c02::88/125",
   ]
 }
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "20.100.0.160/27",
+    "20.100.1.0/26",
+    "20.100.1.160/29",
+    "51.120.44.32/27",
+    "51.120.44.64/26",
+    "51.120.232.48/29",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "20.100.0.160/27",
+    "20.100.1.0/26",
+    "20.100.1.160/29",
+    "51.120.44.32/27",
+    "51.120.44.64/26",
+    "51.120.232.48/29",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "51.120.40.70/31",
