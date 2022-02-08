@@ -383,6 +383,7 @@ output "AzureCosmosDB" {
 output "AzureDataExplorerManagement_ipv4" {
   value = [
     "20.192.235.128/28",
+    "20.207.2.112/28",
   ]
 }
 output "AzureDataExplorerManagement_ipv6" {
@@ -394,6 +395,7 @@ output "AzureDataExplorerManagement_ipv6" {
 output "AzureDataExplorerManagement" {
   value = [
     "20.192.235.128/28",
+    "20.207.2.112/28",
     "2603:1040:1104:1::680/121",
     "2603:1040:1104:400::150/124",
   ]
