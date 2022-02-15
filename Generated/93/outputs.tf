@@ -54,3 +54,17 @@ output "All" {
     "2603:1026:2500:3c::/64",
   ]
 }
+output "Storage_ipv4" {
+  value = [
+  ]
+}
+output "Storage_ipv6" {
+  value = [
+    "2603:1020:1201::/48",
+  ]
+}
+output "Storage" {
+  value = [
+    "2603:1020:1201::/48",
+  ]
+}

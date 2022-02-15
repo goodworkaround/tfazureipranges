@@ -874,12 +874,14 @@ output "Storage_ipv4" {
 }
 output "Storage_ipv6" {
   value = [
+    "2603:1040:1004::/48",
   ]
 }
 output "Storage" {
   value = [
     "20.60.208.0/23",
     "20.209.2.0/23",
+    "2603:1040:1004::/48",
   ]
 }
 output "StorageSyncService_ipv4" {

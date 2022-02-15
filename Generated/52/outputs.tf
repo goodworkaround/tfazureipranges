@@ -755,11 +755,13 @@ output "Storage_ipv4" {
 }
 output "Storage_ipv6" {
   value = [
+    "2603:1020:1301::/48",
   ]
 }
 output "Storage" {
   value = [
     "20.60.92.0/23",
+    "2603:1020:1301::/48",
   ]
 }
 output "StorageSyncService_ipv4" {

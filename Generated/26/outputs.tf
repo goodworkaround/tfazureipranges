@@ -523,6 +523,7 @@ output "AzureCognitiveSearch" {
 output "AzureConnectors_ipv4" {
   value = [
     "20.44.29.64/27",
+    "20.194.40.106/32",
     "20.200.194.160/27",
     "20.200.194.192/28",
     "52.141.1.104/32",
@@ -538,6 +539,7 @@ output "AzureConnectors_ipv6" {
 output "AzureConnectors" {
   value = [
     "20.44.29.64/27",
+    "20.194.40.106/32",
     "20.200.194.160/27",
     "20.200.194.192/28",
     "52.141.1.104/32",
@@ -1370,6 +1372,7 @@ output "Storage_ipv4" {
 }
 output "Storage_ipv6" {
   value = [
+    "2603:1040:f06::/48",
   ]
 }
 output "Storage" {
@@ -1386,6 +1389,7 @@ output "Storage" {
     "52.239.148.0/27",
     "52.239.164.192/26",
     "52.239.190.128/26",
+    "2603:1040:f06::/48",
   ]
 }
 output "StorageSyncService_ipv4" {

@@ -911,6 +911,7 @@ output "Storage_ipv4" {
 }
 output "Storage_ipv6" {
   value = [
+    "2603:1010:305::/48",
   ]
 }
 output "Storage" {
@@ -920,6 +921,7 @@ output "Storage" {
     "20.150.124.0/24",
     "20.157.138.0/24",
     "52.239.216.0/23",
+    "2603:1010:305::/48",
   ]
 }
 output "StorageSyncService_ipv4" {
