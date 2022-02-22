@@ -65,6 +65,7 @@ Function New-TerraformStringOutput {
 # Clean up Generated folder
 if($PSScriptRoot) {Set-Location $PSScriptRoot}
 $originalhash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
+$originalfilelist = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Select-object -ExpandProperty FullName)
 Remove-Item -Path Generated -Force -Confirm:$false -Recurse
 mkdir Generated | Out-Null
 
@@ -217,9 +218,20 @@ $README | Set-Content README.md
 
 $hash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
 if($hash -ne $originalhash) {
-    Write-Host "Found diff - commiting"
+    Write-Host "Found diff"
+
+    Get-ChildItem -Recurse -File | 
+        Where-Object extension -in ".tf",".md" | 
+        Where-Object fullName -notin $originalfilelist |
+        ForEach-Object {
+            Write-Host " - add file: $($_.FullName)"
+            git add "$($_.FullName)"
+        }
+
     git config --local user.email "noreply@goodworkaround.com"
     git config --local user.name "github-actions[bot]"
+
+    Write-Host " - committing changes"
     git commit -m "Add changes" -a
 } else {
     Write-Host "No updates required :)"
