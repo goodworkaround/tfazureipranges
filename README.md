@@ -237,6 +237,9 @@ Available outputs:
 - AzureFrontDoor_Frontend_ipv4
 - AzureFrontDoor_Frontend_ipv6
 - AzureFrontDoor_Frontend
+- AzureHealthcareAPIs_ipv4
+- AzureHealthcareAPIs_ipv6
+- AzureHealthcareAPIs
 - AzureInformationProtection_ipv4
 - AzureInformationProtection_ipv6
 - AzureInformationProtection
@@ -309,6 +312,9 @@ Available outputs:
 - GatewayManager_ipv4
 - GatewayManager_ipv6
 - GatewayManager
+- GenevaActions_ipv4
+- GenevaActions_ipv6
+- GenevaActions
 - GuestAndHybridManagement_ipv4
 - GuestAndHybridManagement_ipv6
 - GuestAndHybridManagement
@@ -11522,6 +11528,20 @@ Available outputs:
 - region0_ipv6
 - region0
 
+## AzureHealthcareAPIs
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureHealthcareAPIs"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureInformationProtection
 
 ```HCL
@@ -14122,6 +14142,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## GenevaActions
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/GenevaActions"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## GuestAndHybridManagement
 
