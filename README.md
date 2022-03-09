@@ -136,6 +136,7 @@ output "AzureMonitor" {
 | 95 | austriaeast |
 | 96 | TaiwanNorthwest |
 | 97 | belgiumcentral |
+| 99 | indiasouthcentral |
 
 
 # List of available outputs, per module
@@ -8467,6 +8468,23 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/97"
+}
+```
+
+Available outputs:
+
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
+
+## Region indiasouthcentral
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/99"
 }
 ```
 
