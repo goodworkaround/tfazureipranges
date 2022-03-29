@@ -378,6 +378,7 @@ output "AzureContainerRegistry" {
 }
 output "AzureCosmosDB_ipv4" {
   value = [
+    "51.116.1.247/32",
     "51.116.50.224/27",
     "51.116.58.64/26",
   ]
@@ -389,6 +390,7 @@ output "AzureCosmosDB_ipv6" {
 }
 output "AzureCosmosDB" {
   value = [
+    "51.116.1.247/32",
     "51.116.50.224/27",
     "51.116.58.64/26",
     "2603:1020:d04:402::c0/122",
@@ -509,6 +511,7 @@ output "AzureMachineLearning" {
 output "AzureMonitor_ipv4" {
   value = [
     "20.52.72.64/27",
+    "20.52.72.96/28",
     "51.116.54.32/27",
     "51.116.59.176/28",
     "51.116.75.92/31",
@@ -527,6 +530,7 @@ output "AzureMonitor_ipv6" {
 output "AzureMonitor" {
   value = [
     "20.52.72.64/27",
+    "20.52.72.96/28",
     "51.116.54.32/27",
     "51.116.59.176/28",
     "51.116.75.92/31",
