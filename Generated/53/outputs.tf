@@ -9,6 +9,7 @@ output "AzureCloud_ipv4" {
 }
 output "AzureCloud_ipv6" {
   value = [
+    "2603:1036:2500:3c::/64",
   ]
 }
 output "AzureCloud" {
@@ -18,6 +19,7 @@ output "AzureCloud" {
     "52.111.195.0/24",
     "52.253.207.0/24",
     "52.253.208.0/23",
+    "2603:1036:2500:3c::/64",
   ]
 }
 output "All_ipv4" {
@@ -31,6 +33,7 @@ output "All_ipv4" {
 }
 output "All_ipv6" {
   value = [
+    "2603:1036:2500:3c::/64",
   ]
 }
 output "All" {
@@ -40,5 +43,6 @@ output "All" {
     "52.111.195.0/24",
     "52.253.207.0/24",
     "52.253.208.0/23",
+    "2603:1036:2500:3c::/64",
   ]
 }
