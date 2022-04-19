@@ -289,6 +289,9 @@ Available outputs:
 - AzureUpdateDelivery_ipv4
 - AzureUpdateDelivery_ipv6
 - AzureUpdateDelivery
+- AzureVideoAnalyzerForMedia_ipv4
+- AzureVideoAnalyzerForMedia_ipv6
+- AzureVideoAnalyzerForMedia
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -313,9 +316,9 @@ Available outputs:
 - GatewayManager_ipv4
 - GatewayManager_ipv6
 - GatewayManager
-- GenevaActions_ipv4
-- GenevaActions_ipv6
-- GenevaActions
+- Grafana_ipv4
+- Grafana_ipv6
+- Grafana
 - GuestAndHybridManagement_ipv4
 - GuestAndHybridManagement_ipv6
 - GuestAndHybridManagement
@@ -7196,6 +7199,9 @@ Available outputs:
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -13317,6 +13323,20 @@ Available outputs:
 - region38_ipv6
 - region38
 
+## AzureVideoAnalyzerForMedia
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureVideoAnalyzerForMedia"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## BatchNodeManagement
 
 ```HCL
@@ -14161,11 +14181,11 @@ Available outputs:
 - region79_ipv6
 - region79
 
-## GenevaActions
+## Grafana
 
 ```HCL
 module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/GenevaActions"
+  source = "github.com/goodworkaround/tfazureipranges/Generated/Grafana"
 }
 ```
 
@@ -14930,6 +14950,9 @@ Available outputs:
 - region9_ipv4
 - region9_ipv6
 - region9
+- region77_ipv4
+- region77_ipv6
+- region77
 - region11_ipv4
 - region11_ipv6
 - region11
