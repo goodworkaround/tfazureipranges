@@ -693,6 +693,8 @@ output "MicrosoftContainerRegistry" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.45.112.120/31",
+    "23.100.217.20/31",
+    "23.100.217.24/29",
   ]
 }
 output "PowerQueryOnline_ipv6" {
@@ -702,6 +704,8 @@ output "PowerQueryOnline_ipv6" {
 output "PowerQueryOnline" {
   value = [
     "20.45.112.120/31",
+    "23.100.217.20/31",
+    "23.100.217.24/29",
   ]
 }
 output "SCCservice_ipv4" {

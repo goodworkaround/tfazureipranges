@@ -2811,6 +2811,7 @@ output "PowerPlatformInfra" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.38.80.70/31",
+    "20.223.64.128/29",
   ]
 }
 output "PowerQueryOnline_ipv6" {
@@ -2821,6 +2822,7 @@ output "PowerQueryOnline_ipv6" {
 output "PowerQueryOnline" {
   value = [
     "20.38.80.70/31",
+    "20.223.64.128/29",
     "2603:1020:5:1::200/123",
   ]
 }

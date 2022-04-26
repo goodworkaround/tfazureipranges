@@ -393,6 +393,7 @@ output "AzureIoTHub" {
 output "AzureKeyVault_ipv4" {
   value = [
     "20.215.7.32/29",
+    "20.215.13.128/30",
     "20.215.18.76/30",
     "20.215.26.76/30",
     "20.215.155.240/30",
@@ -406,6 +407,7 @@ output "AzureKeyVault_ipv6" {
 output "AzureKeyVault" {
   value = [
     "20.215.7.32/29",
+    "20.215.13.128/30",
     "20.215.18.76/30",
     "20.215.26.76/30",
     "20.215.155.240/30",
@@ -651,6 +653,8 @@ output "MicrosoftContainerRegistry" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.215.0.20/31",
+    "20.215.7.60/31",
+    "20.215.7.232/29",
   ]
 }
 output "PowerQueryOnline_ipv6" {
@@ -661,6 +665,8 @@ output "PowerQueryOnline_ipv6" {
 output "PowerQueryOnline" {
   value = [
     "20.215.0.20/31",
+    "20.215.7.60/31",
+    "20.215.7.232/29",
     "2603:1020:1302::1c0/123",
   ]
 }

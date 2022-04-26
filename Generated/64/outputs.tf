@@ -497,6 +497,7 @@ output "AzureMachineLearning" {
 output "AzureMonitor_ipv4" {
   value = [
     "20.192.32.192/27",
+    "20.192.34.80/28",
     "20.192.48.0/27",
     "20.192.50.192/28",
     "20.192.231.244/30",
@@ -516,6 +517,7 @@ output "AzureMonitor_ipv6" {
 output "AzureMonitor" {
   value = [
     "20.192.32.192/27",
+    "20.192.34.80/28",
     "20.192.48.0/27",
     "20.192.50.192/28",
     "20.192.231.244/30",
@@ -753,6 +755,8 @@ output "MicrosoftContainerRegistry" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.192.225.32/31",
+    "20.207.2.166/31",
+    "20.207.2.168/29",
   ]
 }
 output "PowerQueryOnline_ipv6" {
@@ -763,6 +767,8 @@ output "PowerQueryOnline_ipv6" {
 output "PowerQueryOnline" {
   value = [
     "20.192.225.32/31",
+    "20.207.2.166/31",
+    "20.207.2.168/29",
     "2603:1040:1104::200/123",
   ]
 }

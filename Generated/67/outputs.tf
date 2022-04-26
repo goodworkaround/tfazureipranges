@@ -862,6 +862,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "20.199.201.88/29",
     "51.107.144.120/31",
   ]
 }
@@ -872,6 +873,7 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "20.199.201.88/29",
     "51.107.144.120/31",
     "2603:1020:b04::200/123",
   ]

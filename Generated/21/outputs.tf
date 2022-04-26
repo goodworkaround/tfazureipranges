@@ -1418,6 +1418,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "20.204.193.0/29",
     "52.140.104.70/31",
   ]
 }
@@ -1428,6 +1429,7 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "20.204.193.0/29",
     "52.140.104.70/31",
     "2603:1040:a06:1::200/123",
   ]

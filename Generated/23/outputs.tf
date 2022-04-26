@@ -878,6 +878,8 @@ output "MicrosoftContainerRegistry" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "20.207.168.180/31",
+    "20.207.168.184/29",
   ]
 }
 output "PowerQueryOnline_ipv6" {
@@ -887,6 +889,8 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "20.207.168.180/31",
+    "20.207.168.184/29",
     "2603:1040:806::200/123",
   ]
 }
