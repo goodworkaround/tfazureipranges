@@ -1205,17 +1205,11 @@ output "AzureUpdateDelivery_ipv4" {
 }
 output "AzureUpdateDelivery_ipv6" {
   value = [
-    "2a01:111:f335:1792::a01/128",
-    "2a01:111:f335:1792::a61/128",
-    "2a01:111:f335:1792::f001:7a5/128",
   ]
 }
 output "AzureUpdateDelivery" {
   value = [
     "52.161.166.64/32",
-    "2a01:111:f335:1792::a01/128",
-    "2a01:111:f335:1792::a61/128",
-    "2a01:111:f335:1792::f001:7a5/128",
   ]
 }
 output "BatchNodeManagement_ipv4" {
