@@ -3936,9 +3936,6 @@ Available outputs:
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
-- AzureUpdateDelivery_ipv4
-- AzureUpdateDelivery_ipv6
-- AzureUpdateDelivery
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -13334,9 +13331,6 @@ Available outputs:
 - region35_ipv4
 - region35_ipv6
 - region35
-- region36_ipv4
-- region36_ipv6
-- region36
 - region37_ipv4
 - region37_ipv6
 - region37
