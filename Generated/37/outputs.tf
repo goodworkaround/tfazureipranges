@@ -2308,7 +2308,6 @@ output "PowerPlatformInfra_ipv4" {
     "104.210.57.39/32",
     "137.135.53.196/32",
     "168.61.3.73/32",
-    "168.62.196.213/32",
   ]
 }
 output "PowerPlatformInfra_ipv6" {
@@ -2455,7 +2454,6 @@ output "PowerPlatformInfra" {
     "104.210.57.39/32",
     "137.135.53.196/32",
     "168.61.3.73/32",
-    "168.62.196.213/32",
   ]
 }
 output "PowerQueryOnline_ipv4" {
