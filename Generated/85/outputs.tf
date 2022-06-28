@@ -777,6 +777,7 @@ output "Sql" {
 output "Storage_ipv4" {
   value = [
     "20.60.94.0/23",
+    "20.157.169.0/24",
   ]
 }
 output "Storage_ipv6" {
@@ -787,6 +788,7 @@ output "Storage_ipv6" {
 output "Storage" {
   value = [
     "20.60.94.0/23",
+    "20.157.169.0/24",
     "2603:1040:1403::/48",
   ]
 }
