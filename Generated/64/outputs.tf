@@ -893,6 +893,7 @@ output "Storage" {
 output "StorageSyncService_ipv4" {
   value = [
     "20.192.32.232/29",
+    "20.193.215.160/32",
   ]
 }
 output "StorageSyncService_ipv6" {
@@ -903,6 +904,7 @@ output "StorageSyncService_ipv6" {
 output "StorageSyncService" {
   value = [
     "20.192.32.232/29",
+    "20.193.215.160/32",
     "2603:1040:1104:400::320/123",
   ]
 }

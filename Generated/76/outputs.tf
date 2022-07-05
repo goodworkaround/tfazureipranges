@@ -104,6 +104,7 @@ output "AppServiceManagement" {
 }
 output "AzureArcInfrastructure_ipv4" {
   value = [
+    "51.12.75.188/30",
     "51.12.229.232/30",
   ]
 }
@@ -113,6 +114,7 @@ output "AzureArcInfrastructure_ipv6" {
 }
 output "AzureArcInfrastructure" {
   value = [
+    "51.12.75.188/30",
     "51.12.229.232/30",
   ]
 }
@@ -901,6 +903,7 @@ output "BatchNodeManagement" {
 output "DataFactory_ipv4" {
   value = [
     "51.12.26.0/23",
+    "51.12.75.232/29",
     "51.12.101.176/28",
     "51.12.229.64/28",
     "51.12.237.64/28",
@@ -920,6 +923,7 @@ output "DataFactory_ipv6" {
 output "DataFactory" {
   value = [
     "51.12.26.0/23",
+    "51.12.75.232/29",
     "51.12.101.176/28",
     "51.12.229.64/28",
     "51.12.237.64/28",
