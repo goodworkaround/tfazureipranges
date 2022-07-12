@@ -250,6 +250,9 @@ Available outputs:
 - AzureKeyVault_ipv4
 - AzureKeyVault_ipv6
 - AzureKeyVault
+- AzureLoadTestingInstanceManagement_ipv4
+- AzureLoadTestingInstanceManagement_ipv6
+- AzureLoadTestingInstanceManagement
 - AzureMachineLearning_ipv4
 - AzureMachineLearning_ipv6
 - AzureMachineLearning
@@ -355,6 +358,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -513,6 +519,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -679,6 +688,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -822,6 +834,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1008,6 +1023,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1160,6 +1178,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1303,6 +1324,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1452,6 +1476,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1592,6 +1619,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1729,6 +1759,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -1869,6 +1902,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2146,6 +2182,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2283,6 +2322,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2420,6 +2462,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2569,6 +2614,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2709,6 +2757,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -2971,6 +3022,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -3385,6 +3439,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -3820,6 +3877,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -4115,6 +4175,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -4419,6 +4482,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -4824,6 +4890,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -5362,6 +5431,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -5499,6 +5571,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -5636,6 +5711,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -6035,6 +6113,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -6172,6 +6253,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -6553,6 +6637,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -6690,6 +6777,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -6824,6 +6914,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -7214,6 +7307,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -7618,6 +7714,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -7755,6 +7854,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -8153,6 +8255,9 @@ Available outputs:
 - PowerPlatformInfra_ipv4
 - PowerPlatformInfra_ipv6
 - PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -11977,6 +12082,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## AzureLoadTestingInstanceManagement
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureLoadTestingInstanceManagement"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureMachineLearning
 
 ```HCL
@@ -15067,6 +15186,119 @@ Available outputs:
 - region38_ipv4
 - region38_ipv6
 - region38
+
+## PowerPlatformPlex
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/PowerPlatformPlex"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+- region3_ipv4
+- region3_ipv6
+- region3
+- region4_ipv4
+- region4_ipv6
+- region4
+- region9_ipv4
+- region9_ipv6
+- region9
+- region77_ipv4
+- region77_ipv6
+- region77
+- region11_ipv4
+- region11_ipv6
+- region11
+- region12_ipv4
+- region12_ipv6
+- region12
+- region21_ipv4
+- region21_ipv6
+- region21
+- region1_ipv4
+- region1_ipv6
+- region1
+- region32_ipv4
+- region32_ipv6
+- region32
+- region19_ipv4
+- region19_ipv6
+- region19
+- region20_ipv4
+- region20_ipv6
+- region20
+- region72_ipv4
+- region72_ipv6
+- region72
+- region71_ipv4
+- region71_ipv6
+- region71
+- region24_ipv4
+- region24_ipv6
+- region24
+- region25_ipv4
+- region25_ipv6
+- region25
+- region26_ipv4
+- region26_ipv6
+- region26
+- region50_ipv4
+- region50_ipv6
+- region50
+- region17_ipv4
+- region17_ipv6
+- region17
+- region63_ipv4
+- region63_ipv6
+- region63
+- region74_ipv4
+- region74_ipv6
+- region74
+- region82_ipv4
+- region82_ipv6
+- region82
+- region83_ipv4
+- region83_ipv6
+- region83
+- region35_ipv4
+- region35_ipv6
+- region35
+- region2_ipv4
+- region2_ipv6
+- region2
+- region22_ipv4
+- region22_ipv6
+- region22
+- region66_ipv4
+- region66_ipv6
+- region66
+- region67_ipv4
+- region67_ipv6
+- region67
+- region61_ipv4
+- region61_ipv6
+- region61
+- region60_ipv4
+- region60_ipv6
+- region60
+- region27_ipv4
+- region27_ipv6
+- region27
+- region28_ipv4
+- region28_ipv6
+- region28
+- region18_ipv4
+- region18_ipv6
+- region18
+- region37_ipv4
+- region37_ipv6
+- region37
 
 ## PowerQueryOnline
 

@@ -806,6 +806,26 @@ output "PowerPlatformInfra" {
     "20.206.4.0/26",
   ]
 }
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "20.206.3.20/30",
+    "20.206.4.64/29",
+    "20.206.4.224/29",
+    "20.206.4.232/30",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "20.206.3.20/30",
+    "20.206.4.64/29",
+    "20.206.4.224/29",
+    "20.206.4.232/30",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.206.4.72/29",

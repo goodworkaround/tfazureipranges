@@ -844,6 +844,24 @@ output "PowerPlatformInfra" {
     "102.133.60.0/27",
   ]
 }
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "102.37.87.100/30",
+    "102.37.87.136/30",
+    "102.37.87.184/29",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "102.37.87.100/30",
+    "102.37.87.136/30",
+    "102.37.87.184/29",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "102.37.87.176/29",

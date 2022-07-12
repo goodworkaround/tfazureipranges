@@ -992,6 +992,26 @@ output "PowerPlatformInfra" {
     "52.172.112.176/29",
   ]
 }
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "20.192.157.248/29",
+    "52.172.81.16/30",
+    "52.172.81.224/29",
+    "52.172.81.232/30",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "20.192.157.248/29",
+    "52.172.81.16/30",
+    "52.172.81.224/29",
+    "52.172.81.232/30",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.41.192.120/31",
