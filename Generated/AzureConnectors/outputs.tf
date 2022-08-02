@@ -1576,6 +1576,22 @@ output "region50" {
     "52.231.201.173/32",
   ]
 }
+output "region98_ipv4" {
+  value = [
+    "20.17.67.0/26",
+  ]
+}
+output "region98_ipv6" {
+  value = [
+    "2603:1040:1503:400::c0/122",
+  ]
+}
+output "region98" {
+  value = [
+    "20.17.67.0/26",
+    "2603:1040:1503:400::c0/122",
+  ]
+}
 output "region34_ipv4" {
   value = [
     "20.51.4.192/27",

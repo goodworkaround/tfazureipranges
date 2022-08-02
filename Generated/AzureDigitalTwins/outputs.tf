@@ -1050,6 +1050,22 @@ output "region50" {
     "40.80.173.224/27",
   ]
 }
+output "region98_ipv4" {
+  value = [
+    "20.17.51.192/27",
+  ]
+}
+output "region98_ipv6" {
+  value = [
+    "2603:1040:1503::580/121",
+  ]
+}
+output "region98" {
+  value = [
+    "20.17.51.192/27",
+    "2603:1040:1503::580/121",
+  ]
+}
 output "region34_ipv4" {
   value = [
     "20.49.118.8/29",
