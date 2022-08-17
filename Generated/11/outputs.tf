@@ -168,8 +168,6 @@ output "AzureAttestation_ipv4" {
   value = [
     "13.71.175.208/30",
     "20.48.193.180/30",
-    "20.151.24.34/32",
-    "52.139.46.228/32",
   ]
 }
 output "AzureAttestation_ipv6" {
@@ -180,8 +178,6 @@ output "AzureAttestation" {
   value = [
     "13.71.175.208/30",
     "20.48.193.180/30",
-    "20.151.24.34/32",
-    "52.139.46.228/32",
   ]
 }
 output "AzureBackup_ipv4" {
