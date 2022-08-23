@@ -686,6 +686,7 @@ output "AzureMachineLearning" {
 }
 output "AzureMonitor_ipv4" {
   value = [
+    "20.100.7.0/27",
     "51.13.1.8/29",
     "51.120.40.68/31",
     "51.120.98.0/29",
@@ -714,6 +715,7 @@ output "AzureMonitor_ipv6" {
 }
 output "AzureMonitor" {
   value = [
+    "20.100.7.0/27",
     "51.13.1.8/29",
     "51.120.40.68/31",
     "51.120.98.0/29",
