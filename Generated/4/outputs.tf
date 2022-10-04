@@ -962,6 +962,7 @@ output "AzureSecurityCenter" {
 }
 output "AzureSignalR_ipv4" {
   value = [
+    "20.211.225.0/26",
   ]
 }
 output "AzureSignalR_ipv6" {
@@ -971,6 +972,7 @@ output "AzureSignalR_ipv6" {
 }
 output "AzureSignalR" {
   value = [
+    "20.211.225.0/26",
     "2603:1010:101:2::/120",
   ]
 }
