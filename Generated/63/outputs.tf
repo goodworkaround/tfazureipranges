@@ -552,6 +552,7 @@ output "AzureContainerRegistry" {
 }
 output "AzureCosmosDB_ipv4" {
   value = [
+    "20.100.16.0/26",
     "51.13.25.182/32",
     "51.120.44.128/27",
     "51.120.98.64/26",
@@ -569,6 +570,7 @@ output "AzureCosmosDB_ipv6" {
 }
 output "AzureCosmosDB" {
   value = [
+    "20.100.16.0/26",
     "51.13.25.182/32",
     "51.120.44.128/27",
     "51.120.98.64/26",
