@@ -170,6 +170,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AutonomousDevelopmentPlatform_ipv4
+- AutonomousDevelopmentPlatform_ipv6
+- AutonomousDevelopmentPlatform
 - AzureActiveDirectory_ipv4
 - AzureActiveDirectory_ipv6
 - AzureActiveDirectory
@@ -275,6 +278,9 @@ Available outputs:
 - AzureSecurityCenter_ipv4
 - AzureSecurityCenter_ipv6
 - AzureSecurityCenter
+- AzureSentinel_ipv4
+- AzureSentinel_ipv6
+- AzureSentinel
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -296,9 +302,15 @@ Available outputs:
 - AzureVideoAnalyzerForMedia_ipv4
 - AzureVideoAnalyzerForMedia_ipv6
 - AzureVideoAnalyzerForMedia
+- AzureWebPubSub_ipv4
+- AzureWebPubSub_ipv6
+- AzureWebPubSub
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
+- ChaosStudio_ipv4
+- ChaosStudio_ipv6
+- ChaosStudio
 - CognitiveServicesManagement_ipv4
 - CognitiveServicesManagement_ipv6
 - CognitiveServicesManagement
@@ -9865,6 +9877,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## AutonomousDevelopmentPlatform
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AutonomousDevelopmentPlatform"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureActiveDirectory
 
 ```HCL
@@ -13859,6 +13885,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## AzureSentinel
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureSentinel"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureSignalR
 
 ```HCL
@@ -14140,6 +14180,20 @@ Available outputs:
 - region0_ipv6
 - region0
 
+## AzureWebPubSub
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureWebPubSub"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## BatchNodeManagement
 
 ```HCL
@@ -14339,6 +14393,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## ChaosStudio
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/ChaosStudio"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## CognitiveServicesManagement
 
