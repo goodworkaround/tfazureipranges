@@ -85,25 +85,19 @@ output "AzureAttestation" {
 output "AzureBackup_ipv4" {
   value = [
     "68.221.84.192/26",
-    "68.221.99.0/26",
-    "68.221.147.0/26",
   ]
 }
 output "AzureBackup_ipv6" {
   value = [
     "2603:1020:1403::680/121",
     "2603:1020:1403:400::80/121",
-    "2603:1020:1403:800::80/121",
   ]
 }
 output "AzureBackup" {
   value = [
     "68.221.84.192/26",
-    "68.221.99.0/26",
-    "68.221.147.0/26",
     "2603:1020:1403::680/121",
     "2603:1020:1403:400::80/121",
-    "2603:1020:1403:800::80/121",
   ]
 }
 output "AzureBotService_ipv4" {
@@ -515,21 +509,17 @@ output "AzurePortal" {
 output "AzureResourceManager_ipv4" {
   value = [
     "68.221.90.0/23",
-    "68.221.99.192/26",
   ]
 }
 output "AzureResourceManager_ipv6" {
   value = [
     "2603:1020:1403:1::400/120",
-    "2603:1020:1403:400::140/122",
   ]
 }
 output "AzureResourceManager" {
   value = [
     "68.221.90.0/23",
-    "68.221.99.192/26",
     "2603:1020:1403:1::400/120",
-    "2603:1020:1403:400::140/122",
   ]
 }
 output "BatchNodeManagement_ipv4" {
