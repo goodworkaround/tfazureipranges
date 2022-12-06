@@ -718,6 +718,20 @@ output "AzureDataExplorerManagement" {
     "2603:1020:1004:800::d0/124",
   ]
 }
+output "AzureDevOps_ipv4" {
+  value = [
+    "20.91.148.128/25",
+  ]
+}
+output "AzureDevOps_ipv6" {
+  value = [
+  ]
+}
+output "AzureDevOps" {
+  value = [
+    "20.91.148.128/25",
+  ]
+}
 output "AzureDigitalTwins_ipv4" {
   value = [
     "51.12.43.144/29",

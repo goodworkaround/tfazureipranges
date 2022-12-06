@@ -5486,6 +5486,9 @@ Available outputs:
 - AzureDataExplorerManagement_ipv4
 - AzureDataExplorerManagement_ipv6
 - AzureDataExplorerManagement
+- AzureDevOps_ipv4
+- AzureDevOps_ipv6
+- AzureDevOps
 - AzureDigitalTwins_ipv4
 - AzureDigitalTwins_ipv6
 - AzureDigitalTwins
@@ -7240,6 +7243,9 @@ Available outputs:
 - AzureDataExplorerManagement_ipv4
 - AzureDataExplorerManagement_ipv6
 - AzureDataExplorerManagement
+- AzureDevOps_ipv4
+- AzureDevOps_ipv6
+- AzureDevOps
 - AzureDigitalTwins_ipv4
 - AzureDigitalTwins_ipv6
 - AzureDigitalTwins
@@ -11800,6 +11806,12 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region76_ipv4
+- region76_ipv6
+- region76
+- region60_ipv4
+- region60_ipv6
+- region60
 - region27_ipv4
 - region27_ipv6
 - region27
