@@ -362,6 +362,9 @@ Available outputs:
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
+- MicrosoftDefenderForEndpoint_ipv4
+- MicrosoftDefenderForEndpoint_ipv6
+- MicrosoftDefenderForEndpoint
 - OneDsCollector_ipv4
 - OneDsCollector_ipv6
 - OneDsCollector
@@ -15866,6 +15869,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## MicrosoftDefenderForEndpoint
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/MicrosoftDefenderForEndpoint"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## OneDsCollector
 
