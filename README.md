@@ -71,6 +71,8 @@ output "AzureMonitor" {
 | 2 | SoutheastAsia |
 | 3 | AustraliaEast |
 | 4 | AustraliaSoutheast |
+| 5 | finlandcentral |
+| 6 | indonesiacentral |
 | 8 | TaiwanNorth |
 | 9 | BrazilSouth |
 | 10 | chilec |
@@ -299,9 +301,6 @@ Available outputs:
 - AzureUpdateDelivery_ipv4
 - AzureUpdateDelivery_ipv6
 - AzureUpdateDelivery
-- AzureVideoAnalyzerForMedia_ipv4
-- AzureVideoAnalyzerForMedia_ipv6
-- AzureVideoAnalyzerForMedia
 - AzureWebPubSub_ipv4
 - AzureWebPubSub_ipv6
 - AzureWebPubSub
@@ -4800,6 +4799,23 @@ Available outputs:
 - StorageSyncService_ipv6
 - StorageSyncService
 
+## Region finlandcentral
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/5"
+}
+```
+
+Available outputs:
+
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
+
 ## Region KoreaSouth
 
 ```HCL
@@ -5433,6 +5449,23 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+
+## Region indonesiacentral
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/6"
+}
+```
+
+Available outputs:
+
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
 
 ## Region UAENorth
 
@@ -14180,20 +14213,6 @@ Available outputs:
 - region38_ipv4
 - region38_ipv6
 - region38
-
-## AzureVideoAnalyzerForMedia
-
-```HCL
-module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureVideoAnalyzerForMedia"
-}
-```
-
-Available outputs:
-
-- region0_ipv4
-- region0_ipv6
-- region0
 
 ## AzureWebPubSub
 
