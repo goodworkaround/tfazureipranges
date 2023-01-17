@@ -1717,6 +1717,9 @@ Available outputs:
 - AzureDataExplorerManagement_ipv4
 - AzureDataExplorerManagement_ipv6
 - AzureDataExplorerManagement
+- AzureDevOps_ipv4
+- AzureDevOps_ipv6
+- AzureDevOps
 - AzureDigitalTwins_ipv4
 - AzureDigitalTwins_ipv6
 - AzureDigitalTwins
@@ -4975,6 +4978,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -5091,6 +5097,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -7380,6 +7389,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -7665,6 +7677,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -8186,6 +8201,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -8302,6 +8320,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -8598,6 +8619,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -8853,6 +8877,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -10017,6 +10044,9 @@ Available outputs:
 - region9_ipv4
 - region9_ipv6
 - region9
+- region77_ipv4
+- region77_ipv6
+- region77
 - region11_ipv4
 - region11_ipv6
 - region11
@@ -10056,6 +10086,12 @@ Available outputs:
 - region71_ipv4
 - region71_ipv6
 - region71
+- region85_ipv4
+- region85_ipv6
+- region85
+- region93_ipv4
+- region93_ipv6
+- region93
 - region24_ipv4
 - region24_ipv6
 - region24
@@ -10074,6 +10110,9 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region53_ipv4
+- region53_ipv6
+- region53
 - region34_ipv4
 - region34_ipv6
 - region34
@@ -10086,6 +10125,9 @@ Available outputs:
 - region74_ipv4
 - region74_ipv6
 - region74
+- region52_ipv4
+- region52_ipv6
+- region52
 - region84_ipv4
 - region84_ipv6
 - region84
@@ -10104,6 +10146,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region88_ipv4
+- region88_ipv6
+- region88
 - region76_ipv4
 - region76_ipv6
 - region76
@@ -10116,6 +10161,12 @@ Available outputs:
 - region67_ipv4
 - region67_ipv6
 - region67
+- region8_ipv4
+- region8_ipv6
+- region8
+- region96_ipv4
+- region96_ipv6
+- region96
 - region61_ipv4
 - region61_ipv6
 - region61
@@ -11809,6 +11860,9 @@ Available outputs:
 - region11_ipv4
 - region11_ipv6
 - region11
+- region21_ipv4
+- region21_ipv6
+- region21
 - region31_ipv4
 - region31_ipv6
 - region31

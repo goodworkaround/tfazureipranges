@@ -70,6 +70,22 @@ output "AppServiceManagement" {
     "2603:1030:702:c00::40/122",
   ]
 }
+output "AzureArcInfrastructure_ipv4" {
+  value = [
+    "158.23.10.112/32",
+    "158.23.96.20/30",
+  ]
+}
+output "AzureArcInfrastructure_ipv6" {
+  value = [
+  ]
+}
+output "AzureArcInfrastructure" {
+  value = [
+    "158.23.10.112/32",
+    "158.23.96.20/30",
+  ]
+}
 output "AzureAttestation_ipv4" {
   value = [
     "158.23.100.152/30",
@@ -288,10 +304,7 @@ output "AzureContainerRegistry" {
 }
 output "AzureCosmosDB_ipv4" {
   value = [
-    "158.23.10.0/26",
-    "158.23.98.64/27",
-    "158.23.122.0/26",
-    "158.23.194.0/26",
+    "158.23.113.192/26",
   ]
 }
 output "AzureCosmosDB_ipv6" {
@@ -301,10 +314,7 @@ output "AzureCosmosDB_ipv6" {
 }
 output "AzureCosmosDB" {
   value = [
-    "158.23.10.0/26",
-    "158.23.98.64/27",
-    "158.23.122.0/26",
-    "158.23.194.0/26",
+    "158.23.113.192/26",
     "2603:1030:702::1e0/123",
   ]
 }

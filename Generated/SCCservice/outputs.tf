@@ -91,6 +91,7 @@ output "region0_ipv4" {
 }
 output "region0_ipv6" {
   value = [
+    "2603:1063:c000::/44",
   ]
 }
 output "region0" {
@@ -182,6 +183,7 @@ output "region0" {
     "168.61.140.96/29",
     "191.233.207.192/29",
     "191.237.224.160/29",
+    "2603:1063:c000::/44",
   ]
 }
 output "region58_ipv4" {

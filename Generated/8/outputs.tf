@@ -62,6 +62,22 @@ output "AppServiceManagement" {
     "2603:1040:1302:400::80/122",
   ]
 }
+output "AzureArcInfrastructure_ipv4" {
+  value = [
+    "51.53.41.76/30",
+    "51.53.110.138/32",
+  ]
+}
+output "AzureArcInfrastructure_ipv6" {
+  value = [
+  ]
+}
+output "AzureArcInfrastructure" {
+  value = [
+    "51.53.41.76/30",
+    "51.53.110.138/32",
+  ]
+}
 output "AzureAttestation_ipv4" {
   value = [
     "51.53.27.240/30",
@@ -232,17 +248,21 @@ output "AzureCognitiveSearch" {
 }
 output "AzureConnectors_ipv4" {
   value = [
+    "51.53.40.64/26",
     "51.53.107.0/26",
   ]
 }
 output "AzureConnectors_ipv6" {
   value = [
+    "2603:1040:1302:2::580/122",
     "2603:1040:1302:400::c0/122",
   ]
 }
 output "AzureConnectors" {
   value = [
+    "51.53.40.64/26",
     "51.53.107.0/26",
+    "2603:1040:1302:2::580/122",
     "2603:1040:1302:400::c0/122",
   ]
 }
@@ -273,21 +293,19 @@ output "AzureContainerRegistry" {
 output "AzureCosmosDB_ipv4" {
   value = [
     "51.53.27.0/27",
-    "51.53.106.0/26",
+    "51.53.103.64/26",
   ]
 }
 output "AzureCosmosDB_ipv6" {
   value = [
     "2603:1040:1302::1e0/123",
-    "2603:1040:1302:400::/122",
   ]
 }
 output "AzureCosmosDB" {
   value = [
     "51.53.27.0/27",
-    "51.53.106.0/26",
+    "51.53.103.64/26",
     "2603:1040:1302::1e0/123",
-    "2603:1040:1302:400::/122",
   ]
 }
 output "AzureDataExplorerManagement_ipv4" {
@@ -397,6 +415,7 @@ output "AzureMonitor_ipv4" {
     "51.53.31.144/29",
     "51.53.31.152/31",
     "51.53.31.224/27",
+    "51.53.42.0/27",
     "51.53.110.128/29",
     "51.53.110.144/28",
   ]
@@ -405,6 +424,7 @@ output "AzureMonitor_ipv6" {
   value = [
     "2603:1040:1302:1::100/120",
     "2603:1040:1302:1::200/123",
+    "2603:1040:1302:2::680/121",
   ]
 }
 output "AzureMonitor" {
@@ -414,10 +434,12 @@ output "AzureMonitor" {
     "51.53.31.144/29",
     "51.53.31.152/31",
     "51.53.31.224/27",
+    "51.53.42.0/27",
     "51.53.110.128/29",
     "51.53.110.144/28",
     "2603:1040:1302:1::100/120",
     "2603:1040:1302:1::200/123",
+    "2603:1040:1302:2::680/121",
   ]
 }
 output "AzurePortal_ipv4" {
