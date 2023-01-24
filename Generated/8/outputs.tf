@@ -70,12 +70,14 @@ output "AzureArcInfrastructure_ipv4" {
 }
 output "AzureArcInfrastructure_ipv6" {
   value = [
+    "2603:1040:1302:2::620/124",
   ]
 }
 output "AzureArcInfrastructure" {
   value = [
     "51.53.41.76/30",
     "51.53.110.138/32",
+    "2603:1040:1302:2::620/124",
   ]
 }
 output "AzureAttestation_ipv4" {
@@ -129,6 +131,7 @@ output "AzureBotService" {
 output "AzureCloud_ipv4" {
   value = [
     "20.38.19.0/24",
+    "20.143.40.0/23",
     "20.157.173.0/24",
     "20.157.187.0/24",
     "20.157.192.0/24",
@@ -157,6 +160,7 @@ output "AzureCloud_ipv6" {
 output "AzureCloud" {
   value = [
     "20.38.19.0/24",
+    "20.143.40.0/23",
     "20.157.173.0/24",
     "20.157.187.0/24",
     "20.157.192.0/24",
@@ -181,6 +185,7 @@ output "AzureCloud" {
 output "All_ipv4" {
   value = [
     "20.38.19.0/24",
+    "20.143.40.0/23",
     "20.157.173.0/24",
     "20.157.187.0/24",
     "20.157.192.0/24",
@@ -209,6 +214,7 @@ output "All_ipv6" {
 output "All" {
   value = [
     "20.38.19.0/24",
+    "20.143.40.0/23",
     "20.157.173.0/24",
     "20.157.187.0/24",
     "20.157.192.0/24",

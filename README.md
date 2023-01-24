@@ -319,6 +319,9 @@ Available outputs:
 - DataFactoryManagement_ipv4
 - DataFactoryManagement_ipv6
 - DataFactoryManagement
+- Dynamics365BusinessCentral_ipv4
+- Dynamics365BusinessCentral_ipv6
+- Dynamics365BusinessCentral
 - Dynamics365ForMarketingEmail_ipv4
 - Dynamics365ForMarketingEmail_ipv6
 - Dynamics365ForMarketingEmail
@@ -14712,6 +14715,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/DataFactoryManagement"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## Dynamics365BusinessCentral
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/Dynamics365BusinessCentral"
 }
 ```
 
