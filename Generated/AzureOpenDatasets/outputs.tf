@@ -306,20 +306,6 @@ output "region49" {
     "20.39.11.32/28",
   ]
 }
-output "region68_ipv4" {
-  value = [
-    "40.67.48.192/28",
-  ]
-}
-output "region68_ipv6" {
-  value = [
-  ]
-}
-output "region68" {
-  value = [
-    "40.67.48.192/28",
-  ]
-}
 output "region19_ipv4" {
   value = [
     "20.43.41.160/28",

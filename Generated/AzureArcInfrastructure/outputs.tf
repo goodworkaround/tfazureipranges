@@ -924,38 +924,6 @@ output "region71" {
     "51.116.253.164/30",
   ]
 }
-output "region85_ipv4" {
-  value = [
-    "20.217.10.36/30",
-    "20.217.62.136/32",
-  ]
-}
-output "region85_ipv6" {
-  value = [
-  ]
-}
-output "region85" {
-  value = [
-    "20.217.10.36/30",
-    "20.217.62.136/32",
-  ]
-}
-output "region93_ipv4" {
-  value = [
-    "4.232.42.12/30",
-    "4.232.125.178/32",
-  ]
-}
-output "region93_ipv6" {
-  value = [
-  ]
-}
-output "region93" {
-  value = [
-    "4.232.42.12/30",
-    "4.232.125.178/32",
-  ]
-}
 output "region24_ipv4" {
   value = [
     "13.78.111.193/32",
@@ -1068,22 +1036,6 @@ output "region50" {
     "52.231.151.80/30",
   ]
 }
-output "region53_ipv4" {
-  value = [
-    "158.23.10.112/32",
-    "158.23.96.20/30",
-  ]
-}
-output "region53_ipv6" {
-  value = [
-  ]
-}
-output "region53" {
-  value = [
-    "158.23.10.112/32",
-    "158.23.96.20/30",
-  ]
-}
 output "region34_ipv4" {
   value = [
     "20.49.113.12/30",
@@ -1170,22 +1122,6 @@ output "region74" {
   value = [
     "51.13.128.80/30",
     "51.120.226.52/30",
-  ]
-}
-output "region52_ipv4" {
-  value = [
-    "20.215.21.178/32",
-    "20.215.170.104/30",
-  ]
-}
-output "region52_ipv6" {
-  value = [
-  ]
-}
-output "region52" {
-  value = [
-    "20.215.21.178/32",
-    "20.215.170.104/30",
   ]
 }
 output "region84_ipv4" {
@@ -1312,22 +1248,6 @@ output "region22" {
     "20.41.208.16/30",
   ]
 }
-output "region88_ipv4" {
-  value = [
-    "68.221.41.72/30",
-    "68.221.98.112/32",
-  ]
-}
-output "region88_ipv6" {
-  value = [
-  ]
-}
-output "region88" {
-  value = [
-    "68.221.41.72/30",
-    "68.221.98.112/32",
-  ]
-}
 output "region76_ipv4" {
   value = [
     "51.12.75.188/30",
@@ -1398,40 +1318,6 @@ output "region67" {
   value = [
     "51.107.146.52/30",
     "51.107.193.4/30",
-  ]
-}
-output "region8_ipv4" {
-  value = [
-    "51.53.41.76/30",
-    "51.53.110.138/32",
-  ]
-}
-output "region8_ipv6" {
-  value = [
-    "2603:1040:1302:2::620/124",
-  ]
-}
-output "region8" {
-  value = [
-    "51.53.41.76/30",
-    "51.53.110.138/32",
-    "2603:1040:1302:2::620/124",
-  ]
-}
-output "region96_ipv4" {
-  value = [
-    "51.53.182.200/30",
-    "51.53.191.138/32",
-  ]
-}
-output "region96_ipv6" {
-  value = [
-  ]
-}
-output "region96" {
-  value = [
-    "51.53.182.200/30",
-    "51.53.191.138/32",
   ]
 }
 output "region61_ipv4" {
