@@ -89,6 +89,7 @@ output "AzureArcInfrastructure_ipv4" {
 }
 output "AzureArcInfrastructure_ipv6" {
   value = [
+    "2603:1040:1002:5::420/124",
   ]
 }
 output "AzureArcInfrastructure" {
@@ -96,6 +97,7 @@ output "AzureArcInfrastructure" {
     "20.21.46.136/31",
     "20.21.69.176/31",
     "20.21.77.184/31",
+    "2603:1040:1002:5::420/124",
   ]
 }
 output "AzureAttestation_ipv4" {
@@ -376,17 +378,21 @@ output "AzureCognitiveSearch" {
 }
 output "AzureConnectors_ipv4" {
   value = [
+    "4.171.26.0/26",
     "20.21.43.0/26",
   ]
 }
 output "AzureConnectors_ipv6" {
   value = [
+    "2603:1040:1002:5::380/122",
     "2603:1040:1002:400::c0/122",
   ]
 }
 output "AzureConnectors" {
   value = [
+    "4.171.26.0/26",
     "20.21.43.0/26",
+    "2603:1040:1002:5::380/122",
     "2603:1040:1002:400::c0/122",
   ]
 }
