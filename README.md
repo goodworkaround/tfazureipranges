@@ -336,6 +336,9 @@ Available outputs:
 - M365ManagementActivityApiWebhook_ipv4
 - M365ManagementActivityApiWebhook_ipv6
 - M365ManagementActivityApiWebhook
+- Marketplace_ipv4
+- Marketplace_ipv6
+- Marketplace
 - MicrosoftAzureFluidRelay_ipv4
 - MicrosoftAzureFluidRelay_ipv6
 - MicrosoftAzureFluidRelay
@@ -13479,6 +13482,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/M365ManagementActivityApiWebhook"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## Marketplace
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/Marketplace"
 }
 ```
 
