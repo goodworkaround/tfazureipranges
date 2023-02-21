@@ -273,6 +273,9 @@ Available outputs:
 - AzureSphere_ipv4
 - AzureSphere_ipv6
 - AzureSphere
+- AzureSpringCloud_ipv4
+- AzureSpringCloud_ipv6
+- AzureSpringCloud
 - AzureStack_ipv4
 - AzureStack_ipv6
 - AzureStack
@@ -12189,6 +12192,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/AzureSphere"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## AzureSpringCloud
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureSpringCloud"
 }
 ```
 
