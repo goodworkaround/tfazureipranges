@@ -294,6 +294,9 @@ Available outputs:
 - ChaosStudio_ipv4
 - ChaosStudio_ipv6
 - ChaosStudio
+- CognitiveServicesFrontend_ipv4
+- CognitiveServicesFrontend_ipv6
+- CognitiveServicesFrontend
 - CognitiveServicesManagement_ipv4
 - CognitiveServicesManagement_ipv6
 - CognitiveServicesManagement
@@ -12473,6 +12476,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/ChaosStudio"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## CognitiveServicesFrontend
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/CognitiveServicesFrontend"
 }
 ```
 
