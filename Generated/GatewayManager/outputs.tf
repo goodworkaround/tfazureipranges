@@ -1208,6 +1208,22 @@ output "region74" {
     "2603:1020:f04::40/122",
   ]
 }
+output "region52_ipv4" {
+  value = [
+    "20.215.0.64/26",
+  ]
+}
+output "region52_ipv6" {
+  value = [
+    "2603:1020:1302::40/122",
+  ]
+}
+output "region52" {
+  value = [
+    "20.215.0.64/26",
+    "2603:1020:1302::40/122",
+  ]
+}
 output "region84_ipv4" {
   value = [
     "20.21.32.64/26",
