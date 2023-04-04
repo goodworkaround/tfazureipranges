@@ -4772,6 +4772,9 @@ module "modulename" {
 
 Available outputs:
 
+- ActionGroup_ipv4
+- ActionGroup_ipv6
+- ActionGroup
 - ApiManagement_ipv4
 - ApiManagement_ipv6
 - ApiManagement
@@ -7967,6 +7970,9 @@ Available outputs:
 - region26_ipv4
 - region26_ipv6
 - region26
+- region50_ipv4
+- region50_ipv6
+- region50
 - region34_ipv4
 - region34_ipv6
 - region34
