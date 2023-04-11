@@ -244,6 +244,9 @@ Available outputs:
 - AzureMachineLearning_ipv4
 - AzureMachineLearning_ipv6
 - AzureMachineLearning
+- AzureManagedGrafana_ipv4
+- AzureManagedGrafana_ipv6
+- AzureManagedGrafana
 - AzureMonitor_ipv4
 - AzureMonitor_ipv6
 - AzureMonitor
@@ -11325,6 +11328,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## AzureManagedGrafana
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureManagedGrafana"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## AzureMonitor
 
