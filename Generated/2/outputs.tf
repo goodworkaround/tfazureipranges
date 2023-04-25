@@ -2094,6 +2094,9 @@ output "MicrosoftContainerRegistry" {
 }
 output "PowerPlatformInfra_ipv4" {
   value = [
+    "4.194.227.152/29",
+    "4.194.227.160/27",
+    "4.194.227.192/26",
     "20.43.161.116/32",
     "20.43.161.149/32",
     "20.43.161.215/32",
@@ -2143,6 +2146,9 @@ output "PowerPlatformInfra_ipv6" {
 }
 output "PowerPlatformInfra" {
   value = [
+    "4.194.227.152/29",
+    "4.194.227.160/27",
+    "4.194.227.192/26",
     "20.43.161.116/32",
     "20.43.161.149/32",
     "20.43.161.215/32",
@@ -2188,6 +2194,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerPlatformPlex_ipv4" {
   value = [
+    "4.194.225.212/30",
     "20.24.0.192/28",
     "20.24.0.208/30",
     "20.195.86.92/30",
@@ -2202,6 +2209,7 @@ output "PowerPlatformPlex_ipv6" {
 }
 output "PowerPlatformPlex" {
   value = [
+    "4.194.225.212/30",
     "20.24.0.192/28",
     "20.24.0.208/30",
     "20.195.86.92/30",
