@@ -1,14 +1,14 @@
 output "change_number" {
-  value = "251"
+  value = "252"
 }
 output "file_name" {
-  value = "ServiceTags_Public_20230424.json"
+  value = "ServiceTags_Public_20230501.json"
 }
 output "file_url" {
-  value = "https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20230424.json"
+  value = "https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20230501.json"
 }
 output "file_date" {
-  value = "20230424"
+  value = "20230501"
 }
 output "cloud" {
   value = "Public"
