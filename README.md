@@ -334,6 +334,9 @@ Available outputs:
 - HDInsight_ipv4
 - HDInsight_ipv6
 - HDInsight
+- KustoAnalytics_ipv4
+- KustoAnalytics_ipv6
+- KustoAnalytics
 - LogicApps_ipv4
 - LogicApps_ipv6
 - LogicApps
@@ -13533,6 +13536,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## KustoAnalytics
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/KustoAnalytics"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## LogicApps
 
