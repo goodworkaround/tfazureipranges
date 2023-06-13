@@ -1058,3 +1058,17 @@ output "StorageSyncService" {
     "2603:1040:d04:800::120/123",
   ]
 }
+output "WindowsVirtualDesktop_ipv4" {
+  value = [
+    "20.244.133.159/32",
+  ]
+}
+output "WindowsVirtualDesktop_ipv6" {
+  value = [
+  ]
+}
+output "WindowsVirtualDesktop" {
+  value = [
+    "20.244.133.159/32",
+  ]
+}

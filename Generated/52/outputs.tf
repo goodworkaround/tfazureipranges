@@ -350,6 +350,8 @@ output "AzureCognitiveSearch" {
 }
 output "AzureConnectors_ipv4" {
   value = [
+    "20.215.144.243/32",
+    "20.215.144.251/32",
     "20.215.155.0/26",
     "20.215.169.128/26",
   ]
@@ -362,6 +364,8 @@ output "AzureConnectors_ipv6" {
 }
 output "AzureConnectors" {
   value = [
+    "20.215.144.243/32",
+    "20.215.144.251/32",
     "20.215.155.0/26",
     "20.215.169.128/26",
     "2603:1020:1302:2::600/122",

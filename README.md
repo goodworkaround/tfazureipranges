@@ -5973,6 +5973,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region SwitzerlandNorth
 
@@ -15597,6 +15600,9 @@ Available outputs:
 - region25_ipv4
 - region25_ipv6
 - region25
+- region65_ipv4
+- region65_ipv6
+- region65
 - region26_ipv4
 - region26_ipv6
 - region26
