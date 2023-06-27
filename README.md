@@ -205,6 +205,9 @@ Available outputs:
 - AzureDataLake_ipv4
 - AzureDataLake_ipv6
 - AzureDataLake
+- AzureDeviceUpdate_ipv4
+- AzureDeviceUpdate_ipv6
+- AzureDeviceUpdate
 - AzureDevOps_ipv4
 - AzureDevOps_ipv6
 - AzureDevOps
@@ -364,6 +367,9 @@ Available outputs:
 - MicrosoftDefenderForEndpoint_ipv4
 - MicrosoftDefenderForEndpoint_ipv6
 - MicrosoftDefenderForEndpoint
+- MicrosoftPurviewPolicyDistribution_ipv4
+- MicrosoftPurviewPolicyDistribution_ipv6
+- MicrosoftPurviewPolicyDistribution
 - OneDsCollector_ipv4
 - OneDsCollector_ipv6
 - OneDsCollector
@@ -10266,6 +10272,20 @@ Available outputs:
 - region18_ipv6
 - region18
 
+## AzureDeviceUpdate
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureDeviceUpdate"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureDevOps
 
 ```HCL
@@ -14046,6 +14066,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/MicrosoftDefenderForEndpoint"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## MicrosoftPurviewPolicyDistribution
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/MicrosoftPurviewPolicyDistribution"
 }
 ```
 
