@@ -530,6 +530,20 @@ output "region49" {
     "2603:1030:40b:3::100/120",
   ]
 }
+output "region68_ipv4" {
+  value = [
+  ]
+}
+output "region68_ipv6" {
+  value = [
+    "2603:1030:104:2::400/120",
+  ]
+}
+output "region68" {
+  value = [
+    "2603:1030:104:2::400/120",
+  ]
+}
 output "region19_ipv4" {
   value = [
     "40.79.132.160/27",

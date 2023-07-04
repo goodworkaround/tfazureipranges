@@ -324,6 +324,20 @@ output "region49" {
     "40.89.121.128/27",
   ]
 }
+output "region68_ipv4" {
+  value = [
+    "20.49.84.0/27",
+  ]
+}
+output "region68_ipv6" {
+  value = [
+  ]
+}
+output "region68" {
+  value = [
+    "20.49.84.0/27",
+  ]
+}
 output "region19_ipv4" {
   value = [
     "40.79.139.224/27",
