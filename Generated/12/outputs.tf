@@ -1240,6 +1240,7 @@ output "PowerPlatformPlex" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "40.69.116.110/31",
     "40.89.16.120/31",
     "52.242.44.240/29",
   ]
@@ -1251,6 +1252,7 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "40.69.116.110/31",
     "40.89.16.120/31",
     "52.242.44.240/29",
     "2603:1030:1005::200/123",

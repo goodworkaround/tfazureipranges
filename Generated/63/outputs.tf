@@ -1171,19 +1171,23 @@ output "PowerPlatformPlex" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.100.4.184/29",
+    "51.13.1.30/31",
     "51.120.40.70/31",
   ]
 }
 output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1020:e04:1::200/123",
+    "2603:1020:e04:402::160/126",
   ]
 }
 output "PowerQueryOnline" {
   value = [
     "20.100.4.184/29",
+    "51.13.1.30/31",
     "51.120.40.70/31",
     "2603:1020:e04:1::200/123",
+    "2603:1020:e04:402::160/126",
   ]
 }
 output "SCCservice_ipv4" {

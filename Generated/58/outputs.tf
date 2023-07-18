@@ -893,6 +893,8 @@ output "MicrosoftContainerRegistry" {
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.37.224.120/31",
+    "20.53.1.66/31",
+    "20.53.1.216/31",
     "20.53.54.168/29",
     "20.53.54.176/31",
   ]
@@ -905,6 +907,8 @@ output "PowerQueryOnline_ipv6" {
 output "PowerQueryOnline" {
   value = [
     "20.37.224.120/31",
+    "20.53.1.66/31",
+    "20.53.1.216/31",
     "20.53.54.168/29",
     "20.53.54.176/31",
     "2603:1010:304::200/123",

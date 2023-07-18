@@ -634,6 +634,22 @@ output "region71" {
     "51.116.246.16/30",
   ]
 }
+output "region93_ipv4" {
+  value = [
+    "4.232.28.24/30",
+  ]
+}
+output "region93_ipv6" {
+  value = [
+    "2603:1020:1204::5e0/124",
+  ]
+}
+output "region93" {
+  value = [
+    "4.232.28.24/30",
+    "2603:1020:1204::5e0/124",
+  ]
+}
 output "region24_ipv4" {
   value = [
     "20.191.161.220/30",

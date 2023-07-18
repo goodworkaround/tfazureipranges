@@ -932,6 +932,7 @@ output "PowerPlatformPlex" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "102.37.64.182/31",
     "102.37.87.176/29",
     "102.133.56.96/31",
   ]
@@ -939,13 +940,16 @@ output "PowerQueryOnline_ipv4" {
 output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1000:4::200/123",
+    "2603:1000:4:402::160/126",
   ]
 }
 output "PowerQueryOnline" {
   value = [
+    "102.37.64.182/31",
     "102.37.87.176/29",
     "102.133.56.96/31",
     "2603:1000:4::200/123",
+    "2603:1000:4:402::160/126",
   ]
 }
 output "SCCservice_ipv4" {

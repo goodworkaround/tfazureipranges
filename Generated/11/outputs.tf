@@ -1656,6 +1656,7 @@ output "PowerPlatformPlex" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "13.71.178.96/31",
     "20.116.43.120/29",
     "52.228.80.70/31",
   ]
@@ -1667,6 +1668,7 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "13.71.178.96/31",
     "20.116.43.120/29",
     "52.228.80.70/31",
     "2603:1030:f05:1::200/123",

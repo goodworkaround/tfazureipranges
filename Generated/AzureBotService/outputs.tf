@@ -702,6 +702,22 @@ output "region71" {
     "2603:1020:c04:1::20/123",
   ]
 }
+output "region93_ipv4" {
+  value = [
+    "4.232.24.16/30",
+  ]
+}
+output "region93_ipv6" {
+  value = [
+    "2603:1020:1204::20/123",
+  ]
+}
+output "region93" {
+  value = [
+    "4.232.24.16/30",
+    "2603:1020:1204::20/123",
+  ]
+}
 output "region24_ipv4" {
   value = [
     "13.78.108.172/30",
