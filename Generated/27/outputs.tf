@@ -1890,6 +1890,7 @@ output "PowerQueryOnline_ipv4" {
 output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1020:705:1::200/123",
+    "2603:1020:705:402::160/126",
   ]
 }
 output "PowerQueryOnline" {
@@ -1898,6 +1899,7 @@ output "PowerQueryOnline" {
     "51.104.10.114/31",
     "51.104.24.70/31",
     "2603:1020:705:1::200/123",
+    "2603:1020:705:402::160/126",
   ]
 }
 output "SCCservice_ipv4" {

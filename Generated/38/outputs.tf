@@ -2762,6 +2762,7 @@ output "PowerQueryOnline_ipv4" {
 output "PowerQueryOnline_ipv6" {
   value = [
     "2603:1030:c06:1::200/123",
+    "2603:1030:c06:400::960/126",
   ]
 }
 output "PowerQueryOnline" {
@@ -2772,6 +2773,7 @@ output "PowerQueryOnline" {
     "20.125.4.176/28",
     "20.125.4.192/29",
     "2603:1030:c06:1::200/123",
+    "2603:1030:c06:400::960/126",
   ]
 }
 output "SCCservice_ipv4" {
