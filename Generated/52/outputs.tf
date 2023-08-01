@@ -583,6 +583,7 @@ output "AzureKeyVault" {
 output "AzureMachineLearning_ipv4" {
   value = [
     "20.215.1.0/27",
+    "20.215.174.32/27",
   ]
 }
 output "AzureMachineLearning_ipv6" {
@@ -593,6 +594,7 @@ output "AzureMachineLearning_ipv6" {
 output "AzureMachineLearning" {
   value = [
     "20.215.1.0/27",
+    "20.215.174.32/27",
     "2603:1020:1302::200/122",
   ]
 }

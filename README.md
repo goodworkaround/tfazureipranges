@@ -4781,6 +4781,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region KoreaSouth
 
@@ -5588,6 +5591,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region NorwayEast
 
@@ -16096,6 +16102,9 @@ Available outputs:
 - region33_ipv4
 - region33_ipv6
 - region33
+- region49_ipv4
+- region49_ipv6
+- region49
 - region19_ipv4
 - region19_ipv6
 - region19
@@ -16144,6 +16153,9 @@ Available outputs:
 - region66_ipv4
 - region66_ipv6
 - region66
+- region61_ipv4
+- region61_ipv6
+- region61
 - region60_ipv4
 - region60_ipv6
 - region60

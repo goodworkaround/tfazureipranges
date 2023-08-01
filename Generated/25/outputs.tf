@@ -1669,6 +1669,7 @@ output "StorageSyncService" {
 output "WindowsVirtualDesktop_ipv4" {
   value = [
     "13.73.237.154/32",
+    "40.64.146.48/28",
     "40.74.84.253/32",
     "40.74.113.202/32",
     "40.74.118.163/32",
@@ -1685,6 +1686,7 @@ output "WindowsVirtualDesktop_ipv6" {
 output "WindowsVirtualDesktop" {
   value = [
     "13.73.237.154/32",
+    "40.64.146.48/28",
     "40.74.84.253/32",
     "40.74.113.202/32",
     "40.74.118.163/32",

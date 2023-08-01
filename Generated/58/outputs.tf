@@ -1063,6 +1063,7 @@ output "WindowsVirtualDesktop_ipv4" {
     "20.36.39.50/32",
     "20.36.39.171/32",
     "20.36.41.74/32",
+    "40.64.146.240/28",
   ]
 }
 output "WindowsVirtualDesktop_ipv6" {
@@ -1078,5 +1079,6 @@ output "WindowsVirtualDesktop" {
     "20.36.39.50/32",
     "20.36.39.171/32",
     "20.36.41.74/32",
+    "40.64.146.240/28",
   ]
 }
