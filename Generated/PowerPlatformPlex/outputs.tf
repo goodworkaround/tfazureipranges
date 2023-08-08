@@ -190,6 +190,7 @@ output "region0_ipv4" {
 }
 output "region0_ipv6" {
   value = [
+    "2603:1061:2004::/48",
   ]
 }
 output "region0" {
@@ -380,6 +381,7 @@ output "region0" {
     "102.133.204.16/28",
     "191.234.130.0/26",
     "191.238.78.84/30",
+    "2603:1061:2004::/48",
   ]
 }
 output "region3_ipv4" {

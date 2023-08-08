@@ -924,6 +924,8 @@ output "MicrosoftContainerRegistry" {
 }
 output "PowerPlatformInfra_ipv4" {
   value = [
+    "20.111.72.80/28",
+    "20.111.72.128/29",
     "40.82.224.9/32",
     "40.82.224.49/32",
     "40.82.224.52/32",
@@ -946,6 +948,8 @@ output "PowerPlatformInfra_ipv6" {
 }
 output "PowerPlatformInfra" {
   value = [
+    "20.111.72.80/28",
+    "20.111.72.128/29",
     "40.82.224.9/32",
     "40.82.224.49/32",
     "40.82.224.52/32",

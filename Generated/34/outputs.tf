@@ -1238,6 +1238,7 @@ output "AzureContainerRegistry_ipv4" {
 output "AzureContainerRegistry_ipv6" {
   value = [
     "2603:1030:608::2a8/125",
+    "2603:1030:608:7::1c0/122",
     "2603:1030:608:402::90/125",
     "2603:1030:608:402::340/122",
     "2603:1030:608:402::580/122",
@@ -1260,6 +1261,7 @@ output "AzureContainerRegistry" {
     "52.240.241.128/25",
     "52.240.244.0/25",
     "2603:1030:608::2a8/125",
+    "2603:1030:608:7::1c0/122",
     "2603:1030:608:402::90/125",
     "2603:1030:608:402::340/122",
     "2603:1030:608:402::580/122",
@@ -1674,6 +1676,22 @@ output "AzureSignalR" {
   value = [
     "20.49.119.96/27",
     "2603:1030:608:1::700/120",
+  ]
+}
+output "AzureUpdateDelivery_ipv4" {
+  value = [
+    "52.252.198.176/28",
+  ]
+}
+output "AzureUpdateDelivery_ipv6" {
+  value = [
+    "2a01:111:f100:1002::4134:dba0/124",
+  ]
+}
+output "AzureUpdateDelivery" {
+  value = [
+    "52.252.198.176/28",
+    "2a01:111:f100:1002::4134:dba0/124",
   ]
 }
 output "BatchNodeManagement_ipv4" {
