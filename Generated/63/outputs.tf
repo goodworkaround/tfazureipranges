@@ -96,6 +96,8 @@ output "AppServiceManagement" {
 }
 output "AzureArcInfrastructure_ipv4" {
   value = [
+    "20.100.21.120/29",
+    "20.100.21.128/31",
     "51.120.42.56/30",
     "51.120.44.196/30",
     "51.120.100.156/31",
@@ -110,6 +112,8 @@ output "AzureArcInfrastructure_ipv6" {
 }
 output "AzureArcInfrastructure" {
   value = [
+    "20.100.21.120/29",
+    "20.100.21.128/31",
     "51.120.42.56/30",
     "51.120.44.196/30",
     "51.120.100.156/31",

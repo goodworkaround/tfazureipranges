@@ -6428,6 +6428,9 @@ Available outputs:
 - AppServiceManagement_ipv4
 - AppServiceManagement_ipv6
 - AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
 - AzureAttestation_ipv4
 - AzureAttestation_ipv6
 - AzureAttestation
@@ -9231,6 +9234,9 @@ Available outputs:
 - region35_ipv4
 - region35_ipv6
 - region35
+- region69_ipv4
+- region69_ipv6
+- region69
 - region2_ipv4
 - region2_ipv6
 - region2
