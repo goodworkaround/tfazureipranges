@@ -7195,6 +7195,12 @@ Available outputs:
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -15089,6 +15095,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region76_ipv4
+- region76_ipv6
+- region76
 - region66_ipv4
 - region66_ipv6
 - region66
@@ -15214,6 +15223,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region76_ipv4
+- region76_ipv6
+- region76
 - region66_ipv4
 - region66_ipv6
 - region66
