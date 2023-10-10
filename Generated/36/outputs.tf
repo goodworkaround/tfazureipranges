@@ -1276,6 +1276,22 @@ output "AzureSignalR" {
     "2603:1030:b04:1::700/120",
   ]
 }
+output "AzureUpdateDelivery_ipv4" {
+  value = [
+    "20.165.191.133/32",
+    "20.165.241.177/32",
+  ]
+}
+output "AzureUpdateDelivery_ipv6" {
+  value = [
+  ]
+}
+output "AzureUpdateDelivery" {
+  value = [
+    "20.165.191.133/32",
+    "20.165.241.177/32",
+  ]
+}
 output "BatchNodeManagement_ipv4" {
   value = [
     "13.71.195.160/27",

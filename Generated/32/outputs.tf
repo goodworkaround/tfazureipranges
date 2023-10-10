@@ -2717,7 +2717,9 @@ output "AzureSignalR" {
 output "AzureUpdateDelivery_ipv4" {
   value = [
     "20.62.190.184/29",
+    "40.117.248.145/32",
     "52.152.180.144/28",
+    "74.235.227.153/32",
   ]
 }
 output "AzureUpdateDelivery_ipv6" {
@@ -2729,7 +2731,9 @@ output "AzureUpdateDelivery_ipv6" {
 output "AzureUpdateDelivery" {
   value = [
     "20.62.190.184/29",
+    "40.117.248.145/32",
     "52.152.180.144/28",
+    "74.235.227.153/32",
     "2603:1030:20e:3::2a0/125",
     "2a01:111:f100:2003::8975:3840/124",
   ]
