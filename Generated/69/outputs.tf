@@ -583,6 +583,8 @@ output "AzureKeyVault_ipv4" {
 }
 output "AzureKeyVault_ipv6" {
   value = [
+    "2603:1030:302::90/125",
+    "2603:1030:302::98/126",
   ]
 }
 output "AzureKeyVault" {
@@ -590,6 +592,8 @@ output "AzureKeyVault" {
     "20.44.2.0/30",
     "20.45.117.32/29",
     "20.45.117.40/30",
+    "2603:1030:302::90/125",
+    "2603:1030:302::98/126",
   ]
 }
 output "AzureMachineLearning_ipv4" {
