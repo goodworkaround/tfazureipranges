@@ -410,9 +410,15 @@ Available outputs:
 - Storage_ipv4
 - Storage_ipv6
 - Storage
+- StorageMover_ipv4
+- StorageMover_ipv6
+- StorageMover
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- VideoIndexer_ipv4
+- VideoIndexer_ipv6
+- VideoIndexer
 - WindowsAdminCenter_ipv4
 - WindowsAdminCenter_ipv6
 - WindowsAdminCenter
@@ -16360,6 +16366,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## StorageMover
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/StorageMover"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## StorageSyncService
 
 ```HCL
@@ -16544,6 +16564,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## VideoIndexer
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/VideoIndexer"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## WindowsAdminCenter
 
