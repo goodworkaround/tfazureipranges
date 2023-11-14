@@ -1108,6 +1108,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerPlatformPlex_ipv4" {
   value = [
+    "4.243.28.48/28",
     "20.200.160.28/30",
     "20.200.160.208/30",
     "20.200.160.236/30",
@@ -1121,6 +1122,7 @@ output "PowerPlatformPlex_ipv6" {
 }
 output "PowerPlatformPlex" {
   value = [
+    "4.243.28.48/28",
     "20.200.160.28/30",
     "20.200.160.208/30",
     "20.200.160.236/30",
