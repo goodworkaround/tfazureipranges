@@ -1,5 +1,7 @@
 output "ActionGroup_ipv4" {
   value = [
+    "52.172.33.114/32",
+    "104.211.231.103/32",
   ]
 }
 output "ActionGroup_ipv6" {
@@ -9,6 +11,8 @@ output "ActionGroup_ipv6" {
 }
 output "ActionGroup" {
   value = [
+    "52.172.33.114/32",
+    "104.211.231.103/32",
     "2603:1040:c06:402::178/125",
   ]
 }
