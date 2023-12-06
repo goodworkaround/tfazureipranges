@@ -5021,6 +5021,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -6435,6 +6438,9 @@ module "modulename" {
 
 Available outputs:
 
+- ActionGroup_ipv4
+- ActionGroup_ipv6
+- ActionGroup
 - ApiManagement_ipv4
 - ApiManagement_ipv6
 - ApiManagement
@@ -8007,6 +8013,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -8272,6 +8281,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -8558,6 +8570,9 @@ Available outputs:
 - region35_ipv4
 - region35_ipv6
 - region35
+- region69_ipv4
+- region69_ipv6
+- region69
 - region2_ipv4
 - region2_ipv6
 - region2
@@ -13123,6 +13138,12 @@ Available outputs:
 - region71_ipv4
 - region71_ipv6
 - region71
+- region85_ipv4
+- region85_ipv6
+- region85
+- region93_ipv4
+- region93_ipv6
+- region93
 - region24_ipv4
 - region24_ipv6
 - region24
@@ -13153,6 +13174,9 @@ Available outputs:
 - region74_ipv4
 - region74_ipv6
 - region74
+- region52_ipv4
+- region52_ipv6
+- region52
 - region84_ipv4
 - region84_ipv6
 - region84

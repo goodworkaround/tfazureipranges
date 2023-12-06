@@ -1,3 +1,19 @@
+output "ActionGroup_ipv4" {
+  value = [
+    "23.100.222.168/30",
+  ]
+}
+output "ActionGroup_ipv6" {
+  value = [
+    "2603:1030:302:1::90/126",
+  ]
+}
+output "ActionGroup" {
+  value = [
+    "23.100.222.168/30",
+    "2603:1030:302:1::90/126",
+  ]
+}
 output "ApiManagement_ipv4" {
   value = [
     "20.44.2.4/31",

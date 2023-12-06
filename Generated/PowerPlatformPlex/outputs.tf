@@ -1280,12 +1280,14 @@ output "region76_ipv4" {
 }
 output "region76_ipv6" {
   value = [
+    "2603:1061:2004:8000::/57",
   ]
 }
 output "region76" {
   value = [
     "20.91.155.144/29",
     "172.160.216.16/29",
+    "2603:1061:2004:8000::/57",
   ]
 }
 output "region66_ipv4" {

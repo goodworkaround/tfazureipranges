@@ -1,16 +1,20 @@
 output "ActionGroup_ipv4" {
   value = [
+    "4.232.48.104/30",
     "4.232.106.88/30",
   ]
 }
 output "ActionGroup_ipv6" {
   value = [
+    "2603:1020:1204:3::56c/126",
     "2603:1020:1204:400::c0/125",
   ]
 }
 output "ActionGroup" {
   value = [
+    "4.232.48.104/30",
     "4.232.106.88/30",
+    "2603:1020:1204:3::56c/126",
     "2603:1020:1204:400::c0/125",
   ]
 }
@@ -704,6 +708,22 @@ output "AzureResourceManager" {
     "4.232.107.192/26",
     "2603:1020:1204:1::400/120",
     "2603:1020:1204:400::180/122",
+  ]
+}
+output "AzureSignalR_ipv4" {
+  value = [
+    "4.232.50.64/26",
+  ]
+}
+output "AzureSignalR_ipv6" {
+  value = [
+    "2603:1020:1204:2::40/122",
+  ]
+}
+output "AzureSignalR" {
+  value = [
+    "4.232.50.64/26",
+    "2603:1020:1204:2::40/122",
   ]
 }
 output "BatchNodeManagement_ipv4" {
