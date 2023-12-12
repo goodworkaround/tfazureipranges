@@ -217,6 +217,7 @@ output "AzureCloud_ipv6" {
     "2603:1036:3000:1a0::/59",
     "2603:1037:1:1a0::/59",
     "2603:1061:1701::/48",
+    "2603:1061:2010:25::/64",
   ]
 }
 output "AzureCloud" {
@@ -302,6 +303,7 @@ output "AzureCloud" {
     "2603:1036:3000:1a0::/59",
     "2603:1037:1:1a0::/59",
     "2603:1061:1701::/48",
+    "2603:1061:2010:25::/64",
   ]
 }
 output "All_ipv4" {
@@ -391,6 +393,7 @@ output "All_ipv6" {
     "2603:1036:3000:1a0::/59",
     "2603:1037:1:1a0::/59",
     "2603:1061:1701::/48",
+    "2603:1061:2010:25::/64",
   ]
 }
 output "All" {
@@ -476,6 +479,7 @@ output "All" {
     "2603:1036:3000:1a0::/59",
     "2603:1037:1:1a0::/59",
     "2603:1061:1701::/48",
+    "2603:1061:2010:25::/64",
   ]
 }
 output "AzureCognitiveSearch_ipv4" {
@@ -944,5 +948,19 @@ output "StorageSyncService_ipv6" {
 output "StorageSyncService" {
   value = [
     "20.45.112.216/29",
+  ]
+}
+output "WindowsVirtualDesktop_ipv4" {
+  value = [
+  ]
+}
+output "WindowsVirtualDesktop_ipv6" {
+  value = [
+    "2603:1061:2010:25::/117",
+  ]
+}
+output "WindowsVirtualDesktop" {
+  value = [
+    "2603:1061:2010:25::/117",
   ]
 }

@@ -1646,6 +1646,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region CentralIndia
 
@@ -4661,6 +4664,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region EastUS2EUAP
 
@@ -5063,6 +5069,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region AustraliaCentral
 
@@ -5328,6 +5337,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region UAENorth
 
@@ -5885,6 +5897,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region JioIndiaWest
 
@@ -6296,6 +6311,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region EastUSSTG
 
@@ -6427,6 +6445,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region SouthCentralUSSTG
 
@@ -6552,6 +6573,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region GermanyWestCentral
 
@@ -6829,6 +6853,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region NorwayWest
 
@@ -6966,6 +6993,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region SwedenSouth
 
@@ -7097,6 +7127,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region SwedenCentral
 
@@ -7237,6 +7270,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region BrazilSoutheast
 
@@ -7371,6 +7407,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region brazilne
 
@@ -7933,6 +7972,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region IsraelCentral
 
@@ -8055,6 +8097,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region BrazilSouth
 
@@ -8323,6 +8368,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## Region MalaysiaSouth
 
@@ -8442,6 +8490,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
 
 ## ActionGroup
 
@@ -16633,6 +16684,9 @@ Available outputs:
 - region58_ipv4
 - region58_ipv6
 - region58
+- region59_ipv4
+- region59_ipv6
+- region59
 - region3_ipv4
 - region3_ipv6
 - region3
@@ -16642,6 +16696,9 @@ Available outputs:
 - region9_ipv4
 - region9_ipv6
 - region9
+- region77_ipv4
+- region77_ipv6
+- region77
 - region11_ipv4
 - region11_ipv6
 - region11
@@ -16654,6 +16711,9 @@ Available outputs:
 - region31_ipv4
 - region31_ipv6
 - region31
+- region48_ipv4
+- region48_ipv6
+- region48
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -16666,18 +16726,36 @@ Available outputs:
 - region49_ipv4
 - region49_ipv6
 - region49
+- region68_ipv4
+- region68_ipv6
+- region68
 - region19_ipv4
 - region19_ipv6
 - region19
+- region20_ipv4
+- region20_ipv6
+- region20
+- region72_ipv4
+- region72_ipv6
+- region72
 - region71_ipv4
 - region71_ipv6
 - region71
+- region85_ipv4
+- region85_ipv6
+- region85
+- region93_ipv4
+- region93_ipv6
+- region93
 - region24_ipv4
 - region24_ipv6
 - region24
 - region25_ipv4
 - region25_ipv6
 - region25
+- region64_ipv4
+- region64_ipv6
+- region64
 - region65_ipv4
 - region65_ipv6
 - region65
@@ -16687,6 +16765,9 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region98_ipv4
+- region98_ipv6
+- region98
 - region34_ipv4
 - region34_ipv6
 - region34
@@ -16696,6 +16777,15 @@ Available outputs:
 - region63_ipv4
 - region63_ipv6
 - region63
+- region74_ipv4
+- region74_ipv6
+- region74
+- region52_ipv4
+- region52_ipv6
+- region52
+- region84_ipv4
+- region84_ipv6
+- region84
 - region82_ipv4
 - region82_ipv6
 - region82
@@ -16705,15 +16795,27 @@ Available outputs:
 - region35_ipv4
 - region35_ipv6
 - region35
+- region69_ipv4
+- region69_ipv6
+- region69
 - region2_ipv4
 - region2_ipv6
 - region2
 - region22_ipv4
 - region22_ipv6
 - region22
+- region76_ipv4
+- region76_ipv6
+- region76
+- region75_ipv4
+- region75_ipv6
+- region75
 - region66_ipv4
 - region66_ipv6
 - region66
+- region67_ipv4
+- region67_ipv6
+- region67
 - region61_ipv4
 - region61_ipv6
 - region61
