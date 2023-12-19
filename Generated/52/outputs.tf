@@ -916,6 +916,38 @@ output "MicrosoftContainerRegistry" {
     "2603:1020:1302:c00::40/125",
   ]
 }
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "20.215.74.96/29",
+    "20.215.75.0/26",
+    "20.215.75.64/27",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "20.215.74.96/29",
+    "20.215.75.0/26",
+    "20.215.75.64/27",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "20.215.74.80/28",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "20.215.74.80/28",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "20.215.0.20/31",

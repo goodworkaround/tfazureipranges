@@ -874,6 +874,7 @@ output "BatchNodeManagement" {
 }
 output "DataFactory_ipv4" {
   value = [
+    "4.171.31.184/29",
     "20.21.46.64/28",
     "20.21.48.0/23",
     "20.21.55.208/29",
@@ -893,6 +894,7 @@ output "DataFactory_ipv6" {
 }
 output "DataFactory" {
   value = [
+    "4.171.31.184/29",
     "20.21.46.64/28",
     "20.21.48.0/23",
     "20.21.55.208/29",
@@ -1004,6 +1006,38 @@ output "MicrosoftContainerRegistry" {
     "2603:1040:1002:400::40/125",
     "2603:1040:1002:800::40/125",
     "2603:1040:1002:c00::40/125",
+  ]
+}
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "4.171.31.176/29",
+    "4.171.31.192/26",
+    "20.21.88.0/27",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "4.171.31.176/29",
+    "4.171.31.192/26",
+    "20.21.88.0/27",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "4.171.31.160/28",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "4.171.31.160/28",
   ]
 }
 output "PowerQueryOnline_ipv4" {
