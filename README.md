@@ -395,6 +395,9 @@ Available outputs:
 - SCCservice_ipv4
 - SCCservice_ipv6
 - SCCservice
+- Scuba_ipv4
+- Scuba_ipv6
+- Scuba
 - ServiceBus_ipv4
 - ServiceBus_ipv6
 - ServiceBus
@@ -15722,6 +15725,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## Scuba
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/Scuba"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## ServiceBus
 
