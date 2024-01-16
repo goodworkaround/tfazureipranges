@@ -670,20 +670,6 @@ output "region60" {
     "20.38.136.192/28",
   ]
 }
-output "region29_ipv4" {
-  value = [
-    "51.105.80.192/28",
-  ]
-}
-output "region29_ipv6" {
-  value = [
-  ]
-}
-output "region29" {
-  value = [
-    "51.105.80.192/28",
-  ]
-}
 output "region27_ipv4" {
   value = [
     "51.104.25.160/28",
@@ -696,20 +682,6 @@ output "region27_ipv6" {
 output "region27" {
   value = [
     "51.104.25.160/28",
-  ]
-}
-output "region30_ipv4" {
-  value = [
-    "51.143.192.192/28",
-  ]
-}
-output "region30_ipv6" {
-  value = [
-  ]
-}
-output "region30" {
-  value = [
-    "51.143.192.192/28",
   ]
 }
 output "region28_ipv4" {
