@@ -414,9 +414,6 @@ Available outputs:
 - Storage_ipv4
 - Storage_ipv6
 - Storage
-- Storage_EastUS_ipv4
-- Storage_EastUS_ipv6
-- Storage_EastUS
 - StorageMover_ipv4
 - StorageMover_ipv6
 - StorageMover
@@ -3244,6 +3241,9 @@ Available outputs:
 - Sql_ipv4
 - Sql_ipv6
 - Sql
+- Storage_ipv4
+- Storage_ipv6
+- Storage
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
@@ -15955,6 +15955,9 @@ Available outputs:
 - region1_ipv4
 - region1_ipv6
 - region1
+- region32_ipv4
+- region32_ipv6
+- region32
 - region33_ipv4
 - region33_ipv6
 - region33
@@ -16081,20 +16084,6 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
-
-## Storage_EastUS
-
-```HCL
-module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/Storage_EastUS"
-}
-```
-
-Available outputs:
-
-- region0_ipv4
-- region0_ipv6
-- region0
 
 ## StorageMover
 
