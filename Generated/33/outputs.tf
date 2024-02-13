@@ -4281,6 +4281,7 @@ output "AzureMachineLearning_ipv4" {
 output "AzureMachineLearning_ipv6" {
   value = [
     "2603:1030:40c:1::2c0/122",
+    "2603:1030:40c:e::700/122",
   ]
 }
 output "AzureMachineLearning" {
@@ -4294,6 +4295,7 @@ output "AzureMachineLearning" {
     "52.177.164.219/32",
     "104.208.144.160/28",
     "2603:1030:40c:1::2c0/122",
+    "2603:1030:40c:e::700/122",
   ]
 }
 output "AzureMonitor_ipv4" {

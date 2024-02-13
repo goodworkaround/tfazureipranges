@@ -934,6 +934,7 @@ output "AzureKeyVault" {
 }
 output "AzureMachineLearning_ipv4" {
   value = [
+    "20.164.158.240/28",
     "102.37.163.32/28",
     "102.133.122.224/27",
     "102.133.155.32/28",
@@ -947,6 +948,7 @@ output "AzureMachineLearning_ipv6" {
 }
 output "AzureMachineLearning" {
   value = [
+    "20.164.158.240/28",
     "102.37.163.32/28",
     "102.133.122.224/27",
     "102.133.155.32/28",
