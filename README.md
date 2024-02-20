@@ -263,6 +263,9 @@ Available outputs:
 - AzureMonitor_Core_ipv4
 - AzureMonitor_Core_ipv6
 - AzureMonitor_Core
+- AzureMonitorForSAP_ipv4
+- AzureMonitorForSAP_ipv6
+- AzureMonitorForSAP
 - AzureOpenDatasets_ipv4
 - AzureOpenDatasets_ipv6
 - AzureOpenDatasets
@@ -398,6 +401,9 @@ Available outputs:
 - Scuba_ipv4
 - Scuba_ipv6
 - Scuba
+- SecurityCopilot_ipv4
+- SecurityCopilot_ipv6
+- SecurityCopilot
 - SerialConsole_ipv4
 - SerialConsole_ipv6
 - SerialConsole
@@ -12452,6 +12458,20 @@ Available outputs:
 - region0_ipv6
 - region0
 
+## AzureMonitorForSAP
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitorForSAP"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## AzureOpenDatasets
 
 ```HCL
@@ -15752,6 +15772,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/Scuba"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## SecurityCopilot
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/SecurityCopilot"
 }
 ```
 
