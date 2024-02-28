@@ -1760,6 +1760,7 @@ output "PowerPlatformPlex_ipv4" {
     "20.116.43.208/28",
     "20.116.47.64/30",
     "20.151.60.0/26",
+    "20.175.243.64/26",
   ]
 }
 output "PowerPlatformPlex_ipv6" {
@@ -1776,6 +1777,7 @@ output "PowerPlatformPlex" {
     "20.116.43.208/28",
     "20.116.47.64/30",
     "20.151.60.0/26",
+    "20.175.243.64/26",
   ]
 }
 output "PowerQueryOnline_ipv4" {
