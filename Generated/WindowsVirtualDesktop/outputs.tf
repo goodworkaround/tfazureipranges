@@ -1330,6 +1330,7 @@ output "region71" {
 }
 output "region85_ipv4" {
   value = [
+    "40.64.144.248/29",
   ]
 }
 output "region85_ipv6" {
@@ -1339,6 +1340,7 @@ output "region85_ipv6" {
 }
 output "region85" {
   value = [
+    "40.64.144.248/29",
     "2603:1061:2010:37::/117",
   ]
 }
