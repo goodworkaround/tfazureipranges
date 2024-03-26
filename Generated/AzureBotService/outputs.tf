@@ -1176,6 +1176,38 @@ output "region67" {
     "2603:1020:b04::20/123",
   ]
 }
+output "region8_ipv4" {
+  value = [
+    "51.53.24.16/30",
+  ]
+}
+output "region8_ipv6" {
+  value = [
+    "2603:1040:1302::20/123",
+  ]
+}
+output "region8" {
+  value = [
+    "51.53.24.16/30",
+    "2603:1040:1302::20/123",
+  ]
+}
+output "region96_ipv4" {
+  value = [
+    "51.53.168.16/30",
+  ]
+}
+output "region96_ipv6" {
+  value = [
+    "2603:1040:1202::20/123",
+  ]
+}
+output "region96" {
+  value = [
+    "51.53.168.16/30",
+    "2603:1040:1202::20/123",
+  ]
+}
 output "region61_ipv4" {
   value = [
     "20.37.64.64/30",

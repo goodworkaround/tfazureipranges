@@ -2060,6 +2060,34 @@ output "region67" {
     "2603:1061:2010:26::/117",
   ]
 }
+output "region8_ipv4" {
+  value = [
+  ]
+}
+output "region8_ipv6" {
+  value = [
+    "2603:1061:2010:34::/117",
+  ]
+}
+output "region8" {
+  value = [
+    "2603:1061:2010:34::/117",
+  ]
+}
+output "region96_ipv4" {
+  value = [
+  ]
+}
+output "region96_ipv6" {
+  value = [
+    "2603:1061:2010:3e::/117",
+  ]
+}
+output "region96" {
+  value = [
+    "2603:1061:2010:3e::/117",
+  ]
+}
 output "region61_ipv4" {
   value = [
     "40.64.146.144/28",
