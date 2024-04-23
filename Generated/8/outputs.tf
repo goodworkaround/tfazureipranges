@@ -415,6 +415,7 @@ output "AzureConnectors" {
 output "AzureContainerRegistry_ipv4" {
   value = [
     "51.53.27.64/26",
+    "51.53.49.0/26",
     "51.53.106.128/26",
     "51.53.108.128/25",
   ]
@@ -430,6 +431,7 @@ output "AzureContainerRegistry_ipv6" {
 output "AzureContainerRegistry" {
   value = [
     "51.53.27.64/26",
+    "51.53.49.0/26",
     "51.53.106.128/26",
     "51.53.108.128/25",
     "2603:1040:1302::520/125",

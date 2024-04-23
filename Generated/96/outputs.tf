@@ -422,6 +422,7 @@ output "AzureConnectors" {
 }
 output "AzureContainerRegistry_ipv4" {
   value = [
+    "51.53.143.64/26",
     "51.53.171.64/26",
     "51.53.186.128/26",
     "51.53.188.128/25",
@@ -437,6 +438,7 @@ output "AzureContainerRegistry_ipv6" {
 }
 output "AzureContainerRegistry" {
   value = [
+    "51.53.143.64/26",
     "51.53.171.64/26",
     "51.53.186.128/26",
     "51.53.188.128/25",
@@ -666,8 +668,11 @@ output "BatchNodeManagement" {
 }
 output "DataFactory_ipv4" {
   value = [
+    "51.53.136.240/28",
+    "51.53.143.128/25",
     "51.53.176.0/23",
     "51.53.191.64/28",
+    "167.105.144.0/26",
   ]
 }
 output "DataFactory_ipv6" {
@@ -678,8 +683,11 @@ output "DataFactory_ipv6" {
 }
 output "DataFactory" {
   value = [
+    "51.53.136.240/28",
+    "51.53.143.128/25",
     "51.53.176.0/23",
     "51.53.191.64/28",
+    "167.105.144.0/26",
     "2603:1040:1202:1::300/121",
     "2603:1040:1202:400::3c0/124",
   ]
