@@ -1582,6 +1582,7 @@ output "region98" {
 }
 output "region53_ipv4" {
   value = [
+    "40.64.144.184/29",
   ]
 }
 output "region53_ipv6" {
@@ -1591,6 +1592,7 @@ output "region53_ipv6" {
 }
 output "region53" {
   value = [
+    "40.64.144.184/29",
     "2603:1061:2010:36::/117",
   ]
 }
@@ -1976,6 +1978,7 @@ output "region22" {
 }
 output "region88_ipv4" {
   value = [
+    "40.64.144.176/29",
   ]
 }
 output "region88_ipv6" {
@@ -1985,6 +1988,7 @@ output "region88_ipv6" {
 }
 output "region88" {
   value = [
+    "40.64.144.176/29",
     "2603:1061:2010:38::/117",
   ]
 }
