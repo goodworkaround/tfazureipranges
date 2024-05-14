@@ -1658,6 +1658,7 @@ output "LogicApps" {
 }
 output "MicrosoftCloudAppSecurity_ipv4" {
   value = [
+    "4.255.218.227/32",
     "13.71.196.192/27",
   ]
 }
@@ -1667,6 +1668,7 @@ output "MicrosoftCloudAppSecurity_ipv6" {
 }
 output "MicrosoftCloudAppSecurity" {
   value = [
+    "4.255.218.227/32",
     "13.71.196.192/27",
   ]
 }
