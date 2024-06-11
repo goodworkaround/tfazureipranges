@@ -1776,6 +1776,9 @@ Available outputs:
 - LogicApps_ipv4
 - LogicApps_ipv6
 - LogicApps
+- MicrosoftCloudAppSecurity_ipv4
+- MicrosoftCloudAppSecurity_ipv6
+- MicrosoftCloudAppSecurity
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
@@ -7450,6 +7453,9 @@ Available outputs:
 - LogicApps_ipv4
 - LogicApps_ipv6
 - LogicApps
+- MicrosoftCloudAppSecurity_ipv4
+- MicrosoftCloudAppSecurity_ipv6
+- MicrosoftCloudAppSecurity
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
@@ -8379,6 +8385,9 @@ Available outputs:
 - LogicApps_ipv4
 - LogicApps_ipv6
 - LogicApps
+- MicrosoftCloudAppSecurity_ipv4
+- MicrosoftCloudAppSecurity_ipv6
+- MicrosoftCloudAppSecurity
 - MicrosoftContainerRegistry_ipv4
 - MicrosoftContainerRegistry_ipv6
 - MicrosoftContainerRegistry
@@ -15277,12 +15286,18 @@ Available outputs:
 - region4_ipv4
 - region4_ipv6
 - region4
+- region9_ipv4
+- region9_ipv6
+- region9
 - region11_ipv4
 - region11_ipv6
 - region11
 - region12_ipv4
 - region12_ipv6
 - region12
+- region21_ipv4
+- region21_ipv6
+- region21
 - region31_ipv4
 - region31_ipv6
 - region31
@@ -15328,6 +15343,9 @@ Available outputs:
 - region38_ipv4
 - region38_ipv6
 - region38
+- region79_ipv4
+- region79_ipv6
+- region79
 
 ## MicrosoftContainerRegistry
 
