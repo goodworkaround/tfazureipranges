@@ -5,10 +5,29 @@ Param(
 )
 
 # Download json file
-$ProgressPreference = "SilentlyContinue"
-$r = Invoke-WebRequest $url -UseBasicParsing -Verbose:$false -UserAgent "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36" -Headers @{
-    Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+$retries = 1
+$r = @{StatusCode = 0}
+while($r.StatusCode -ne 200 -and $retries -lt 10) {
+    if($retries -ge 1) {Start-Sleep 10}
+
+    Write-Host "Downloading ($retries) $url"
+    $retries += 1
+    $ProgressPreference = "SilentlyContinue"
+    try {
+        $r = Invoke-WebRequest $url -UseBasicParsing -Verbose:$false -UserAgent "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36" -Headers @{
+            Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        }
+    } catch {
+        Write-Warning "Failed to download $url - error code $($r.StatusCode)"
+        
+    }
 }
+
+if($r.StatusCode -ne 200) {
+    Write-Host "Nope, this failed :("
+    exit 1
+}
+
 
 $matches = [Regex]::Matches($r.Content,'"https://download.microsoft.com/[a-zA-Z0-9/-]+/ServiceTags_Public_[0-9]{8}\.json"')
 $url = $matches[0].Value
