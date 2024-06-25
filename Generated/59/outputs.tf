@@ -564,7 +564,6 @@ output "AzureIoTHub" {
 }
 output "AzureKeyVault_ipv4" {
   value = [
-    "20.36.72.34/32",
     "20.36.114.16/30",
     "20.53.57.40/29",
     "20.53.57.48/30",
@@ -580,7 +579,6 @@ output "AzureKeyVault_ipv6" {
 }
 output "AzureKeyVault" {
   value = [
-    "20.36.72.34/32",
     "20.36.114.16/30",
     "20.53.57.40/29",
     "20.53.57.48/30",
