@@ -685,6 +685,7 @@ output "AzureDigitalTwins_ipv6" {
   value = [
     "2603:1040:1002::7c0/123",
     "2603:1040:1002:1::/121",
+    "2603:1040:1002:5::64c/126",
   ]
 }
 output "AzureDigitalTwins" {
@@ -692,6 +693,7 @@ output "AzureDigitalTwins" {
     "20.21.36.64/27",
     "2603:1040:1002::7c0/123",
     "2603:1040:1002:1::/121",
+    "2603:1040:1002:5::64c/126",
   ]
 }
 output "AzureEventGrid_ipv4" {

@@ -1098,6 +1098,7 @@ output "AzureDigitalTwins_ipv4" {
 }
 output "AzureDigitalTwins_ipv6" {
   value = [
+    "2603:1030:b04:3::478/126",
   ]
 }
 output "AzureDigitalTwins" {
@@ -1116,6 +1117,7 @@ output "AzureDigitalTwins" {
     "52.153.154.158/32",
     "52.153.154.161/32",
     "52.161.185.49/32",
+    "2603:1030:b04:3::478/126",
   ]
 }
 output "AzureEventGrid_ipv4" {
