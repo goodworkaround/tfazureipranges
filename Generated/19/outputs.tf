@@ -1170,6 +1170,7 @@ output "AzureMachineLearning" {
 }
 output "AzureMonitor_ipv4" {
   value = [
+    "4.178.131.0/26",
     "20.19.27.128/28",
     "20.40.137.91/32",
     "20.40.140.212/32",
@@ -1221,6 +1222,7 @@ output "AzureMonitor_ipv6" {
 }
 output "AzureMonitor" {
   value = [
+    "4.178.131.0/26",
     "20.19.27.128/28",
     "20.40.137.91/32",
     "20.40.140.212/32",
@@ -1860,6 +1862,8 @@ output "PowerPlatformPlex" {
 }
 output "PowerQueryOnline_ipv4" {
   value = [
+    "4.178.131.96/28",
+    "4.178.131.112/29",
     "20.43.40.70/31",
     "20.111.3.208/29",
     "40.79.143.96/31",
@@ -1877,6 +1881,8 @@ output "PowerQueryOnline_ipv6" {
 }
 output "PowerQueryOnline" {
   value = [
+    "4.178.131.96/28",
+    "4.178.131.112/29",
     "20.43.40.70/31",
     "20.111.3.208/29",
     "40.79.143.96/31",
