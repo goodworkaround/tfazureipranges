@@ -1682,6 +1682,7 @@ output "BatchNodeManagement" {
 }
 output "DataFactory_ipv4" {
   value = [
+    "4.252.148.192/27",
     "13.75.39.112/28",
     "20.189.104.128/25",
     "20.189.106.0/26",
@@ -1705,6 +1706,7 @@ output "DataFactory_ipv6" {
 }
 output "DataFactory" {
   value = [
+    "4.252.148.192/27",
     "13.75.39.112/28",
     "20.189.104.128/25",
     "20.189.106.0/26",

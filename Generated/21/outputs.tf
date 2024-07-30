@@ -1366,6 +1366,7 @@ output "AzureOpenDatasets" {
 }
 output "AzurePortal_ipv4" {
   value = [
+    "4.213.106.96/27",
     "20.43.123.160/28",
     "52.140.105.224/27",
     "52.140.107.112/28",
@@ -1387,6 +1388,7 @@ output "AzurePortal_ipv6" {
 }
 output "AzurePortal" {
   value = [
+    "4.213.106.96/27",
     "20.43.123.160/28",
     "52.140.105.224/27",
     "52.140.107.112/28",
@@ -1486,6 +1488,7 @@ output "BatchNodeManagement" {
 }
 output "DataFactory_ipv4" {
   value = [
+    "4.213.106.128/27",
     "20.43.121.48/28",
     "20.192.42.0/24",
     "20.192.43.0/26",
@@ -1512,6 +1515,7 @@ output "DataFactory_ipv6" {
 }
 output "DataFactory" {
   value = [
+    "4.213.106.128/27",
     "20.43.121.48/28",
     "20.192.42.0/24",
     "20.192.43.0/26",
