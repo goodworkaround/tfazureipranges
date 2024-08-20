@@ -2646,6 +2646,22 @@ output "LogicApps" {
     "2603:1030:40b:400::be0/123",
   ]
 }
+output "MicrosoftCloudAppSecurity_ipv4" {
+  value = [
+    "172.173.47.82/31",
+    "172.173.47.88/29",
+  ]
+}
+output "MicrosoftCloudAppSecurity_ipv6" {
+  value = [
+  ]
+}
+output "MicrosoftCloudAppSecurity" {
+  value = [
+    "172.173.47.82/31",
+    "172.173.47.88/29",
+  ]
+}
 output "MicrosoftContainerRegistry_ipv4" {
   value = [
     "40.74.146.40/29",
