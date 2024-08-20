@@ -1530,6 +1530,9 @@ output "MicrosoftCloudAppSecurity_ipv4" {
     "68.218.170.40/31",
     "68.218.170.42/32",
     "68.218.170.64/27",
+    "68.218.182.196/32",
+    "68.218.183.0/25",
+    "68.218.183.128/28",
   ]
 }
 output "MicrosoftCloudAppSecurity_ipv6" {
@@ -1592,6 +1595,9 @@ output "MicrosoftCloudAppSecurity" {
     "68.218.170.40/31",
     "68.218.170.42/32",
     "68.218.170.64/27",
+    "68.218.182.196/32",
+    "68.218.183.0/25",
+    "68.218.183.128/28",
   ]
 }
 output "MicrosoftContainerRegistry_ipv4" {

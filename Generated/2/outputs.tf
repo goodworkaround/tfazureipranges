@@ -2206,6 +2206,9 @@ output "MicrosoftCloudAppSecurity_ipv4" {
     "57.155.34.165/32",
     "57.155.34.166/31",
     "57.155.34.192/27",
+    "57.155.102.179/32",
+    "57.155.103.48/28",
+    "57.155.103.128/25",
   ]
 }
 output "MicrosoftCloudAppSecurity_ipv6" {
@@ -2272,6 +2275,9 @@ output "MicrosoftCloudAppSecurity" {
     "57.155.34.165/32",
     "57.155.34.166/31",
     "57.155.34.192/27",
+    "57.155.102.179/32",
+    "57.155.103.48/28",
+    "57.155.103.128/25",
   ]
 }
 output "MicrosoftContainerRegistry_ipv4" {

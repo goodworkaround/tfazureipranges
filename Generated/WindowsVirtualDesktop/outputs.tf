@@ -2068,6 +2068,7 @@ output "region67" {
 }
 output "region8_ipv4" {
   value = [
+    "40.64.144.168/29",
   ]
 }
 output "region8_ipv6" {
@@ -2077,6 +2078,7 @@ output "region8_ipv6" {
 }
 output "region8" {
   value = [
+    "40.64.144.168/29",
     "2603:1061:2010:34::/117",
   ]
 }
