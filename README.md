@@ -3218,6 +3218,9 @@ Available outputs:
 - DataFactory_ipv4
 - DataFactory_ipv6
 - DataFactory
+- Dynamics365ForMarketingEmail_ipv4
+- Dynamics365ForMarketingEmail_ipv6
+- Dynamics365ForMarketingEmail
 - EventHub_ipv4
 - EventHub_ipv6
 - EventHub
@@ -7575,6 +7578,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -8242,6 +8248,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -13710,6 +13719,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region88_ipv4
+- region88_ipv6
+- region88
 - region76_ipv4
 - region76_ipv6
 - region76
@@ -13722,6 +13734,9 @@ Available outputs:
 - region67_ipv4
 - region67_ipv6
 - region67
+- region8_ipv4
+- region8_ipv6
+- region8
 - region61_ipv4
 - region61_ipv6
 - region61
@@ -14364,6 +14379,9 @@ Available outputs:
 - region1_ipv4
 - region1_ipv6
 - region1
+- region32_ipv4
+- region32_ipv6
+- region32
 - region19_ipv4
 - region19_ipv6
 - region19

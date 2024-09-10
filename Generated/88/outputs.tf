@@ -764,6 +764,22 @@ output "AzureResourceManager" {
     "2603:1020:1403:1::400/120",
   ]
 }
+output "AzureSignalR_ipv4" {
+  value = [
+    "68.221.110.128/26",
+  ]
+}
+output "AzureSignalR_ipv6" {
+  value = [
+    "2603:1020:1403:3::6c0/122",
+  ]
+}
+output "AzureSignalR" {
+  value = [
+    "68.221.110.128/26",
+    "2603:1020:1403:3::6c0/122",
+  ]
+}
 output "BatchNodeManagement_ipv4" {
   value = [
     "68.221.81.64/27",
