@@ -9638,11 +9638,11 @@ Available outputs:
 - region0_ipv6
 - region0
 
-## AzureActiveDirectory_ServiceEndpoint
+## AzureActiveDirectoryDomainServices
 
 ```HCL
 module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureActiveDirectory_ServiceEndpoint"
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureActiveDirectoryDomainServices"
 }
 ```
 
@@ -9652,11 +9652,11 @@ Available outputs:
 - region0_ipv6
 - region0
 
-## AzureActiveDirectoryDomainServices
+## AzureActiveDirectory_ServiceEndpoint
 
 ```HCL
 module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureActiveDirectoryDomainServices"
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureActiveDirectory_ServiceEndpoint"
 }
 ```
 
@@ -12840,11 +12840,11 @@ Available outputs:
 - region79_ipv6
 - region79
 
-## AzureMonitor_Core
+## AzureMonitorForSAP
 
 ```HCL
 module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitor_Core"
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitorForSAP"
 }
 ```
 
@@ -12854,11 +12854,11 @@ Available outputs:
 - region0_ipv6
 - region0
 
-## AzureMonitorForSAP
+## AzureMonitor_Core
 
 ```HCL
 module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitorForSAP"
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitor_Core"
 }
 ```
 
