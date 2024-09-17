@@ -1304,6 +1304,7 @@ output "region19" {
 }
 output "region20_ipv4" {
   value = [
+    "40.64.147.192/29",
   ]
 }
 output "region20_ipv6" {
@@ -1313,11 +1314,13 @@ output "region20_ipv6" {
 }
 output "region20" {
   value = [
+    "40.64.147.192/29",
     "2603:1061:2010:c::/117",
   ]
 }
 output "region72_ipv4" {
   value = [
+    "40.64.147.200/29",
   ]
 }
 output "region72_ipv6" {
@@ -1327,6 +1330,7 @@ output "region72_ipv6" {
 }
 output "region72" {
   value = [
+    "40.64.147.200/29",
     "2603:1061:2010:2c::/117",
   ]
 }
@@ -1386,6 +1390,7 @@ output "region85" {
 }
 output "region93_ipv4" {
   value = [
+    "40.64.147.248/29",
   ]
 }
 output "region93_ipv6" {
@@ -1395,6 +1400,7 @@ output "region93_ipv6" {
 }
 output "region93" {
   value = [
+    "40.64.147.248/29",
     "2603:1061:2010:3b::/117",
   ]
 }
@@ -1698,6 +1704,7 @@ output "region63" {
 }
 output "region74_ipv4" {
   value = [
+    "40.64.147.216/29",
   ]
 }
 output "region74_ipv6" {
@@ -1707,11 +1714,13 @@ output "region74_ipv6" {
 }
 output "region74" {
   value = [
+    "40.64.147.216/29",
     "2603:1061:2010:2b::/117",
   ]
 }
 output "region52_ipv4" {
   value = [
+    "40.64.147.240/29",
   ]
 }
 output "region52_ipv6" {
@@ -1721,6 +1730,7 @@ output "region52_ipv6" {
 }
 output "region52" {
   value = [
+    "40.64.147.240/29",
     "2603:1061:2010:35::/117",
   ]
 }
@@ -1996,6 +2006,7 @@ output "region88" {
 }
 output "region76_ipv4" {
   value = [
+    "40.64.144.136/29",
   ]
 }
 output "region76_ipv6" {
@@ -2005,11 +2016,13 @@ output "region76_ipv6" {
 }
 output "region76" {
   value = [
+    "40.64.144.136/29",
     "2603:1061:2010:2e::/117",
   ]
 }
 output "region75_ipv4" {
   value = [
+    "40.64.144.128/29",
   ]
 }
 output "region75_ipv6" {
@@ -2019,6 +2032,7 @@ output "region75_ipv6" {
 }
 output "region75" {
   value = [
+    "40.64.144.128/29",
     "2603:1061:2010:2d::/117",
   ]
 }
@@ -2054,6 +2068,7 @@ output "region66" {
 }
 output "region67_ipv4" {
   value = [
+    "40.64.147.208/29",
   ]
 }
 output "region67_ipv6" {
@@ -2063,6 +2078,7 @@ output "region67_ipv6" {
 }
 output "region67" {
   value = [
+    "40.64.147.208/29",
     "2603:1061:2010:26::/117",
   ]
 }
@@ -2084,6 +2100,7 @@ output "region8" {
 }
 output "region96_ipv4" {
   value = [
+    "40.64.144.144/29",
   ]
 }
 output "region96_ipv6" {
@@ -2093,6 +2110,7 @@ output "region96_ipv6" {
 }
 output "region96" {
   value = [
+    "40.64.144.144/29",
     "2603:1061:2010:3e::/117",
   ]
 }
