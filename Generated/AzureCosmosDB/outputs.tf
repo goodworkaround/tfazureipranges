@@ -2636,6 +2636,22 @@ output "region53" {
     "2603:1030:702::1e0/123",
   ]
 }
+output "region91_ipv4" {
+  value = [
+    "172.204.154.64/26",
+  ]
+}
+output "region91_ipv6" {
+  value = [
+    "2603:1010:502::1e0/123",
+  ]
+}
+output "region91" {
+  value = [
+    "172.204.154.64/26",
+    "2603:1010:502::1e0/123",
+  ]
+}
 output "region34_ipv4" {
   value = [
     "20.41.146.81/32",
