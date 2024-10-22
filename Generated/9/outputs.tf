@@ -1352,6 +1352,10 @@ output "AzureResourceManager" {
 }
 output "AzureSecurityCenter_ipv4" {
   value = [
+    "74.163.50.128/25",
+    "74.163.51.0/24",
+    "74.163.52.0/23",
+    "74.163.54.0/26",
     "191.234.149.224/27",
   ]
 }
@@ -1361,6 +1365,10 @@ output "AzureSecurityCenter_ipv6" {
 }
 output "AzureSecurityCenter" {
   value = [
+    "74.163.50.128/25",
+    "74.163.51.0/24",
+    "74.163.52.0/23",
+    "74.163.54.0/26",
     "191.234.149.224/27",
   ]
 }
