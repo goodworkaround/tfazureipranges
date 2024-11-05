@@ -2549,15 +2549,19 @@ output "PowerQueryOnline" {
 output "SCCservice_ipv4" {
   value = [
     "40.78.239.104/29",
+    "172.188.180.160/27",
   ]
 }
 output "SCCservice_ipv6" {
   value = [
+    "2603:1040:5:d::80/123",
   ]
 }
 output "SCCservice" {
   value = [
     "40.78.239.104/29",
+    "172.188.180.160/27",
+    "2603:1040:5:d::80/123",
   ]
 }
 output "ServiceBus_ipv4" {
@@ -2826,7 +2830,6 @@ output "Storage" {
 }
 output "StorageSyncService_ipv4" {
   value = [
-    "13.76.81.46/32",
     "20.43.131.40/29",
   ]
 }
@@ -2837,7 +2840,6 @@ output "StorageSyncService_ipv6" {
 }
 output "StorageSyncService" {
   value = [
-    "13.76.81.46/32",
     "20.43.131.40/29",
     "2603:1040:5:1::300/123",
   ]

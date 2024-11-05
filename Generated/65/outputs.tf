@@ -1162,7 +1162,6 @@ output "Storage" {
 }
 output "StorageSyncService_ipv4" {
   value = [
-    "20.193.168.76/32",
     "20.193.205.128/29",
     "40.64.14.0/29",
   ]
@@ -1175,7 +1174,6 @@ output "StorageSyncService_ipv6" {
 }
 output "StorageSyncService" {
   value = [
-    "20.193.168.76/32",
     "20.193.205.128/29",
     "40.64.14.0/29",
     "2603:1040:d04::300/123",
