@@ -1067,6 +1067,10 @@ output "AzureResourceManager" {
 output "AzureSecurityCenter_ipv4" {
   value = [
     "51.140.215.128/27",
+    "172.186.32.64/26",
+    "172.186.33.0/24",
+    "172.186.34.0/23",
+    "172.186.36.0/22",
   ]
 }
 output "AzureSecurityCenter_ipv6" {
@@ -1076,6 +1080,10 @@ output "AzureSecurityCenter_ipv6" {
 output "AzureSecurityCenter" {
   value = [
     "51.140.215.128/27",
+    "172.186.32.64/26",
+    "172.186.33.0/24",
+    "172.186.34.0/23",
+    "172.186.36.0/22",
   ]
 }
 output "AzureSignalR_ipv4" {
