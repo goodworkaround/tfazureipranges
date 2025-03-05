@@ -1482,6 +1482,22 @@ output "region71" {
     "2603:1020:c04:1::340/122",
   ]
 }
+output "region6_ipv4" {
+  value = [
+    "70.153.153.64/27",
+  ]
+}
+output "region6_ipv6" {
+  value = [
+    "2603:1040:1802::/122",
+  ]
+}
+output "region6" {
+  value = [
+    "70.153.153.64/27",
+    "2603:1040:1802::/122",
+  ]
+}
 output "region85_ipv4" {
   value = [
     "20.217.41.32/27",
