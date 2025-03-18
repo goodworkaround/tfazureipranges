@@ -5050,6 +5050,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -14235,6 +14238,9 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region53_ipv4
+- region53_ipv6
+- region53
 - region34_ipv4
 - region34_ipv6
 - region34
