@@ -548,6 +548,22 @@ output "region48" {
     "2603:1030:f:2::4c0/123",
   ]
 }
+output "region10_ipv4" {
+  value = [
+    "68.211.19.184/30",
+  ]
+}
+output "region10_ipv6" {
+  value = [
+    "2603:1050:301::540/124",
+  ]
+}
+output "region10" {
+  value = [
+    "68.211.19.184/30",
+    "2603:1050:301::540/124",
+  ]
+}
 output "region1_ipv4" {
   value = [
     "20.187.197.228/30",
@@ -868,6 +884,22 @@ output "region98" {
   value = [
     "20.17.51.36/30",
     "2603:1040:1503::620/124",
+  ]
+}
+output "region92_ipv4" {
+  value = [
+    "20.17.112.20/30",
+  ]
+}
+output "region92_ipv6" {
+  value = [
+    "2603:1040:1602::5c0/124",
+  ]
+}
+output "region92" {
+  value = [
+    "20.17.112.20/30",
+    "2603:1040:1602::5c0/124",
   ]
 }
 output "region53_ipv4" {

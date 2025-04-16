@@ -192,6 +192,20 @@ output "region48" {
     "2603:1061:2010:1e::/117",
   ]
 }
+output "region10_ipv4" {
+  value = [
+  ]
+}
+output "region10_ipv6" {
+  value = [
+    "2603:1061:2010:7::/117",
+  ]
+}
+output "region10" {
+  value = [
+    "2603:1061:2010:7::/117",
+  ]
+}
 output "region1_ipv4" {
   value = [
     "40.64.145.192/28",
@@ -488,6 +502,20 @@ output "region98_ipv6" {
 output "region98" {
   value = [
     "2603:1061:2010:40::/117",
+  ]
+}
+output "region92_ipv4" {
+  value = [
+  ]
+}
+output "region92_ipv6" {
+  value = [
+    "2603:1061:2010:3a::/117",
+  ]
+}
+output "region92" {
+  value = [
+    "2603:1061:2010:3a::/117",
   ]
 }
 output "region53_ipv4" {

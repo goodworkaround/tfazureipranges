@@ -74,6 +74,7 @@ output "AzureMonitor" {
 | 6 | IndonesiaCentral |
 | 8 | TaiwanNorth |
 | 9 | BrazilSouth |
+| 10 | ChileCentral |
 | 11 | CanadaCentral |
 | 12 | CanadaEast |
 | 16 | northeurope2 |
@@ -127,6 +128,7 @@ output "AzureMonitor" {
 | 85 | IsraelCentral |
 | 88 | SpainCentral |
 | 91 | NewZealandNorth |
+| 92 | MalaysiaWest |
 | 93 | ItalyNorth |
 | 96 | TaiwanNorthwest |
 | 98 | MalaysiaSouth |
@@ -581,6 +583,128 @@ Available outputs:
 - SCCservice_ipv4
 - SCCservice_ipv6
 - SCCservice
+- ServiceBus_ipv4
+- ServiceBus_ipv6
+- ServiceBus
+- ServiceFabric_ipv4
+- ServiceFabric_ipv6
+- ServiceFabric
+- Sql_ipv4
+- Sql_ipv6
+- Sql
+- Storage_ipv4
+- Storage_ipv6
+- Storage
+- StorageSyncService_ipv4
+- StorageSyncService_ipv6
+- StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
+
+## Region ChileCentral
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/10"
+}
+```
+
+Available outputs:
+
+- ActionGroup_ipv4
+- ActionGroup_ipv6
+- ActionGroup
+- ApiManagement_ipv4
+- ApiManagement_ipv6
+- ApiManagement
+- AppService_ipv4
+- AppService_ipv6
+- AppService
+- AppServiceManagement_ipv4
+- AppServiceManagement_ipv6
+- AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
+- AzureAttestation_ipv4
+- AzureAttestation_ipv6
+- AzureAttestation
+- AzureBackup_ipv4
+- AzureBackup_ipv6
+- AzureBackup
+- AzureBotService_ipv4
+- AzureBotService_ipv6
+- AzureBotService
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
+- AzureCognitiveSearch_ipv4
+- AzureCognitiveSearch_ipv6
+- AzureCognitiveSearch
+- AzureConnectors_ipv4
+- AzureConnectors_ipv6
+- AzureConnectors
+- AzureContainerRegistry_ipv4
+- AzureContainerRegistry_ipv6
+- AzureContainerRegistry
+- AzureCosmosDB_ipv4
+- AzureCosmosDB_ipv6
+- AzureCosmosDB
+- AzureDataExplorerManagement_ipv4
+- AzureDataExplorerManagement_ipv6
+- AzureDataExplorerManagement
+- AzureDigitalTwins_ipv4
+- AzureDigitalTwins_ipv6
+- AzureDigitalTwins
+- AzureEventGrid_ipv4
+- AzureEventGrid_ipv6
+- AzureEventGrid
+- AzureKeyVault_ipv4
+- AzureKeyVault_ipv6
+- AzureKeyVault
+- AzureMachineLearning_ipv4
+- AzureMachineLearning_ipv6
+- AzureMachineLearning
+- AzureMonitor_ipv4
+- AzureMonitor_ipv6
+- AzureMonitor
+- AzurePortal_ipv4
+- AzurePortal_ipv6
+- AzurePortal
+- AzureResourceManager_ipv4
+- AzureResourceManager_ipv6
+- AzureResourceManager
+- BatchNodeManagement_ipv4
+- BatchNodeManagement_ipv6
+- BatchNodeManagement
+- DataFactory_ipv4
+- DataFactory_ipv6
+- DataFactory
+- EventHub_ipv4
+- EventHub_ipv6
+- EventHub
+- GatewayManager_ipv4
+- GatewayManager_ipv6
+- GatewayManager
+- HDInsight_ipv4
+- HDInsight_ipv6
+- HDInsight
+- LogicApps_ipv4
+- LogicApps_ipv6
+- LogicApps
+- MicrosoftContainerRegistry_ipv4
+- MicrosoftContainerRegistry_ipv6
+- MicrosoftContainerRegistry
+- PowerBI_ipv4
+- PowerBI_ipv6
+- PowerBI
+- PowerQueryOnline_ipv4
+- PowerQueryOnline_ipv6
+- PowerQueryOnline
 - ServiceBus_ipv4
 - ServiceBus_ipv6
 - ServiceBus
@@ -5452,6 +5576,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -8863,6 +8990,134 @@ Available outputs:
 - WindowsVirtualDesktop_ipv6
 - WindowsVirtualDesktop
 
+## Region MalaysiaWest
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/92"
+}
+```
+
+Available outputs:
+
+- ActionGroup_ipv4
+- ActionGroup_ipv6
+- ActionGroup
+- ApiManagement_ipv4
+- ApiManagement_ipv6
+- ApiManagement
+- AppService_ipv4
+- AppService_ipv6
+- AppService
+- AppServiceManagement_ipv4
+- AppServiceManagement_ipv6
+- AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
+- AzureAttestation_ipv4
+- AzureAttestation_ipv6
+- AzureAttestation
+- AzureBackup_ipv4
+- AzureBackup_ipv6
+- AzureBackup
+- AzureBotService_ipv4
+- AzureBotService_ipv6
+- AzureBotService
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
+- AzureCognitiveSearch_ipv4
+- AzureCognitiveSearch_ipv6
+- AzureCognitiveSearch
+- AzureConnectors_ipv4
+- AzureConnectors_ipv6
+- AzureConnectors
+- AzureContainerRegistry_ipv4
+- AzureContainerRegistry_ipv6
+- AzureContainerRegistry
+- AzureCosmosDB_ipv4
+- AzureCosmosDB_ipv6
+- AzureCosmosDB
+- AzureDataExplorerManagement_ipv4
+- AzureDataExplorerManagement_ipv6
+- AzureDataExplorerManagement
+- AzureDigitalTwins_ipv4
+- AzureDigitalTwins_ipv6
+- AzureDigitalTwins
+- AzureEventGrid_ipv4
+- AzureEventGrid_ipv6
+- AzureEventGrid
+- AzureIoTHub_ipv4
+- AzureIoTHub_ipv6
+- AzureIoTHub
+- AzureKeyVault_ipv4
+- AzureKeyVault_ipv6
+- AzureKeyVault
+- AzureMachineLearning_ipv4
+- AzureMachineLearning_ipv6
+- AzureMachineLearning
+- AzureMonitor_ipv4
+- AzureMonitor_ipv6
+- AzureMonitor
+- AzurePortal_ipv4
+- AzurePortal_ipv6
+- AzurePortal
+- AzureResourceManager_ipv4
+- AzureResourceManager_ipv6
+- AzureResourceManager
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
+- BatchNodeManagement_ipv4
+- BatchNodeManagement_ipv6
+- BatchNodeManagement
+- DataFactory_ipv4
+- DataFactory_ipv6
+- DataFactory
+- EventHub_ipv4
+- EventHub_ipv6
+- EventHub
+- GatewayManager_ipv4
+- GatewayManager_ipv6
+- GatewayManager
+- HDInsight_ipv4
+- HDInsight_ipv6
+- HDInsight
+- LogicApps_ipv4
+- LogicApps_ipv6
+- LogicApps
+- MicrosoftContainerRegistry_ipv4
+- MicrosoftContainerRegistry_ipv6
+- MicrosoftContainerRegistry
+- PowerBI_ipv4
+- PowerBI_ipv6
+- PowerBI
+- PowerQueryOnline_ipv4
+- PowerQueryOnline_ipv6
+- PowerQueryOnline
+- ServiceBus_ipv4
+- ServiceBus_ipv6
+- ServiceBus
+- ServiceFabric_ipv4
+- ServiceFabric_ipv6
+- ServiceFabric
+- Sql_ipv4
+- Sql_ipv6
+- Sql
+- Storage_ipv4
+- Storage_ipv6
+- Storage
+- StorageSyncService_ipv4
+- StorageSyncService_ipv6
+- StorageSyncService
+- WindowsVirtualDesktop_ipv4
+- WindowsVirtualDesktop_ipv6
+- WindowsVirtualDesktop
+
 ## Region ItalyNorth
 
 ```HCL
@@ -9293,6 +9548,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -9350,6 +9608,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -9490,6 +9751,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -9547,6 +9811,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -9715,6 +9982,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -9772,6 +10042,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -9912,6 +10185,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -9969,6 +10245,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -10179,6 +10458,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -10236,6 +10518,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -10376,6 +10661,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -10433,6 +10721,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -10573,6 +10864,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -10630,6 +10924,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -10770,6 +11067,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -10827,6 +11127,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -10967,6 +11270,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -11024,6 +11330,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -11164,6 +11473,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -11221,6 +11533,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -11361,6 +11676,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -11418,6 +11736,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -11558,6 +11879,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -11615,6 +11939,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -11769,6 +12096,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -11826,6 +12156,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -12163,6 +12496,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -12220,6 +12556,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -12360,6 +12699,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -12417,6 +12759,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -12656,6 +13001,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -12796,6 +13144,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -12853,6 +13204,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -13007,6 +13361,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -13064,6 +13421,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -13232,6 +13592,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -13289,6 +13652,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -13615,6 +13981,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -13672,6 +14041,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -13812,6 +14184,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -13869,6 +14244,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -14214,6 +14592,9 @@ Available outputs:
 - region71_ipv4
 - region71_ipv6
 - region71
+- region6_ipv4
+- region6_ipv6
+- region6
 - region85_ipv4
 - region85_ipv6
 - region85
@@ -14238,6 +14619,9 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -14506,6 +14890,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -14563,6 +14950,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -14745,6 +15135,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -14802,6 +15195,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -15037,6 +15433,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -15094,6 +15493,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -15234,6 +15636,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -15291,6 +15696,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -15459,6 +15867,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -15516,6 +15927,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -15670,6 +16084,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -15727,6 +16144,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -16023,6 +16443,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -16080,6 +16503,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -16262,6 +16688,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -16319,6 +16748,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -16730,6 +17162,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -16787,6 +17222,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -17133,6 +17571,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -17190,6 +17631,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -17330,6 +17774,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -17387,6 +17834,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -17527,6 +17977,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -17584,6 +18037,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -17738,6 +18194,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -17795,6 +18254,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -17949,6 +18411,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -18006,6 +18471,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
@@ -18174,6 +18642,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -18231,6 +18702,9 @@ Available outputs:
 - region98_ipv4
 - region98_ipv6
 - region98
+- region92_ipv4
+- region92_ipv6
+- region92
 - region53_ipv4
 - region53_ipv6
 - region53
