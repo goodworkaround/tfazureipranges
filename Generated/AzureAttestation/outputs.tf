@@ -1116,6 +1116,22 @@ output "region2" {
     "40.78.239.116/30",
   ]
 }
+output "region101_ipv4" {
+  value = [
+    "57.151.208.20/30",
+  ]
+}
+output "region101_ipv6" {
+  value = [
+    "2603:1030:902::5c0/124",
+  ]
+}
+output "region101" {
+  value = [
+    "57.151.208.20/30",
+    "2603:1030:902::5c0/124",
+  ]
+}
 output "region22_ipv4" {
   value = [
     "20.192.184.116/30",
