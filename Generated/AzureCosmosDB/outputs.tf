@@ -3090,6 +3090,22 @@ output "region35" {
     "2603:1030:807:c02::c0/122",
   ]
 }
+output "region102_ipv4" {
+  value = [
+    "48.216.19.0/26",
+  ]
+}
+output "region102_ipv6" {
+  value = [
+    "2603:1030:1102::1e0/123",
+  ]
+}
+output "region102" {
+  value = [
+    "48.216.19.0/26",
+    "2603:1030:1102::1e0/123",
+  ]
+}
 output "region69_ipv4" {
   value = [
     "20.44.2.64/26",
