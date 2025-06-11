@@ -1000,6 +1000,22 @@ output "region4" {
     "2603:1010:101::400/122",
   ]
 }
+output "region95_ipv4" {
+  value = [
+    "68.210.161.64/27",
+  ]
+}
+output "region95_ipv6" {
+  value = [
+    "2603:1020:104:4::c0/122",
+  ]
+}
+output "region95" {
+  value = [
+    "68.210.161.64/27",
+    "2603:1020:104:4::c0/122",
+  ]
+}
 output "region9_ipv4" {
   value = [
     "23.97.97.29/32",

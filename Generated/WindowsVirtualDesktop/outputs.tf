@@ -80,6 +80,20 @@ output "region4" {
     "2603:1061:2010:1::/117",
   ]
 }
+output "region95_ipv4" {
+  value = [
+  ]
+}
+output "region95_ipv6" {
+  value = [
+    "2603:1061:2010:3d::/117",
+  ]
+}
+output "region95" {
+  value = [
+    "2603:1061:2010:3d::/117",
+  ]
+}
 output "region9_ipv4" {
   value = [
     "40.64.144.224/29",
