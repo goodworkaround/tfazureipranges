@@ -996,6 +996,42 @@ output "PowerBI" {
     "2603:1010:502:2::480/123",
   ]
 }
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "172.204.240.90/31",
+    "172.204.242.16/28",
+    "172.204.242.32/29",
+    "172.204.242.40/30",
+    "172.204.243.128/25",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "172.204.240.90/31",
+    "172.204.242.16/28",
+    "172.204.242.32/29",
+    "172.204.242.40/30",
+    "172.204.243.128/25",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "172.204.242.128/26",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "172.204.242.128/26",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "172.204.152.40/29",
@@ -1129,6 +1165,7 @@ output "Storage" {
 output "StorageSyncService_ipv4" {
   value = [
     "172.204.177.56/29",
+    "172.204.242.200/29",
   ]
 }
 output "StorageSyncService_ipv6" {
@@ -1139,6 +1176,7 @@ output "StorageSyncService_ipv6" {
 output "StorageSyncService" {
   value = [
     "172.204.177.56/29",
+    "172.204.242.200/29",
     "2603:1010:502:400::180/123",
   ]
 }

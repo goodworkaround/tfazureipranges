@@ -394,6 +394,20 @@ output "region85" {
     "2603:1061:2010:37::/117",
   ]
 }
+output "region86_ipv4" {
+  value = [
+  ]
+}
+output "region86_ipv6" {
+  value = [
+    "2603:1061:2010:44::/117",
+  ]
+}
+output "region86" {
+  value = [
+    "2603:1061:2010:44::/117",
+  ]
+}
 output "region93_ipv4" {
   value = [
     "40.64.147.248/29",

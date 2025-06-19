@@ -922,6 +922,44 @@ output "PowerBI" {
     "2603:1040:1802:2::c0/122",
   ]
 }
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "70.153.65.180/30",
+    "70.153.65.184/29",
+    "70.153.65.224/28",
+    "70.153.65.240/31",
+    "70.153.66.64/26",
+    "70.153.66.128/26",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "70.153.65.180/30",
+    "70.153.65.184/29",
+    "70.153.65.224/28",
+    "70.153.65.240/31",
+    "70.153.66.64/26",
+    "70.153.66.128/26",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "70.153.66.0/26",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "70.153.66.0/26",
+  ]
+}
 output "PowerQueryOnline_ipv4" {
   value = [
     "70.153.152.40/29",

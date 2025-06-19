@@ -2452,6 +2452,22 @@ output "region85" {
     "2603:1040:1402::500/123",
   ]
 }
+output "region86_ipv4" {
+  value = [
+    "20.217.251.0/26",
+  ]
+}
+output "region86_ipv6" {
+  value = [
+    "2603:1040:1702::1e0/123",
+  ]
+}
+output "region86" {
+  value = [
+    "20.217.251.0/26",
+    "2603:1040:1702::1e0/123",
+  ]
+}
 output "region93_ipv4" {
   value = [
     "4.232.26.64/27",
