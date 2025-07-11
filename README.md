@@ -3950,9 +3950,6 @@ Available outputs:
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
-- AzureUpdateDelivery_ipv4
-- AzureUpdateDelivery_ipv6
-- AzureUpdateDelivery
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -4403,9 +4400,6 @@ Available outputs:
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
-- AzureUpdateDelivery_ipv4
-- AzureUpdateDelivery_ipv6
-- AzureUpdateDelivery
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -8099,9 +8093,6 @@ Available outputs:
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
-- AzureUpdateDelivery_ipv4
-- AzureUpdateDelivery_ipv6
-- AzureUpdateDelivery
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -15572,9 +15563,6 @@ Available outputs:
 - region33_ipv4
 - region33_ipv6
 - region33
-- region34_ipv4
-- region34_ipv6
-- region34
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -15587,15 +15575,9 @@ Available outputs:
 - region18_ipv4
 - region18_ipv6
 - region18
-- region37_ipv4
-- region37_ipv6
-- region37
 - region38_ipv4
 - region38_ipv6
 - region38
-- region79_ipv4
-- region79_ipv6
-- region79
 
 ## AzureWebPubSub
 
