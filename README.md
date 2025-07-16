@@ -9058,6 +9058,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -17799,6 +17805,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region88_ipv4
+- region88_ipv6
+- region88
 - region76_ipv4
 - region76_ipv6
 - region76
@@ -17945,6 +17954,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region88_ipv4
+- region88_ipv6
+- region88
 - region76_ipv4
 - region76_ipv6
 - region76

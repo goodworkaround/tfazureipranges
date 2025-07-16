@@ -1293,11 +1293,13 @@ output "region6_ipv4" {
 }
 output "region6_ipv6" {
   value = [
+    "2603:1061:2004:c000::/57",
   ]
 }
 output "region6" {
   value = [
     "70.153.66.0/26",
+    "2603:1061:2004:c000::/57",
   ]
 }
 output "region85_ipv4" {
@@ -1471,11 +1473,13 @@ output "region91_ipv4" {
 }
 output "region91_ipv6" {
   value = [
+    "2603:1061:2004:b800::/57",
   ]
 }
 output "region91" {
   value = [
     "172.204.242.128/26",
+    "2603:1061:2004:b800::/57",
   ]
 }
 output "region17_ipv4" {
@@ -1788,6 +1792,20 @@ output "region22" {
     "135.13.48.64/26",
     "135.13.50.128/25",
     "2603:1061:2004:3800::/57",
+  ]
+}
+output "region88_ipv4" {
+  value = [
+  ]
+}
+output "region88_ipv6" {
+  value = [
+    "2603:1061:2004:b000::/57",
+  ]
+}
+output "region88" {
+  value = [
+    "2603:1061:2004:b000::/57",
   ]
 }
 output "region76_ipv4" {
