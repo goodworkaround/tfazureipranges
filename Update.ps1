@@ -6,9 +6,9 @@ Param(
 
 # Download json file
 $retries = 1
-$r = @{StatusCode = 0}
-while($r.StatusCode -ne 200 -and $retries -lt 10) {
-    if($retries -ge 1) {Start-Sleep 10}
+$r = @{StatusCode = 0 }
+while ($r.StatusCode -ne 200 -and $retries -lt 10) {
+    if ($retries -ge 1) { Start-Sleep 10 }
 
     Write-Host "Downloading ($retries) $url"
     $retries += 1
@@ -17,27 +17,29 @@ while($r.StatusCode -ne 200 -and $retries -lt 10) {
         $r = Invoke-WebRequest $url -UseBasicParsing -Verbose:$false -UserAgent "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36" -Headers @{
             Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
         }
-    } catch {
+    }
+    catch {
         Write-Warning "Failed to download $url - error code $($r.StatusCode)"
         
     }
 }
 
-if($r.StatusCode -ne 200) {
+if ($r.StatusCode -ne 200) {
     Write-Host "Nope, this failed :("
     exit 1
 }
 
 
-$matches = [Regex]::Matches($r.Content,'"https://download.microsoft.com/[a-zA-Z0-9/-]+/ServiceTags_Public_[0-9]{8}\.json"')
+$matches = [Regex]::Matches($r.Content, '"https://download.microsoft.com/[a-zA-Z0-9/-]+/ServiceTags_Public_[0-9]{8}\.json"')
 $url = $matches[0].Value
 
 # Locate url
-if($url) {
+if ($url) {
     $url = $url.Trim('"')
     Write-Verbose "Downloading JSON from $url"
     $json = Invoke-RestMethod $url -ErrorAction Stop -Verbose:$false
-} else {
+}
+else {
     throw "Unable to determine url of JSON with IP addresses"
     exit 1
 }
@@ -55,19 +57,19 @@ Function New-TerraformStringArrayOutput {
     Process {
         $values | ForEach-Object `
             -Begin {
-                $s = New-Object System.Collections.ArrayList
-                $s.Add("output ""$identifier"" {`n  value = [") | Out-Null
-            } `
+            $s = New-Object System.Collections.ArrayList
+            $s.Add("output ""$identifier"" {`n  value = [") | Out-Null
+        } `
             -Process {
-                if(![String]::IsNullOrEmpty($_)) {
-                    $s.Add("    ""$($_)"",") | Out-Null
-                }
-            } `
-            -End {
-                $s.Add("  ]") | Out-Null
-                $s.Add("}") | Out-Null
-                $s -join "`n"
+            if (![String]::IsNullOrEmpty($_)) {
+                $s.Add("    ""$($_)"",") | Out-Null
             }
+        } `
+            -End {
+            $s.Add("  ]") | Out-Null
+            $s.Add("}") | Out-Null
+            $s -join "`n"
+        }
     }
 }
 
@@ -87,9 +89,9 @@ Function New-TerraformStringOutput {
 }
 
 # Clean up Generated folder
-if($PSScriptRoot) {Set-Location $PSScriptRoot}
-$originalhash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
-$originalfilelist = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Select-object -ExpandProperty FullName)
+if ($PSScriptRoot) { Set-Location $PSScriptRoot }
+$originalhash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf", ".md" | Get-FileHash | Sort-Object Path | ForEach-Object { $_.Hash }) -join ""
+$originalfilelist = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf", ".md" | Select-object -ExpandProperty FullName)
 Remove-Item -Path Generated -Force -Confirm:$false -Recurse
 mkdir Generated | Out-Null
 
@@ -100,140 +102,143 @@ $regionids = @{
 
 # Loop through all entries in the json in an ordered manner (to make sure files are always the same)
 $json.values | 
-    Where-Object id -notlike "*.*Stage" |
-    Sort-Object -Property id |
-    ForEach-Object `
-        -Begin {
-            # Progress tracking
-            $inc = 1
-            $total = $json.values | Measure-Object | Select-Object -ExpandProperty Count
-        } `
-        -Process {
-            # Progress tracking
-            Write-Verbose "Processing entry $inc / $total - $($_.id)"
-            $inc += 1
+Where-Object id -notlike "*.*Stage" |
+Sort-Object -Property id |
+ForEach-Object `
+    -Begin {
+    # Progress tracking
+    $inc = 1
+    $total = $json.values | Measure-Object | Select-Object -ExpandProperty Count
+} `
+    -Process {
+    # Progress tracking
+    Write-Verbose "Processing entry $inc / $total - $($_.id)"
+    $inc += 1
 
-            $service = $_.properties.systemService
-            if($_.id -like "*.*" -and $($_.properties.regionId) -ne "0") {
-                $service = $_.id -split "\." | Select-Object -First 1
-            } elseif($_.id -ne "AzureCloud") {
-                $service = $_.id -replace "\.","_"
-            }
+    $service = $_.properties.systemService
+    if ($_.id -like "*.*" -and $($_.properties.regionId) -ne "0") {
+        $service = $_.id -split "\." | Select-Object -First 1
+    }
+    elseif ($_.id -ne "AzureCloud") {
+        $service = $_.id -replace "\.", "_"
+    }
 
-            # Create folders for services and regions
-            $regionfolder = "Generated/$($_.properties.regionId)"
-            $servicefolder = "Generated/$($service)"
+    # Create folders for services and regions
+    $regionfolder = "Generated/$($_.properties.regionId)"
+    $servicefolder = "Generated/$($service)"
             
-            if(!(Test-Path $regionfolder)) {
-                mkdir $regionfolder | Out-Null
-            }
+    if (!(Test-Path $regionfolder)) {
+        mkdir $regionfolder | Out-Null
+    }
 
-            if(!(Test-Path $servicefolder)) {
-                mkdir $servicefolder | Out-Null
-            }
+    if (!(Test-Path $servicefolder)) {
+        mkdir $servicefolder | Out-Null
+    }
 
-            # Add the regionid to the regionid map
-            if(!$regionids.ContainsKey("$($_.properties.regionId)")) {
-                $regionids["$($_.properties.regionId)"] = $_.name -split "\." | Select-Object -Last 1
-            }
+    # Add the regionid to the regionid map
+    if (!$regionids.ContainsKey("$($_.properties.regionId)")) {
+        $regionids["$($_.properties.regionId)"] = $_.name -split "\." | Select-Object -Last 1
+    }
 
             
-            $tfnameregion = "{0}" -f $service
-            #if("$($_.properties.regionId)" -eq "0") {
-            #    $tfnameregion = "{0}_region{1}" -f $service, $_.properties.regionId
-            #} else
-            if([String]::IsNullOrEmpty($service)) {
-                $tfnameregion = "region{1}" -f $service, $_.properties.regionId
-            }
-            $tfnameservice = "region{0}" -f $_.properties.regionId
+    $tfnameregion = "{0}" -f $service
+    #if("$($_.properties.regionId)" -eq "0") {
+    #    $tfnameregion = "{0}_region{1}" -f $service, $_.properties.regionId
+    #} else
+    if ([String]::IsNullOrEmpty($service)) {
+        $tfnameregion = "region{1}" -f $service, $_.properties.regionId
+    }
+    $tfnameservice = "region{0}" -f $_.properties.regionId
 
-            # Extract IP addresses split by ipv4 and ipv6
-            $ipv4 = $_.properties.addressPrefixes | Where-Object {$_ -like "*.*.*.*"}
-            $ipv6 = $_.properties.addressPrefixes | Where-Object {$_ -like "*:*:*"}
-            $ip = $_.properties.addressPrefixes | Where-Object {$_ -like "*.*.*.*" -or $_ -like "*:*:*"}
+    # Extract IP addresses split by ipv4 and ipv6
+    $ipv4 = $_.properties.addressPrefixes | Where-Object { $_ -like "*.*.*.*" }
+    $ipv6 = $_.properties.addressPrefixes | Where-Object { $_ -like "*:*:*" }
+    $ip = $_.properties.addressPrefixes | Where-Object { $_ -like "*.*.*.*" -or $_ -like "*:*:*" }
 
-            # Add to the region, as everything will point to one. 0 is global.
-            New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
-            New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
-            New-TerraformStringArrayOutput -identifier "$($tfnameregion)" -values $ip | Add-Content "$regionfolder/outputs.tf"
+    # Add to the region, as everything will point to one. 0 is global.
+    New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
+    New-TerraformStringArrayOutput -identifier "$($tfnameregion)_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
+    New-TerraformStringArrayOutput -identifier "$($tfnameregion)" -values $ip | Add-Content "$regionfolder/outputs.tf"
             
-            # If systemService is set, add entry to the service folder
-            if(![String]::IsNullOrWhiteSpace($_.properties.systemService)) {
-                New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv4" -values $ipv4 | Add-Content "$servicefolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv6" -values $ipv6 | Add-Content "$servicefolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "$($tfnameservice)" -values $ip | Add-Content "$servicefolder/outputs.tf"
-            # Otherwise, if the name if AzureCloud (Global), add "All" to the region output
-            } elseif($_.name -like "AzureCloud.*") {
-                New-TerraformStringArrayOutput -identifier "All_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "All_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
-                New-TerraformStringArrayOutput -identifier "All" -values $ip | Add-Content "$regionfolder/outputs.tf"
-            }
-        }
+    # If systemService is set, add entry to the service folder
+    if (![String]::IsNullOrWhiteSpace($_.properties.systemService)) {
+        New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv4" -values $ipv4 | Add-Content "$servicefolder/outputs.tf"
+        New-TerraformStringArrayOutput -identifier "$($tfnameservice)_ipv6" -values $ipv6 | Add-Content "$servicefolder/outputs.tf"
+        New-TerraformStringArrayOutput -identifier "$($tfnameservice)" -values $ip | Add-Content "$servicefolder/outputs.tf"
+        # Otherwise, if the name if AzureCloud (Global), add "All" to the region output
+    }
+    elseif ($_.name -like "AzureCloud.*") {
+        New-TerraformStringArrayOutput -identifier "All_ipv4" -values $ipv4 | Add-Content "$regionfolder/outputs.tf"
+        New-TerraformStringArrayOutput -identifier "All_ipv6" -values $ipv6 | Add-Content "$regionfolder/outputs.tf"
+        New-TerraformStringArrayOutput -identifier "All" -values $ip | Add-Content "$regionfolder/outputs.tf"
+    }
+}
 
 # Generate metadata.tf files
 Get-ChildItem Generated | ForEach-Object `
     -Begin {
-        $tfoutputs = @(
-            New-TerraformStringOutput -identifier "change_number" -value $json.changeNumber
-            New-TerraformStringOutput -identifier "file_name" -value (Split-path $url -Leaf)
-            New-TerraformStringOutput -identifier "file_url" -value $url
-            New-TerraformStringOutput -identifier "file_date" -value ((Split-path $url -Leaf).Split(".")[0]).Split("_")[-1]
-            New-TerraformStringOutput -identifier "cloud" -value $json.cloud
-        )
-    } `
+    $tfoutputs = @(
+        New-TerraformStringOutput -identifier "change_number" -value $json.changeNumber
+        New-TerraformStringOutput -identifier "file_name" -value (Split-path $url -Leaf)
+        New-TerraformStringOutput -identifier "file_url" -value $url
+        New-TerraformStringOutput -identifier "file_date" -value ((Split-path $url -Leaf).Split(".")[0]).Split("_")[-1]
+        New-TerraformStringOutput -identifier "cloud" -value $json.cloud
+    )
+} `
     -Process {
-        Set-Content -path "$($_.FullName)/metadata.tf" -Verbose -Value $tfoutputs
-    }
+    Set-Content -path "$($_.FullName)/metadata.tf" -Verbose -Value $tfoutputs
+}
 
 # Generate README.md
 $README = Get-Content README.template
 
 # Add region id table
 $regionids.Keys | 
-    ForEach-Object{[int] $_} | 
-    Sort-Object | 
-    ForEach-Object `
+ForEach-Object { [int] $_ } | 
+Sort-Object | 
+ForEach-Object `
     -Begin {
-        $REGIONIDTABLE = "| Region ID | Name |`n"
-        $REGIONIDTABLE += "| - | - |`n"
-    } `
+    $REGIONIDTABLE = "| Region ID | Name |`n"
+    $REGIONIDTABLE += "| - | - |`n"
+} `
     -Process {
-        $REGIONIDTABLE += "| {0} | {1} |`n" -f $_, $regionids["$($_)"]
-    } `
+    $REGIONIDTABLE += "| {0} | {1} |`n" -f $_, $regionids["$($_)"]
+} `
     -End {
-        $README = $README -creplace "REGIONIDTABLE", $REGIONIDTABLE
-    }
+    $README = $README -creplace "REGIONIDTABLE", $REGIONIDTABLE
+}
 
 
 $OUTPUTSECTIONS = Get-ChildItem Generated | 
-    Where-Object {Test-path (Join-Path $_.FullName "outputs.tf")} |
-    ForEach-Object {
-        if($regionids.ContainsKey($_.BaseName)) {
-            $regionname = $regionids[$_.BaseName]
-            "## Region $regionname"
+Where-Object { Test-path (Join-Path $_.FullName "outputs.tf") } |
+ForEach-Object {
+    if ($regionids.ContainsKey($_.BaseName)) {
+        $regionname = $regionids[$_.BaseName]
+        "## Region $regionname"
 
-        } else {
-            "## $($_.BaseName)"
-        }
-
-        ""
-        "``````HCL"
-        'module "modulename" {'
-        '  source = "github.com/goodworkaround/tfazureipranges/Generated/{0}"' -f $_.BaseName
-        '}'
-        "``````"
-        ""
-        "Available outputs:"
-        ""
-
-        Get-Content (Join-Path $_.FullName "outputs.tf") | 
-            Where-Object {$_ -like "output*"} |
-            ForEach-Object {$_ -split '"' | Select-Object -Index 1} |
-            ForEach-Object {
-                "- $($_)"
-            }
-        ""
     }
+    else {
+        "## $($_.BaseName)"
+    }
+
+    ""
+    "``````HCL"
+    'module "modulename" {'
+    '  source = "github.com/goodworkaround/tfazureipranges/Generated/{0}"' -f $_.BaseName
+    '}'
+    "``````"
+    ""
+    "Available outputs:"
+    ""
+
+    Get-Content (Join-Path $_.FullName "outputs.tf") | 
+    Where-Object { $_ -like "output*" } |
+    ForEach-Object { $_ -split '"' | Select-Object -Index 1 } |
+    ForEach-Object {
+        "- $($_)"
+    }
+    ""
+}
 
 $README = $README -creplace "OUTPUTSECTIONS", ($OUTPUTSECTIONS -join "`n")
 
@@ -241,31 +246,42 @@ $README = $README -creplace "OUTPUTSECTIONS", ($OUTPUTSECTIONS -join "`n")
 $README | Set-Content README.md
 
 # Sanity checks:
-$ExpectedFiles = "./Generated/Grafana/outputs.tf","Generated/0/outputs.tf","Generated/20/outputs.tf","Generated/53/outputs.tf","Generated/AzureDevOps/outputs.tf","Generated/Storage/outputs.tf"
+$ExpectedFiles = "./Generated/Grafana/outputs.tf", "Generated/0/outputs.tf", "Generated/20/outputs.tf", "Generated/53/outputs.tf", "Generated/AzureDevOps/outputs.tf", "Generated/Storage/outputs.tf"
 $ExpectedFiles | ForEach-Object {
-    if(!(Test-Path $_)) {
-        throw "Expected file $_ not found"
-       exit 1
+    if (!(Test-Path $_)) {
+        Write-Error "Expected file $_ not found"
+        exit 1
     }
 }
 
-$hash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
-if($hash -ne $originalhash) {
+$Count = Get-ChildItem -Recurse -File .\Generated | Group-Object Name
+if (($Count | Where-Object Name -eq "outputs.tf").Count -lt 150) {
+    Write-Error "Less than 150 outputs.tf files found"
+    exit 1
+}
+if (($Count | Where-Object Name -eq "metadata.tf").Count -lt 150) {
+    Write-Error "Less than 150 metadata.tf files found"
+    exit 1
+}
+
+$hash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf", ".md" | Get-FileHash | Sort-Object Path | ForEach-Object { $_.Hash }) -join ""
+if ($hash -ne $originalhash) {
     Write-Host "Found diff"
 
     Get-ChildItem -Recurse -File | 
-        Where-Object extension -in ".tf",".md" | 
-        Where-Object fullName -notin $originalfilelist |
-        ForEach-Object {
-            Write-Host " - add file: $($_.FullName)"
-            git add "$($_.FullName)"
-        }
+    Where-Object extension -in ".tf", ".md" | 
+    Where-Object fullName -notin $originalfilelist |
+    ForEach-Object {
+        Write-Host " - add file: $($_.FullName)"
+        git add "$($_.FullName)"
+    }
 
     git config --local user.email "noreply@goodworkaround.com"
     git config --local user.name "github-actions[bot]"
 
     Write-Host " - committing changes"
     git commit -m "Add changes" -a
-} else {
+}
+else {
     Write-Host "No updates required :)"
 }
