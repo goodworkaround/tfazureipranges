@@ -240,6 +240,15 @@ $README = $README -creplace "OUTPUTSECTIONS", ($OUTPUTSECTIONS -join "`n")
 #$README -creplace "LASTUPDATE", (Get-Date).ToString("yyyy-MM-dd HH:mm")
 $README | Set-Content README.md
 
+# Sanity checks:
+$ExpectedFiles = "./Generated/Grafana/outputs.tf","Generated/0/outputs.tf","Generated/20/outputs.tf","Generated/53/outputs.tf","Generated/AzureDevOps/outputs.tf","Generated/Storage/outputs.tf"
+$ExpectedFiles | ForEach-Object {
+    if(!(Test-Path $_)) {
+        throw "Expected file $_ not found"
+       exit 1
+    }
+}
+
 $hash = (Get-ChildItem -Recurse -File | Where-Object extension -in ".tf",".md" | Get-FileHash | Sort-Object Path | ForEach-Object{$_.Hash}) -join ""
 if($hash -ne $originalhash) {
     Write-Host "Found diff"
