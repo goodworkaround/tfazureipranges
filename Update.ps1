@@ -39,6 +39,7 @@ if($url) {
     $json = Invoke-RestMethod $url -ErrorAction Stop -Verbose:$false
 } else {
     throw "Unable to determine url of JSON with IP addresses"
+    exit 1
 }
 
 # Function to return a HCL string array output
