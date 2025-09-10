@@ -2586,6 +2586,22 @@ output "region101" {
     "2603:1030:902::1c0/123",
   ]
 }
+output "region105_ipv4" {
+  value = [
+    "74.7.40.40/29",
+  ]
+}
+output "region105_ipv6" {
+  value = [
+    "2603:1030:1302::1c0/123",
+  ]
+}
+output "region105" {
+  value = [
+    "74.7.40.40/29",
+    "2603:1030:1302::1c0/123",
+  ]
+}
 output "region22_ipv4" {
   value = [
     "20.41.192.120/31",
