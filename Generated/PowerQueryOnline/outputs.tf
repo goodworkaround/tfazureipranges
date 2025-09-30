@@ -1316,6 +1316,22 @@ output "region95" {
     "2603:1020:104:4::20/123",
   ]
 }
+output "region97_ipv4" {
+  value = [
+    "9.160.40.40/29",
+  ]
+}
+output "region97_ipv6" {
+  value = [
+    "2603:1020:1502::1c0/123",
+  ]
+}
+output "region97" {
+  value = [
+    "9.160.40.40/29",
+    "2603:1020:1502::1c0/123",
+  ]
+}
 output "region9_ipv4" {
   value = [
     "4.203.121.0/28",

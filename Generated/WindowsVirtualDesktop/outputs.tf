@@ -94,6 +94,20 @@ output "region95" {
     "2603:1061:2010:3d::/117",
   ]
 }
+output "region97_ipv4" {
+  value = [
+  ]
+}
+output "region97_ipv6" {
+  value = [
+    "2603:1061:2010:3f::/117",
+  ]
+}
+output "region97" {
+  value = [
+    "2603:1061:2010:3f::/117",
+  ]
+}
 output "region9_ipv4" {
   value = [
     "40.64.144.224/29",

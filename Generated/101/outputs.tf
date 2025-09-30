@@ -66,6 +66,7 @@ output "AzureArcInfrastructure_ipv4" {
   value = [
     "57.151.220.212/30",
     "68.154.136.52/32",
+    "68.154.147.29/32",
   ]
 }
 output "AzureArcInfrastructure_ipv6" {
@@ -77,6 +78,7 @@ output "AzureArcInfrastructure" {
   value = [
     "57.151.220.212/30",
     "68.154.136.52/32",
+    "68.154.147.29/32",
     "2603:1030:902:2::280/124",
   ]
 }
