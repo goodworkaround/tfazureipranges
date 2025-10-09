@@ -53,6 +53,7 @@ output "AppService" {
 output "AppServiceManagement_ipv4" {
   value = [
     "51.53.43.0/26",
+    "70.157.83.32/29",
   ]
 }
 output "AppServiceManagement_ipv6" {
@@ -64,6 +65,7 @@ output "AppServiceManagement_ipv6" {
 output "AppServiceManagement" {
   value = [
     "51.53.43.0/26",
+    "70.157.83.32/29",
     "2603:1040:1302:2::660/123",
     "2603:1040:1302:4::7c0/122",
   ]
