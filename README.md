@@ -332,6 +332,9 @@ Available outputs:
 - CognitiveServicesManagement_ipv4
 - CognitiveServicesManagement_ipv6
 - CognitiveServicesManagement
+- CopilotActions_ipv4
+- CopilotActions_ipv6
+- CopilotActions
 - DataFactory_ipv4
 - DataFactory_ipv6
 - DataFactory
@@ -371,6 +374,9 @@ Available outputs:
 - LogicAppsManagement_ipv4
 - LogicAppsManagement_ipv6
 - LogicAppsManagement
+- M365LighthouseProd_ipv4
+- M365LighthouseProd_ipv6
+- M365LighthouseProd
 - M365ManagementActivityApi_ipv4
 - M365ManagementActivityApi_ipv6
 - M365ManagementActivityApi
@@ -443,6 +449,9 @@ Available outputs:
 - StorageSyncService_ipv4
 - StorageSyncService_ipv6
 - StorageSyncService
+- SystemServiceAzureSpringAppsResourceProvider_ipv4
+- SystemServiceAzureSpringAppsResourceProvider_ipv6
+- SystemServiceAzureSpringAppsResourceProvider
 - VideoIndexer_ipv4
 - VideoIndexer_ipv6
 - VideoIndexer
@@ -452,6 +461,9 @@ Available outputs:
 - WindowsVirtualDesktop_ipv4
 - WindowsVirtualDesktop_ipv6
 - WindowsVirtualDesktop
+- ZeroTrustSegmentation_ipv4
+- ZeroTrustSegmentation_ipv6
+- ZeroTrustSegmentation
 
 ## Region EastAsia
 
@@ -687,6 +699,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -5406,6 +5421,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -5540,6 +5558,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -5942,6 +5963,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -8768,6 +8792,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -8902,6 +8929,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -9158,6 +9188,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -9444,6 +9477,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -9578,6 +9614,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -9706,6 +9745,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -9837,6 +9879,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -10087,6 +10132,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -15499,6 +15547,12 @@ Available outputs:
 - region4_ipv4
 - region4_ipv6
 - region4
+- region95_ipv4
+- region95_ipv6
+- region95
+- region97_ipv4
+- region97_ipv6
+- region97
 - region9_ipv4
 - region9_ipv6
 - region9
@@ -15520,6 +15574,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -15547,6 +15604,15 @@ Available outputs:
 - region71_ipv4
 - region71_ipv6
 - region71
+- region6_ipv4
+- region6_ipv6
+- region6
+- region85_ipv4
+- region85_ipv6
+- region85
+- region93_ipv4
+- region93_ipv6
+- region93
 - region24_ipv4
 - region24_ipv6
 - region24
@@ -15565,6 +15631,15 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region92_ipv4
+- region92_ipv6
+- region92
+- region53_ipv4
+- region53_ipv6
+- region53
+- region91_ipv4
+- region91_ipv6
+- region91
 - region34_ipv4
 - region34_ipv6
 - region34
@@ -15577,6 +15652,12 @@ Available outputs:
 - region74_ipv4
 - region74_ipv6
 - region74
+- region52_ipv4
+- region52_ipv6
+- region52
+- region84_ipv4
+- region84_ipv6
+- region84
 - region82_ipv4
 - region82_ipv6
 - region82
@@ -15595,6 +15676,9 @@ Available outputs:
 - region22_ipv4
 - region22_ipv6
 - region22
+- region88_ipv4
+- region88_ipv6
+- region88
 - region76_ipv4
 - region76_ipv6
 - region76
@@ -16228,6 +16312,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/CognitiveServicesManagement"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## CopilotActions
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/CopilotActions"
 }
 ```
 
@@ -17484,6 +17582,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/LogicAppsManagement"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## M365LighthouseProd
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/M365LighthouseProd"
 }
 ```
 
@@ -19974,6 +20086,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## SystemServiceAzureSpringAppsResourceProvider
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/SystemServiceAzureSpringAppsResourceProvider"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## VideoIndexer
 
 ```HCL
@@ -20213,4 +20339,18 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## ZeroTrustSegmentation
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/ZeroTrustSegmentation"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
