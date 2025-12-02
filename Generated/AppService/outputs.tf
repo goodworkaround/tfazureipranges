@@ -3624,6 +3624,22 @@ output "region49" {
     "2603:1030:40b:c00::a0/123",
   ]
 }
+output "region104_ipv4" {
+  value = [
+    "134.138.77.0/24",
+  ]
+}
+output "region104_ipv6" {
+  value = [
+    "2603:1030:1402:2::/120",
+  ]
+}
+output "region104" {
+  value = [
+    "134.138.77.0/24",
+    "2603:1030:1402:2::/120",
+  ]
+}
 output "region68_ipv4" {
   value = [
     "20.49.82.32/27",
