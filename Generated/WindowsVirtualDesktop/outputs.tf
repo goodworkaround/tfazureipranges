@@ -242,6 +242,20 @@ output "region10" {
     "2603:1061:2010:7::/117",
   ]
 }
+output "region100_ipv4" {
+  value = [
+  ]
+}
+output "region100_ipv6" {
+  value = [
+    "2603:1061:2010:45::/117",
+  ]
+}
+output "region100" {
+  value = [
+    "2603:1061:2010:45::/117",
+  ]
+}
 output "region1_ipv4" {
   value = [
     "40.64.145.192/28",

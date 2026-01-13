@@ -1620,6 +1620,22 @@ output "region10" {
     "2603:1050:301:1::6c0/122",
   ]
 }
+output "region100_ipv4" {
+  value = [
+    "9.205.43.0/26",
+  ]
+}
+output "region100_ipv6" {
+  value = [
+    "2603:1020:1602:1::5c0/122",
+  ]
+}
+output "region100" {
+  value = [
+    "9.205.43.0/26",
+    "2603:1020:1602:1::5c0/122",
+  ]
+}
 output "region1_ipv4" {
   value = [
     "13.75.36.64/28",
