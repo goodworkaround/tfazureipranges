@@ -68,6 +68,7 @@ output "AppServiceManagement" {
 }
 output "AzureArcInfrastructure_ipv4" {
   value = [
+    "48.193.54.104/32",
     "70.153.67.251/32",
     "70.153.165.84/30",
     "70.153.176.52/32",
@@ -76,14 +77,17 @@ output "AzureArcInfrastructure_ipv4" {
 output "AzureArcInfrastructure_ipv6" {
   value = [
     "2603:1040:1802:1::710/124",
+    "2603:1040:1802:7::114/128",
   ]
 }
 output "AzureArcInfrastructure" {
   value = [
+    "48.193.54.104/32",
     "70.153.67.251/32",
     "70.153.165.84/30",
     "70.153.176.52/32",
     "2603:1040:1802:1::710/124",
+    "2603:1040:1802:7::114/128",
   ]
 }
 output "AzureAttestation_ipv4" {
