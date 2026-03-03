@@ -973,6 +973,7 @@ output "EventHub" {
 output "GatewayManager_ipv4" {
   value = [
     "20.17.48.64/26",
+    "172.197.26.176/28",
   ]
 }
 output "GatewayManager_ipv6" {
@@ -983,6 +984,7 @@ output "GatewayManager_ipv6" {
 output "GatewayManager" {
   value = [
     "20.17.48.64/26",
+    "172.197.26.176/28",
     "2603:1040:1503::40/122",
   ]
 }

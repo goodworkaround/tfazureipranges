@@ -1002,6 +1002,7 @@ output "EventHub" {
 }
 output "GatewayManager_ipv4" {
   value = [
+    "4.220.241.160/27",
     "51.120.176.32/27",
     "51.120.219.64/29",
     "51.120.224.72/29",
@@ -1014,6 +1015,7 @@ output "GatewayManager_ipv6" {
 }
 output "GatewayManager" {
   value = [
+    "4.220.241.160/27",
     "51.120.176.32/27",
     "51.120.219.64/29",
     "51.120.224.72/29",
@@ -1379,6 +1381,7 @@ output "StorageSyncService" {
 output "WindowsVirtualDesktop_ipv4" {
   value = [
     "40.64.147.216/29",
+    "40.64.153.192/27",
   ]
 }
 output "WindowsVirtualDesktop_ipv6" {
@@ -1389,6 +1392,7 @@ output "WindowsVirtualDesktop_ipv6" {
 output "WindowsVirtualDesktop" {
   value = [
     "40.64.147.216/29",
+    "40.64.153.192/27",
     "2603:1061:2010:2b::/117",
   ]
 }

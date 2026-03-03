@@ -3085,6 +3085,7 @@ output "GatewayManager_ipv4" {
     "20.189.181.8/32",
     "40.82.248.240/29",
     "40.112.242.168/29",
+    "48.195.69.64/26",
   ]
 }
 output "GatewayManager_ipv6" {
@@ -3099,6 +3100,7 @@ output "GatewayManager" {
     "20.189.181.8/32",
     "40.82.248.240/29",
     "40.112.242.168/29",
+    "48.195.69.64/26",
     "2603:1030:a07::40/122",
   ]
 }
@@ -4717,6 +4719,7 @@ output "StorageSyncService" {
 output "WindowsVirtualDesktop_ipv4" {
   value = [
     "40.64.146.176/28",
+    "40.64.151.96/27",
   ]
 }
 output "WindowsVirtualDesktop_ipv6" {
@@ -4727,6 +4730,7 @@ output "WindowsVirtualDesktop_ipv6" {
 output "WindowsVirtualDesktop" {
   value = [
     "40.64.146.176/28",
+    "40.64.151.96/27",
     "2603:1061:2010:1b::/117",
   ]
 }
