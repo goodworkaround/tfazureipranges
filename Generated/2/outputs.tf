@@ -2066,6 +2066,20 @@ output "DataFactory" {
     "2603:1040:5:c02::210/124",
   ]
 }
+output "Dynamics365ForMarketingEmail_ipv4" {
+  value = [
+    "57.155.153.0/27",
+  ]
+}
+output "Dynamics365ForMarketingEmail_ipv6" {
+  value = [
+  ]
+}
+output "Dynamics365ForMarketingEmail" {
+  value = [
+    "57.155.153.0/27",
+  ]
+}
 output "EventHub_ipv4" {
   value = [
     "13.67.8.64/27",
@@ -2914,7 +2928,9 @@ output "Storage_ipv4" {
 }
 output "Storage_ipv6" {
   value = [
-    "2603:1040:6::/48",
+    "2603:1040:6::/49",
+    "2603:1040:6:8000::/63",
+    "2603:1040:6:8002::/64",
   ]
 }
 output "Storage" {
@@ -2969,7 +2985,9 @@ output "Storage" {
     "168.63.180.64/26",
     "191.238.64.64/26",
     "191.238.64.192/28",
-    "2603:1040:6::/48",
+    "2603:1040:6::/49",
+    "2603:1040:6:8000::/63",
+    "2603:1040:6:8002::/64",
   ]
 }
 output "StorageSyncService_ipv4" {
