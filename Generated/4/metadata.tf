@@ -1,5 +1,5 @@
 output "change_number" {
-  value = "395"
+  value = "396"
 }
 output "file_name" {
   value = "ServiceTags_Public_20260413.json"

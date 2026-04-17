@@ -1113,7 +1113,6 @@ output "All" {
 output "AzureCognitiveSearch_ipv4" {
   value = [
     "20.43.41.64/26",
-    "40.66.56.233/32",
   ]
 }
 output "AzureCognitiveSearch_ipv6" {
@@ -1124,7 +1123,6 @@ output "AzureCognitiveSearch_ipv6" {
 output "AzureCognitiveSearch" {
   value = [
     "20.43.41.64/26",
-    "40.66.56.233/32",
     "2603:1020:805:1::180/121",
   ]
 }

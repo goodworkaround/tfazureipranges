@@ -113,6 +113,7 @@ output "AzureAttestation" {
 output "AzureBackup_ipv4" {
   value = [
     "51.53.28.0/26",
+    "70.157.168.128/26",
   ]
 }
 output "AzureBackup_ipv6" {
@@ -123,6 +124,7 @@ output "AzureBackup_ipv6" {
 output "AzureBackup" {
   value = [
     "51.53.28.0/26",
+    "70.157.168.128/26",
     "2603:1040:1302::680/121",
   ]
 }

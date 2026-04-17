@@ -180,6 +180,7 @@ output "AzureAttestation" {
 }
 output "AzureBackup_ipv4" {
   value = [
+    "4.172.96.192/26",
     "13.71.172.0/26",
     "13.71.172.64/27",
     "20.38.147.0/27",
@@ -199,6 +200,7 @@ output "AzureBackup_ipv6" {
 }
 output "AzureBackup" {
   value = [
+    "4.172.96.192/26",
     "13.71.172.0/26",
     "13.71.172.64/27",
     "20.38.147.0/27",
@@ -960,8 +962,6 @@ output "All" {
 }
 output "AzureCognitiveSearch_ipv4" {
   value = [
-    "52.139.0.47/32",
-    "52.139.0.49/32",
     "52.228.81.64/26",
   ]
 }
@@ -972,8 +972,6 @@ output "AzureCognitiveSearch_ipv6" {
 }
 output "AzureCognitiveSearch" {
   value = [
-    "52.139.0.47/32",
-    "52.139.0.49/32",
     "52.228.81.64/26",
     "2603:1030:f05:1::180/121",
   ]
