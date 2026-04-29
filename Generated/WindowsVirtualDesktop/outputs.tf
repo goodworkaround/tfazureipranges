@@ -760,6 +760,7 @@ output "region52" {
 }
 output "region84_ipv4" {
   value = [
+    "40.64.148.160/27",
   ]
 }
 output "region84_ipv6" {
@@ -769,6 +770,7 @@ output "region84_ipv6" {
 }
 output "region84" {
   value = [
+    "40.64.148.160/27",
     "2603:1061:2010:33::/117",
   ]
 }
