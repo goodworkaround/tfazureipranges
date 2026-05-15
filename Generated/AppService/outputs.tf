@@ -3808,6 +3808,22 @@ output "region71" {
     "2603:1020:c04:c02::a0/123",
   ]
 }
+output "region99_ipv4" {
+  value = [
+    "172.198.93.0/24",
+  ]
+}
+output "region99_ipv6" {
+  value = [
+    "2603:1040:1904:2::/120",
+  ]
+}
+output "region99" {
+  value = [
+    "172.198.93.0/24",
+    "2603:1040:1904:2::/120",
+  ]
+}
 output "region6_ipv4" {
   value = [
     "70.153.161.0/24",

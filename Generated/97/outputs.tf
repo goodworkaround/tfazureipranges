@@ -87,6 +87,8 @@ output "AzureArcInfrastructure" {
 output "AzureAttestation_ipv4" {
   value = [
     "9.160.40.20/30",
+    "9.160.193.248/29",
+    "9.160.195.128/30",
   ]
 }
 output "AzureAttestation_ipv6" {
@@ -97,6 +99,8 @@ output "AzureAttestation_ipv6" {
 output "AzureAttestation" {
   value = [
     "9.160.40.20/30",
+    "9.160.193.248/29",
+    "9.160.195.128/30",
     "2603:1020:1502::540/124",
   ]
 }

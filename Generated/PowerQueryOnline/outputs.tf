@@ -2012,6 +2012,22 @@ output "region71" {
     "2603:1020:c04:c00::20/125",
   ]
 }
+output "region99_ipv4" {
+  value = [
+    "172.198.80.32/29",
+  ]
+}
+output "region99_ipv6" {
+  value = [
+    "2603:1040:1904::1a0/123",
+  ]
+}
+output "region99" {
+  value = [
+    "172.198.80.32/29",
+    "2603:1040:1904::1a0/123",
+  ]
+}
 output "region6_ipv4" {
   value = [
     "70.153.90.96/27",

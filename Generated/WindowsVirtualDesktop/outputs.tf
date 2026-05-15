@@ -436,6 +436,20 @@ output "region71" {
     "2603:1061:2010:29::/117",
   ]
 }
+output "region99_ipv4" {
+  value = [
+  ]
+}
+output "region99_ipv6" {
+  value = [
+    "2603:1061:2010:41::/117",
+  ]
+}
+output "region99" {
+  value = [
+    "2603:1061:2010:41::/117",
+  ]
+}
 output "region6_ipv4" {
   value = [
   ]
