@@ -92,6 +92,8 @@ output "AzureAttestation_ipv4" {
   value = [
     "20.17.51.36/30",
     "85.211.94.232/29",
+    "172.197.29.36/30",
+    "172.197.29.40/29",
   ]
 }
 output "AzureAttestation_ipv6" {
@@ -103,6 +105,8 @@ output "AzureAttestation" {
   value = [
     "20.17.51.36/30",
     "85.211.94.232/29",
+    "172.197.29.36/30",
+    "172.197.29.40/29",
     "2603:1040:1503::620/124",
   ]
 }
@@ -974,6 +978,20 @@ output "AzureResourceManager" {
     "2603:1040:1503:400::1c0/122",
   ]
 }
+output "AzureSecurityCenter_ipv4" {
+  value = [
+    "172.197.29.160/28",
+  ]
+}
+output "AzureSecurityCenter_ipv6" {
+  value = [
+  ]
+}
+output "AzureSecurityCenter" {
+  value = [
+    "172.197.29.160/28",
+  ]
+}
 output "BatchNodeManagement_ipv4" {
   value = [
     "20.17.49.32/27",
@@ -1138,6 +1156,36 @@ output "PowerBI" {
     "20.17.54.176/29",
     "2603:1040:1503:1::360/123",
     "2603:1040:1503:1::3c0/122",
+  ]
+}
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "172.197.31.0/24",
+    "172.197.32.0/25",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "172.197.31.0/24",
+    "172.197.32.0/25",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "172.197.30.0/25",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "172.197.30.0/25",
   ]
 }
 output "PowerQueryOnline_ipv4" {

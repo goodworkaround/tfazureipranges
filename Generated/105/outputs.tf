@@ -534,6 +534,20 @@ output "AzureResourceManager" {
     "2603:1030:1302:1::300/120",
   ]
 }
+output "AzureSecurityCenter_ipv4" {
+  value = [
+    "74.7.71.16/28",
+  ]
+}
+output "AzureSecurityCenter_ipv6" {
+  value = [
+  ]
+}
+output "AzureSecurityCenter" {
+  value = [
+    "74.7.71.16/28",
+  ]
+}
 output "BatchNodeManagement_ipv4" {
   value = [
     "74.7.41.64/27",

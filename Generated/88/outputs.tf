@@ -106,6 +106,8 @@ output "AzureAttestation_ipv4" {
   value = [
     "68.221.84.152/30",
     "70.156.172.240/29",
+    "158.158.139.48/29",
+    "158.158.139.56/30",
   ]
 }
 output "AzureAttestation_ipv6" {
@@ -117,6 +119,8 @@ output "AzureAttestation" {
   value = [
     "68.221.84.152/30",
     "70.156.172.240/29",
+    "158.158.139.48/29",
+    "158.158.139.56/30",
     "2603:1020:1403::5e0/124",
   ]
 }
@@ -1210,6 +1214,8 @@ output "PowerBI" {
 }
 output "PowerPlatformInfra_ipv4" {
   value = [
+    "158.158.140.128/25",
+    "158.158.141.0/24",
   ]
 }
 output "PowerPlatformInfra_ipv6" {
@@ -1219,11 +1225,14 @@ output "PowerPlatformInfra_ipv6" {
 }
 output "PowerPlatformInfra" {
   value = [
+    "158.158.140.128/25",
+    "158.158.141.0/24",
     "2603:1061:2002:c000::/57",
   ]
 }
 output "PowerPlatformPlex_ipv4" {
   value = [
+    "158.158.139.128/25",
   ]
 }
 output "PowerPlatformPlex_ipv6" {
@@ -1233,6 +1242,7 @@ output "PowerPlatformPlex_ipv6" {
 }
 output "PowerPlatformPlex" {
   value = [
+    "158.158.139.128/25",
     "2603:1061:2004:b000::/57",
   ]
 }

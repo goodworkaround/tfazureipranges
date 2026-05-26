@@ -138,8 +138,7 @@ output "AzureBotService" {
 }
 output "AzureCloud_ipv4" {
   value = [
-    "9.205.0.0/17",
-    "9.205.128.0/18",
+    "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
     "20.20.55.128/27",
@@ -213,8 +212,7 @@ output "AzureCloud_ipv6" {
 }
 output "AzureCloud" {
   value = [
-    "9.205.0.0/17",
-    "9.205.128.0/18",
+    "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
     "20.20.55.128/27",
@@ -284,8 +282,7 @@ output "AzureCloud" {
 }
 output "All_ipv4" {
   value = [
-    "9.205.0.0/17",
-    "9.205.128.0/18",
+    "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
     "20.20.55.128/27",
@@ -359,8 +356,7 @@ output "All_ipv6" {
 }
 output "All" {
   value = [
-    "9.205.0.0/17",
-    "9.205.128.0/18",
+    "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
     "20.20.55.128/27",
@@ -882,6 +878,36 @@ output "PowerBI" {
     "9.205.58.192/28",
     "2603:1020:1602:2::1a0/123",
     "2603:1020:1602:2::300/122",
+  ]
+}
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "9.205.180.128/25",
+    "9.205.181.0/24",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "9.205.180.128/25",
+    "9.205.181.0/24",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "9.205.179.128/25",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "9.205.179.128/25",
   ]
 }
 output "PowerQueryOnline_ipv4" {

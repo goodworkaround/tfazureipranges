@@ -141,6 +141,7 @@ output "AzureMonitor" {
 | 102 | SouthCentralUS2 |
 | 104 | EastUS3 |
 | 105 | SoutheastUS3 |
+| 109 | NortheastUS5 |
 
 
 # List of available outputs, per module
@@ -729,6 +730,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -851,6 +858,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -952,6 +965,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -1238,6 +1254,128 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/105"
+}
+```
+
+Available outputs:
+
+- ActionGroup_ipv4
+- ActionGroup_ipv6
+- ActionGroup
+- ApiManagement_ipv4
+- ApiManagement_ipv6
+- ApiManagement
+- AppService_ipv4
+- AppService_ipv6
+- AppService
+- AppServiceManagement_ipv4
+- AppServiceManagement_ipv6
+- AppServiceManagement
+- AzureArcInfrastructure_ipv4
+- AzureArcInfrastructure_ipv6
+- AzureArcInfrastructure
+- AzureAttestation_ipv4
+- AzureAttestation_ipv6
+- AzureAttestation
+- AzureBackup_ipv4
+- AzureBackup_ipv6
+- AzureBackup
+- AzureBotService_ipv4
+- AzureBotService_ipv6
+- AzureBotService
+- AzureCloud_ipv4
+- AzureCloud_ipv6
+- AzureCloud
+- All_ipv4
+- All_ipv6
+- All
+- AzureCognitiveSearch_ipv4
+- AzureCognitiveSearch_ipv6
+- AzureCognitiveSearch
+- AzureConnectors_ipv4
+- AzureConnectors_ipv6
+- AzureConnectors
+- AzureContainerRegistry_ipv4
+- AzureContainerRegistry_ipv6
+- AzureContainerRegistry
+- AzureCosmosDB_ipv4
+- AzureCosmosDB_ipv6
+- AzureCosmosDB
+- AzureDataExplorerManagement_ipv4
+- AzureDataExplorerManagement_ipv6
+- AzureDataExplorerManagement
+- AzureDigitalTwins_ipv4
+- AzureDigitalTwins_ipv6
+- AzureDigitalTwins
+- AzureEventGrid_ipv4
+- AzureEventGrid_ipv6
+- AzureEventGrid
+- AzureKeyVault_ipv4
+- AzureKeyVault_ipv6
+- AzureKeyVault
+- AzureMachineLearning_ipv4
+- AzureMachineLearning_ipv6
+- AzureMachineLearning
+- AzureMonitor_ipv4
+- AzureMonitor_ipv6
+- AzureMonitor
+- AzurePortal_ipv4
+- AzurePortal_ipv6
+- AzurePortal
+- AzureResourceManager_ipv4
+- AzureResourceManager_ipv6
+- AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
+- BatchNodeManagement_ipv4
+- BatchNodeManagement_ipv6
+- BatchNodeManagement
+- DataFactory_ipv4
+- DataFactory_ipv6
+- DataFactory
+- EventHub_ipv4
+- EventHub_ipv6
+- EventHub
+- GatewayManager_ipv4
+- GatewayManager_ipv6
+- GatewayManager
+- HDInsight_ipv4
+- HDInsight_ipv6
+- HDInsight
+- LogicApps_ipv4
+- LogicApps_ipv6
+- LogicApps
+- MicrosoftContainerRegistry_ipv4
+- MicrosoftContainerRegistry_ipv6
+- MicrosoftContainerRegistry
+- PowerBI_ipv4
+- PowerBI_ipv6
+- PowerBI
+- PowerQueryOnline_ipv4
+- PowerQueryOnline_ipv6
+- PowerQueryOnline
+- ServiceBus_ipv4
+- ServiceBus_ipv6
+- ServiceBus
+- ServiceFabric_ipv4
+- ServiceFabric_ipv6
+- ServiceFabric
+- Sql_ipv4
+- Sql_ipv6
+- Sql
+- Storage_ipv4
+- Storage_ipv6
+- Storage
+- StorageSyncService_ipv4
+- StorageSyncService_ipv6
+- StorageSyncService
+
+## Region NortheastUS5
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/109"
 }
 ```
 
@@ -5844,6 +5982,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -8643,6 +8787,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - AzureSignalR_ipv4
 - AzureSignalR_ipv6
 - AzureSignalR
@@ -8670,6 +8817,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -9331,6 +9484,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -9355,6 +9511,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -9912,6 +10074,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -10177,6 +10345,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -10278,6 +10452,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -10302,6 +10479,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -10528,6 +10711,9 @@ Available outputs:
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
+- AzureSecurityCenter_ipv4
+- AzureSecurityCenter_ipv6
+- AzureSecurityCenter
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -10552,6 +10738,12 @@ Available outputs:
 - PowerBI_ipv4
 - PowerBI_ipv6
 - PowerBI
+- PowerPlatformInfra_ipv4
+- PowerPlatformInfra_ipv6
+- PowerPlatformInfra
+- PowerPlatformPlex_ipv4
+- PowerPlatformPlex_ipv6
+- PowerPlatformPlex
 - PowerQueryOnline_ipv4
 - PowerQueryOnline_ipv6
 - PowerQueryOnline
@@ -10832,6 +11024,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -11062,6 +11257,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -11320,6 +11518,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -11550,6 +11751,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -11850,6 +12054,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -12080,6 +12287,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -12310,6 +12520,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -12540,6 +12753,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -12770,6 +12986,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -13000,6 +13219,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -13230,6 +13452,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -13460,6 +13685,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -13704,6 +13932,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -14140,6 +14371,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -14370,6 +14604,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -14859,6 +15096,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -15103,6 +15343,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -15361,6 +15604,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -15777,6 +16023,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -16007,6 +16256,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -16189,6 +16441,9 @@ Available outputs:
 - region85_ipv4
 - region85_ipv6
 - region85
+- region86_ipv4
+- region86_ipv6
+- region86
 - region93_ipv4
 - region93_ipv6
 - region93
@@ -16210,6 +16465,9 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region98_ipv4
+- region98_ipv6
+- region98
 - region92_ipv4
 - region92_ipv6
 - region92
@@ -16252,6 +16510,12 @@ Available outputs:
 - region2_ipv4
 - region2_ipv6
 - region2
+- region101_ipv4
+- region101_ipv6
+- region101
+- region105_ipv4
+- region105_ipv6
+- region105
 - region22_ipv4
 - region22_ipv6
 - region22
@@ -16270,6 +16534,12 @@ Available outputs:
 - region67_ipv4
 - region67_ipv6
 - region67
+- region8_ipv4
+- region8_ipv6
+- region8
+- region96_ipv4
+- region96_ipv6
+- region96
 - region61_ipv4
 - region61_ipv6
 - region61
@@ -16773,6 +17043,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -17059,6 +17332,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -17399,6 +17675,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -17629,6 +17908,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -17887,6 +18169,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -18131,6 +18416,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -18537,6 +18825,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -18809,6 +19100,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -18919,6 +19213,9 @@ Available outputs:
 - region4_ipv4
 - region4_ipv6
 - region4
+- region95_ipv4
+- region95_ipv6
+- region95
 - region9_ipv4
 - region9_ipv6
 - region9
@@ -18937,6 +19234,12 @@ Available outputs:
 - region31_ipv4
 - region31_ipv6
 - region31
+- region10_ipv4
+- region10_ipv6
+- region10
+- region100_ipv4
+- region100_ipv6
+- region100
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -18964,6 +19267,9 @@ Available outputs:
 - region85_ipv4
 - region85_ipv6
 - region85
+- region86_ipv4
+- region86_ipv6
+- region86
 - region93_ipv4
 - region93_ipv6
 - region93
@@ -18979,6 +19285,15 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region98_ipv4
+- region98_ipv6
+- region98
+- region92_ipv4
+- region92_ipv6
+- region92
+- region53_ipv4
+- region53_ipv6
+- region53
 - region91_ipv4
 - region91_ipv6
 - region91
@@ -19024,6 +19339,12 @@ Available outputs:
 - region67_ipv4
 - region67_ipv6
 - region67
+- region8_ipv4
+- region8_ipv6
+- region8
+- region96_ipv4
+- region96_ipv6
+- region96
 - region61_ipv4
 - region61_ipv6
 - region61
@@ -19068,6 +19389,9 @@ Available outputs:
 - region4_ipv4
 - region4_ipv6
 - region4
+- region95_ipv4
+- region95_ipv6
+- region95
 - region9_ipv4
 - region9_ipv6
 - region9
@@ -19086,6 +19410,12 @@ Available outputs:
 - region31_ipv4
 - region31_ipv6
 - region31
+- region10_ipv4
+- region10_ipv6
+- region10
+- region100_ipv4
+- region100_ipv6
+- region100
 - region1_ipv4
 - region1_ipv6
 - region1
@@ -19113,6 +19443,9 @@ Available outputs:
 - region85_ipv4
 - region85_ipv6
 - region85
+- region86_ipv4
+- region86_ipv6
+- region86
 - region93_ipv4
 - region93_ipv6
 - region93
@@ -19128,6 +19461,15 @@ Available outputs:
 - region50_ipv4
 - region50_ipv6
 - region50
+- region98_ipv4
+- region98_ipv6
+- region98
+- region92_ipv4
+- region92_ipv6
+- region92
+- region53_ipv4
+- region53_ipv6
+- region53
 - region91_ipv4
 - region91_ipv6
 - region91
@@ -19173,6 +19515,12 @@ Available outputs:
 - region67_ipv4
 - region67_ipv6
 - region67
+- region8_ipv4
+- region8_ipv6
+- region8
+- region96_ipv4
+- region96_ipv6
+- region96
 - region61_ipv4
 - region61_ipv6
 - region61
@@ -19328,6 +19676,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -19764,6 +20115,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -19994,6 +20348,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -20224,6 +20581,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -20468,6 +20828,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17
@@ -20712,6 +21075,9 @@ Available outputs:
 - region34_ipv4
 - region34_ipv6
 - region34
+- region109_ipv4
+- region109_ipv6
+- region109
 - region17_ipv4
 - region17_ipv6
 - region17

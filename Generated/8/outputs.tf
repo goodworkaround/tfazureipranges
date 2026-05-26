@@ -96,6 +96,8 @@ output "AzureAttestation_ipv4" {
   value = [
     "51.53.27.240/30",
     "70.157.78.240/29",
+    "70.157.169.56/29",
+    "70.157.169.96/30",
   ]
 }
 output "AzureAttestation_ipv6" {
@@ -107,6 +109,8 @@ output "AzureAttestation" {
   value = [
     "51.53.27.240/30",
     "70.157.78.240/29",
+    "70.157.169.56/29",
+    "70.157.169.96/30",
     "2603:1040:1302::600/124",
   ]
 }
@@ -802,6 +806,7 @@ output "AzureMonitor_ipv4" {
     "70.157.90.8/29",
     "70.157.90.112/28",
     "70.157.162.144/28",
+    "70.157.170.0/26",
     "167.105.106.8/29",
     "167.105.106.112/28",
   ]
@@ -815,6 +820,7 @@ output "AzureMonitor_ipv6" {
     "2603:1040:1302:2::680/121",
     "2603:1040:1302:3::540/122",
     "2603:1040:1302:7::20/123",
+    "2603:1040:1302:7::500/122",
   ]
 }
 output "AzureMonitor" {
@@ -833,6 +839,7 @@ output "AzureMonitor" {
     "70.157.90.8/29",
     "70.157.90.112/28",
     "70.157.162.144/28",
+    "70.157.170.0/26",
     "167.105.106.8/29",
     "167.105.106.112/28",
     "2603:1040:1301:4::b/128",
@@ -842,6 +849,7 @@ output "AzureMonitor" {
     "2603:1040:1302:2::680/121",
     "2603:1040:1302:3::540/122",
     "2603:1040:1302:7::20/123",
+    "2603:1040:1302:7::500/122",
   ]
 }
 output "AzurePortal_ipv4" {
@@ -874,6 +882,20 @@ output "AzureResourceManager" {
   value = [
     "51.53.98.0/23",
     "2603:1040:1302:2::100/120",
+  ]
+}
+output "AzureSecurityCenter_ipv4" {
+  value = [
+    "70.157.170.64/28",
+  ]
+}
+output "AzureSecurityCenter_ipv6" {
+  value = [
+  ]
+}
+output "AzureSecurityCenter" {
+  value = [
+    "70.157.170.64/28",
   ]
 }
 output "AzureSignalR_ipv4" {
@@ -1120,6 +1142,36 @@ output "PowerBI" {
     "70.157.12.16/28",
     "2603:1040:1302:1::680/122",
     "2603:1040:1302:1::6c0/123",
+  ]
+}
+output "PowerPlatformInfra_ipv4" {
+  value = [
+    "70.157.171.128/25",
+    "70.157.172.0/24",
+  ]
+}
+output "PowerPlatformInfra_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformInfra" {
+  value = [
+    "70.157.171.128/25",
+    "70.157.172.0/24",
+  ]
+}
+output "PowerPlatformPlex_ipv4" {
+  value = [
+    "70.157.170.128/25",
+  ]
+}
+output "PowerPlatformPlex_ipv6" {
+  value = [
+  ]
+}
+output "PowerPlatformPlex" {
+  value = [
+    "70.157.170.128/25",
   ]
 }
 output "PowerQueryOnline_ipv4" {
