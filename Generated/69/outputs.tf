@@ -569,6 +569,9 @@ output "AzureDigitalTwins" {
 output "AzureEventGrid_ipv4" {
   value = [
     "20.45.113.0/25",
+    "57.152.162.0/23",
+    "57.152.164.0/22",
+    "57.152.168.0/23",
   ]
 }
 output "AzureEventGrid_ipv6" {
@@ -578,6 +581,9 @@ output "AzureEventGrid_ipv6" {
 output "AzureEventGrid" {
   value = [
     "20.45.113.0/25",
+    "57.152.162.0/23",
+    "57.152.164.0/22",
+    "57.152.168.0/23",
   ]
 }
 output "AzureIoTHub_ipv4" {

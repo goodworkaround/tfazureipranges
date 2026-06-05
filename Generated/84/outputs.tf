@@ -764,6 +764,7 @@ output "AzureDigitalTwins" {
 }
 output "AzureEventGrid_ipv4" {
   value = [
+    "4.244.56.0/21",
     "20.21.33.128/25",
   ]
 }
@@ -774,6 +775,7 @@ output "AzureEventGrid_ipv6" {
 }
 output "AzureEventGrid" {
   value = [
+    "4.244.56.0/21",
     "20.21.33.128/25",
     "2603:1040:1002::480/121",
   ]

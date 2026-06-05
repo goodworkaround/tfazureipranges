@@ -584,7 +584,10 @@ output "AzureDigitalTwins" {
 }
 output "AzureEventGrid_ipv4" {
   value = [
+    "4.187.32.0/23",
     "20.192.164.0/25",
+    "20.244.226.0/23",
+    "20.244.228.0/22",
   ]
 }
 output "AzureEventGrid_ipv6" {
@@ -594,7 +597,10 @@ output "AzureEventGrid_ipv6" {
 }
 output "AzureEventGrid" {
   value = [
+    "4.187.32.0/23",
     "20.192.164.0/25",
+    "20.244.226.0/23",
+    "20.244.228.0/22",
     "2603:1040:d04::380/121",
   ]
 }
