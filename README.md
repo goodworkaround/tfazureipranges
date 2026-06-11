@@ -706,6 +706,9 @@ Available outputs:
 - AzureSecurityCenter_ipv4
 - AzureSecurityCenter_ipv6
 - AzureSecurityCenter
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -10586,6 +10589,9 @@ Available outputs:
 - AzureSecurityCenter_ipv4
 - AzureSecurityCenter_ipv6
 - AzureSecurityCenter
+- AzureSignalR_ipv4
+- AzureSignalR_ipv6
+- AzureSignalR
 - BatchNodeManagement_ipv4
 - BatchNodeManagement_ipv6
 - BatchNodeManagement
@@ -16613,6 +16619,9 @@ Available outputs:
 - region95_ipv4
 - region95_ipv6
 - region95
+- region97_ipv4
+- region97_ipv6
+- region97
 - region9_ipv4
 - region9_ipv6
 - region9
@@ -16634,6 +16643,9 @@ Available outputs:
 - region48_ipv4
 - region48_ipv6
 - region48
+- region10_ipv4
+- region10_ipv6
+- region10
 - region1_ipv4
 - region1_ipv6
 - region1
