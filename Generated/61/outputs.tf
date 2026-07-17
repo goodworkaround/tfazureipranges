@@ -1116,6 +1116,20 @@ output "DataFactory" {
     "2603:1040:b04:800::70/124",
   ]
 }
+output "Dynamics365ForMarketingEmail_ipv4" {
+  value = [
+    "74.150.12.64/27",
+  ]
+}
+output "Dynamics365ForMarketingEmail_ipv6" {
+  value = [
+  ]
+}
+output "Dynamics365ForMarketingEmail" {
+  value = [
+    "74.150.12.64/27",
+  ]
+}
 output "EventHub_ipv4" {
   value = [
     "20.37.74.0/27",
