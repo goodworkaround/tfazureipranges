@@ -94,6 +94,7 @@ output "AzureAttestation_ipv4" {
 output "AzureAttestation_ipv6" {
   value = [
     "2603:1020:1602::540/124",
+    "2603:1020:1602:7::440/124",
   ]
 }
 output "AzureAttestation" {
@@ -104,6 +105,7 @@ output "AzureAttestation" {
     "9.205.217.12/30",
     "9.205.217.48/29",
     "2603:1020:1602::540/124",
+    "2603:1020:1602:7::440/124",
   ]
 }
 output "AzureBackup_ipv4" {
@@ -142,6 +144,7 @@ output "AzureBotService" {
 }
 output "AzureCloud_ipv4" {
   value = [
+    "9.129.59.0/24",
     "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
@@ -222,6 +225,7 @@ output "AzureCloud_ipv6" {
 }
 output "AzureCloud" {
   value = [
+    "9.129.59.0/24",
     "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
@@ -298,6 +302,7 @@ output "AzureCloud" {
 }
 output "All_ipv4" {
   value = [
+    "9.129.59.0/24",
     "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",
@@ -378,6 +383,7 @@ output "All_ipv6" {
 }
 output "All" {
   value = [
+    "9.129.59.0/24",
     "9.205.0.0/16",
     "20.20.48.224/27",
     "20.20.52.0/27",

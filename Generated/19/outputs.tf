@@ -155,6 +155,7 @@ output "AzureAttestation_ipv4" {
 }
 output "AzureAttestation_ipv6" {
   value = [
+    "2603:1020:805:12::4f0/124",
   ]
 }
 output "AzureAttestation" {
@@ -166,6 +167,7 @@ output "AzureAttestation" {
     "4.212.7.200/29",
     "40.79.141.132/30",
     "51.138.210.128/30",
+    "2603:1020:805:12::4f0/124",
   ]
 }
 output "AzureBackup_ipv4" {

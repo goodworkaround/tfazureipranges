@@ -3276,12 +3276,14 @@ output "region95_ipv4" {
 }
 output "region95_ipv6" {
   value = [
+    "2603:1061:2002:c800::/57",
   ]
 }
 output "region95" {
   value = [
     "68.210.247.0/24",
     "68.210.248.0/25",
+    "2603:1061:2002:c800::/57",
   ]
 }
 output "region9_ipv4" {

@@ -144,6 +144,7 @@ output "AzureAttestation_ipv4" {
 output "AzureAttestation_ipv6" {
   value = [
     "2603:1030:1005:3::1e0/124",
+    "2603:1030:1005:f::3f0/124",
   ]
 }
 output "AzureAttestation" {
@@ -156,6 +157,7 @@ output "AzureAttestation" {
     "145.191.155.244/30",
     "145.191.155.248/29",
     "2603:1030:1005:3::1e0/124",
+    "2603:1030:1005:f::3f0/124",
   ]
 }
 output "AzureBackup_ipv4" {

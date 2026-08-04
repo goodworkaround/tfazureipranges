@@ -16112,20 +16112,6 @@ Available outputs:
 - region79_ipv6
 - region79
 
-## AzureMonitor_Core
-
-```HCL
-module "modulename" {
-  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureMonitor_Core"
-}
-```
-
-Available outputs:
-
-- region0_ipv4
-- region0_ipv6
-- region0
-
 ## AzureMonitorForSAP
 
 ```HCL
