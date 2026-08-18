@@ -3704,12 +3704,14 @@ output "region10_ipv4" {
 }
 output "region10_ipv6" {
   value = [
+    "2603:1061:2002:d000::/57",
   ]
 }
 output "region10" {
   value = [
     "57.156.99.128/25",
     "57.156.100.0/24",
+    "2603:1061:2002:d000::/57",
   ]
 }
 output "region100_ipv4" {
@@ -3720,12 +3722,14 @@ output "region100_ipv4" {
 }
 output "region100_ipv6" {
   value = [
+    "2603:1061:2002:d400::/57",
   ]
 }
 output "region100" {
   value = [
     "9.205.180.128/25",
     "9.205.181.0/24",
+    "2603:1061:2002:d400::/57",
   ]
 }
 output "region1_ipv4" {
@@ -4510,12 +4514,14 @@ output "region86_ipv4" {
 }
 output "region86_ipv6" {
   value = [
+    "2603:1061:2002:9100::/57",
   ]
 }
 output "region86" {
   value = [
     "51.4.231.0/24",
     "51.58.144.0/25",
+    "2603:1061:2002:9100::/57",
   ]
 }
 output "region93_ipv4" {
@@ -4790,12 +4796,14 @@ output "region98_ipv4" {
 }
 output "region98_ipv6" {
   value = [
+    "2603:1061:2002:d800::/57",
   ]
 }
 output "region98" {
   value = [
     "172.197.31.0/24",
     "172.197.32.0/25",
+    "2603:1061:2002:d800::/57",
   ]
 }
 output "region92_ipv4" {
@@ -4806,12 +4814,14 @@ output "region92_ipv4" {
 }
 output "region92_ipv6" {
   value = [
+    "2603:1061:2002:d880::/57",
   ]
 }
 output "region92" {
   value = [
     "172.197.134.128/25",
     "172.197.135.0/24",
+    "2603:1061:2002:d880::/57",
   ]
 }
 output "region53_ipv4" {
@@ -4822,12 +4832,14 @@ output "region53_ipv4" {
 }
 output "region53_ipv6" {
   value = [
+    "2603:1061:2002:dc00::/57",
   ]
 }
 output "region53" {
   value = [
     "172.195.122.128/25",
     "172.195.123.0/24",
+    "2603:1061:2002:dc00::/57",
   ]
 }
 output "region91_ipv4" {
@@ -5798,12 +5810,14 @@ output "region8_ipv4" {
 }
 output "region8_ipv6" {
   value = [
+    "2603:1061:2002:e000::/57",
   ]
 }
 output "region8" {
   value = [
     "70.157.171.128/25",
     "70.157.172.0/24",
+    "2603:1061:2002:e000::/57",
   ]
 }
 output "region96_ipv4" {
@@ -5814,12 +5828,14 @@ output "region96_ipv4" {
 }
 output "region96_ipv6" {
   value = [
+    "2603:1061:2002:e080::/57",
   ]
 }
 output "region96" {
   value = [
     "57.170.1.128/25",
     "57.170.2.0/24",
+    "2603:1061:2002:e080::/57",
   ]
 }
 output "region61_ipv4" {
