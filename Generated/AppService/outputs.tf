@@ -4908,6 +4908,22 @@ output "region2" {
     "2603:1040:5:c02::a0/123",
   ]
 }
+output "region110_ipv4" {
+  value = [
+    "48.198.93.0/24",
+  ]
+}
+output "region110_ipv6" {
+  value = [
+    "2603:1040:1b02:2::/120",
+  ]
+}
+output "region110" {
+  value = [
+    "48.198.93.0/24",
+    "2603:1040:1b02:2::/120",
+  ]
+}
 output "region101_ipv4" {
   value = [
     "57.151.217.0/24",
