@@ -162,6 +162,9 @@ Available outputs:
 - ActionGroup_ipv4
 - ActionGroup_ipv6
 - ActionGroup
+- AgentFabric_ipv4
+- AgentFabric_ipv6
+- AgentFabric
 - ApiManagement_ipv4
 - ApiManagement_ipv6
 - ApiManagement
@@ -294,6 +297,9 @@ Available outputs:
 - AzurePortal_ipv4
 - AzurePortal_ipv6
 - AzurePortal
+- AzureQuantum_ipv4
+- AzureQuantum_ipv6
+- AzureQuantum
 - AzureResourceManager_ipv4
 - AzureResourceManager_ipv6
 - AzureResourceManager
@@ -462,6 +468,9 @@ Available outputs:
 - VideoIndexer_ipv4
 - VideoIndexer_ipv6
 - VideoIndexer
+- Windows365_ipv4
+- Windows365_ipv6
+- Windows365
 - WindowsAdminCenter_ipv4
 - WindowsAdminCenter_ipv6
 - WindowsAdminCenter
@@ -11556,6 +11565,20 @@ Available outputs:
 - region79_ipv6
 - region79
 
+## AgentFabric
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AgentFabric"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
 ## ApiManagement
 
 ```HCL
@@ -16719,6 +16742,20 @@ Available outputs:
 - region79_ipv4
 - region79_ipv6
 - region79
+
+## AzureQuantum
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/AzureQuantum"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
 
 ## AzureResourceManager
 
@@ -21989,6 +22026,20 @@ Available outputs:
 ```HCL
 module "modulename" {
   source = "github.com/goodworkaround/tfazureipranges/Generated/VideoIndexer"
+}
+```
+
+Available outputs:
+
+- region0_ipv4
+- region0_ipv6
+- region0
+
+## Windows365
+
+```HCL
+module "modulename" {
+  source = "github.com/goodworkaround/tfazureipranges/Generated/Windows365"
 }
 ```
 

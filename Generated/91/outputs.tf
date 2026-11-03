@@ -16,6 +16,7 @@ output "ActionGroup" {
 }
 output "ApiManagement_ipv4" {
   value = [
+    "172.204.108.136/30",
     "172.204.154.240/28",
   ]
 }
@@ -26,6 +27,7 @@ output "ApiManagement_ipv6" {
 }
 output "ApiManagement" {
   value = [
+    "172.204.108.136/30",
     "172.204.154.240/28",
     "2603:1010:502::5a0/124",
   ]
