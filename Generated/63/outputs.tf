@@ -1588,6 +1588,7 @@ output "MicrosoftContainerRegistry" {
 }
 output "PowerBI_ipv4" {
   value = [
+    "4.219.40.48/28",
     "4.219.252.64/27",
     "20.100.1.168/29",
     "20.100.2.40/29",
@@ -1607,6 +1608,7 @@ output "PowerBI_ipv6" {
 }
 output "PowerBI" {
   value = [
+    "4.219.40.48/28",
     "4.219.252.64/27",
     "20.100.1.168/29",
     "20.100.2.40/29",
@@ -1622,6 +1624,7 @@ output "PowerBI" {
 }
 output "PowerPlatformInfra_ipv4" {
   value = [
+    "4.219.40.128/25",
     "20.100.0.160/27",
     "20.100.1.0/26",
     "20.100.1.160/29",
@@ -1641,6 +1644,7 @@ output "PowerPlatformInfra_ipv6" {
 }
 output "PowerPlatformInfra" {
   value = [
+    "4.219.40.128/25",
     "20.100.0.160/27",
     "20.100.1.0/26",
     "20.100.1.160/29",
@@ -1656,6 +1660,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerPlatformPlex_ipv4" {
   value = [
+    "4.219.41.0/25",
     "4.219.249.200/29",
     "4.219.249.208/29",
     "20.100.4.136/29",
@@ -1674,6 +1679,7 @@ output "PowerPlatformPlex_ipv6" {
 }
 output "PowerPlatformPlex" {
   value = [
+    "4.219.41.0/25",
     "4.219.249.200/29",
     "4.219.249.208/29",
     "20.100.4.136/29",

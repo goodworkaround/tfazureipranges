@@ -2158,6 +2158,22 @@ output "region84" {
     "2603:1040:1002::7e0/124",
   ]
 }
+output "region107_ipv4" {
+  value = [
+    "48.197.78.16/28",
+  ]
+}
+output "region107_ipv6" {
+  value = [
+    "2603:1040:1a02::740/124",
+  ]
+}
+output "region107" {
+  value = [
+    "48.197.78.16/28",
+    "2603:1040:1a02::740/124",
+  ]
+}
 output "region82_ipv4" {
   value = [
     "4.222.0.38/31",

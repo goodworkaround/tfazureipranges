@@ -1870,6 +1870,7 @@ output "PowerBI" {
 }
 output "PowerPlatformInfra_ipv4" {
   value = [
+    "4.161.190.128/25",
     "20.38.140.32/27",
     "20.38.140.64/26",
     "20.38.142.120/29",
@@ -1897,6 +1898,7 @@ output "PowerPlatformInfra_ipv6" {
 }
 output "PowerPlatformInfra" {
   value = [
+    "4.161.190.128/25",
     "20.38.140.32/27",
     "20.38.140.64/26",
     "20.38.142.120/29",
@@ -1920,6 +1922,7 @@ output "PowerPlatformInfra" {
 }
 output "PowerPlatformPlex_ipv4" {
   value = [
+    "4.161.191.0/25",
     "20.74.196.12/30",
     "20.74.196.64/30",
     "20.74.196.104/29",
@@ -1939,6 +1942,7 @@ output "PowerPlatformPlex_ipv6" {
 }
 output "PowerPlatformPlex" {
   value = [
+    "4.161.191.0/25",
     "20.74.196.12/30",
     "20.74.196.64/30",
     "20.74.196.104/29",
