@@ -105,6 +105,7 @@ output "AppServiceManagement" {
 output "AzureArcInfrastructure_ipv4" {
   value = [
     "4.219.23.169/32",
+    "4.219.40.40/31",
     "20.100.21.120/29",
     "20.100.21.128/31",
     "51.120.42.56/30",
@@ -118,11 +119,13 @@ output "AzureArcInfrastructure_ipv4" {
 output "AzureArcInfrastructure_ipv6" {
   value = [
     "2603:1020:e04:c::27e/128",
+    "2603:1020:e04:11::5e/127",
   ]
 }
 output "AzureArcInfrastructure" {
   value = [
     "4.219.23.169/32",
+    "4.219.40.40/31",
     "20.100.21.120/29",
     "20.100.21.128/31",
     "51.120.42.56/30",
@@ -132,6 +135,7 @@ output "AzureArcInfrastructure" {
     "51.120.213.26/32",
     "51.120.214.148/30",
     "2603:1020:e04:c::27e/128",
+    "2603:1020:e04:11::5e/127",
   ]
 }
 output "AzureAttestation_ipv4" {
@@ -1258,6 +1262,7 @@ output "AzurePortal" {
 }
 output "AzureResourceManager_ipv4" {
   value = [
+    "4.177.48.38/31",
     "51.120.46.0/23",
     "51.120.100.32/28",
     "51.120.102.0/23",
@@ -1268,16 +1273,19 @@ output "AzureResourceManager_ipv6" {
     "2603:1020:e04::180/122",
     "2603:1020:e04:3::300/120",
     "2603:1020:e04:402::280/122",
+    "2603:1020:e04:1000::2/127",
   ]
 }
 output "AzureResourceManager" {
   value = [
+    "4.177.48.38/31",
     "51.120.46.0/23",
     "51.120.100.32/28",
     "51.120.102.0/23",
     "2603:1020:e04::180/122",
     "2603:1020:e04:3::300/120",
     "2603:1020:e04:402::280/122",
+    "2603:1020:e04:1000::2/127",
   ]
 }
 output "AzureSecurityCenter_ipv4" {

@@ -802,18 +802,22 @@ output "AzurePortal" {
 }
 output "AzureResourceManager_ipv4" {
   value = [
+    "68.210.1.32/31",
     "68.210.168.0/23",
   ]
 }
 output "AzureResourceManager_ipv6" {
   value = [
     "2603:1020:104:5::200/120",
+    "2603:1020:104:1000::a/127",
   ]
 }
 output "AzureResourceManager" {
   value = [
+    "68.210.1.32/31",
     "68.210.168.0/23",
     "2603:1020:104:5::200/120",
+    "2603:1020:104:1000::a/127",
   ]
 }
 output "AzureSecurityCenter_ipv4" {

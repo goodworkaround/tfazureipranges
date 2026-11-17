@@ -938,18 +938,22 @@ output "AzurePortal" {
 }
 output "AzureResourceManager_ipv4" {
   value = [
+    "172.204.108.140/31",
     "172.204.162.0/23",
   ]
 }
 output "AzureResourceManager_ipv6" {
   value = [
     "2603:1010:502:1::400/120",
+    "2603:1010:502:1000::a/127",
   ]
 }
 output "AzureResourceManager" {
   value = [
+    "172.204.108.140/31",
     "172.204.162.0/23",
     "2603:1010:502:1::400/120",
+    "2603:1010:502:1000::a/127",
   ]
 }
 output "AzureSecurityCenter_ipv4" {

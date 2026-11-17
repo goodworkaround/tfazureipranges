@@ -1096,6 +1096,7 @@ output "AzurePortal" {
 }
 output "AzureResourceManager_ipv4" {
   value = [
+    "4.243.130.76/31",
     "40.80.174.0/23",
     "52.147.96.0/24",
     "52.231.148.64/28",
@@ -1105,15 +1106,18 @@ output "AzureResourceManager_ipv4" {
 output "AzureResourceManager_ipv6" {
   value = [
     "2603:1040:e05:5::500/120",
+    "2603:1040:e05:800::2/127",
   ]
 }
 output "AzureResourceManager" {
   value = [
+    "4.243.130.76/31",
     "40.80.174.0/23",
     "52.147.96.0/24",
     "52.231.148.64/28",
     "52.231.150.0/24",
     "2603:1040:e05:5::500/120",
+    "2603:1040:e05:800::2/127",
   ]
 }
 output "AzureSecurityCenter_ipv4" {
